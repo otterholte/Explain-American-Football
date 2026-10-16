@@ -1,0 +1,10 @@
+gemini_key.txt
+*.zip
+*.log
+*.err
+gen_log.txt
+recut/
+audio_old/
+gen.js
+tts.js
+node_modules/
