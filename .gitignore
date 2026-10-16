@@ -8,3 +8,9 @@ audio_old/
 gen.js
 tts.js
 node_modules/
+raw/
+newclips/
+nc/
+raw_log*.txt
+push_log.txt
+push_audio.ps1

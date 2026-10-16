@@ -229,8 +229,8 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;bac
     <button class="mi" id="m1"><span>▶️</span><b>Watch the basics again</b><small>Start from step 1</small></button>
     <button class="mi" id="m2"><span>👥</span><b>Meet the players</b><small>Turn the field, zoom in, and click any player</small></button>
     <button class="mi" id="m3"><span>💬</span><b>Ask Coach</b><small>Ask any football question</small></button>
-    <button class="mi soon" disabled><span>🚩</span><b>Penalties</b><small>Coming soon</small></button>
-    <button class="mi soon" disabled><span>📘</span><b>Unusual rules</b><small>Coming soon</small></button>
+    <button class="mi" id="m4"><span>🚩</span><b>Rules &amp; Penalties</b><small>Catches, holding, flags and more · 7 min</small></button>
+    <button class="mi" id="m5"><span>🧠</span><b>Football Smarts</b><small>Formations, motion, strategy and legends · 7 min</small></button>
     <button class="mi soon" disabled><span>❓</span><b>Fan FAQs</b><small>Coming soon</small></button>
   </div>
 </section>
@@ -334,7 +334,7 @@ function setPlan(o,k,v){(o.__plan||(o.__plan={}))[k]=v;PLANNED.add(o);}
 function makeS(def){
  stage.innerHTML='';PLANNED=new Set();
  const S={def,tracks:[],caps:[],sfxs:[],actors:[],renderers:[],cam:{x:60,y:C,z:10},lastT:-1};
- const L={};for(const k of ['bg','world','actors','fx','ui','ballL','top'])L[k]=E('g',{},stage);S.L=L;
+ const L={};for(const k of ['bg','world','actors','wtop','fx','ui','ballL','top'])L[k]=E('g',{},stage);S.L=L;
  S.field=E('g',{},L.world);S.wfx=E('g',{},L.world);S.wfx2=E('g',{},L.world);
  // ball
  const b=S.ball={x:-999,y:-999,h:0,rot:0,spin:0,holder:null,op:1,screen:false,size:1};
@@ -426,7 +426,7 @@ function renderAt(S,t,dt,live){
  const fw=S.follows.filter(f=>t>=f.t0&&t<=f.t1).pop();
  if(fw&&fw.lead!=null){const b=S.ball;const bx=b.holder?b.holder.x:b.x;const tg=bx+fw.lead;if(S._fx==null||dt<0)S._fx=tg;else S._fx+=(tg-S._fx)*Math.min(1,dt*2.6);S.cam.x=S._fx;}else S._fx=null;
  const cam=S.cam,z=cam.z;
- S.L.world.setAttribute('transform',S.rot?`translate(${W/2},${H/2}) rotate(${S.rot}) scale(${z}) translate(${-cam.x},${-cam.y})`:`translate(${W/2-cam.x*z},${H/2-cam.y*z}) scale(${z})`);
+ {const wt=S.rot?`translate(${W/2},${H/2}) rotate(${S.rot}) scale(${z}) translate(${-cam.x},${-cam.y})`:`translate(${W/2-cam.x*z},${H/2-cam.y*z}) scale(${z})`;S.L.world.setAttribute('transform',wt);S.L.wtop.setAttribute('transform',wt);}
  const now=performance.now();
  const order=[];
  for(const a of S.actors){let sx,sy,sc;
@@ -540,7 +540,8 @@ const SFX={on:true,ac:null,
 /* =========================================================
    SCENES (v3) — each step is a list of narrated beats
    ========================================================= */
-const SCENES=[];const scene=d=>SCENES.push(d);
+const BASICS=[];let SCENES=BASICS;const scene=d=>BASICS.push(d);
+const COURSES={basics:{key:'basics',short:'',list:BASICS,cap:'s',ask:'q',fq:'fq',fin:'fin_'}};let COURSE=COURSES.basics;
 /* shared helpers */
 function snapTo(S,O,L,ts,dir=1){S.thr(ts,ts+.3,[L-dir*.8,C,.6],[L-dir*4.05,C,1.2],.3);S.give(ts+.3,O.QB);S.sfx(ts,'thud');}
 function playSetup(S,L,z=22,lead=3,dir=1){S.ringHolder=true;S.fieldInit();S.camSet(L+lead,C,z);S.follow(0,9999,lead);
@@ -1284,7 +1285,7 @@ const interp=(X,Y,v)=>{if(v<=X[0])return Y[0];for(let i=1;i<X.length;i++)if(v<=X
 const A2R=a=>interp(knots.A,knots.R,a),R2A=r=>interp(knots.R,knots.A,r);
 function stopVoice(){if(voice){voice.pause();voice=null;}}
 function playKey(key,off=0,baseR=null){stopVoice();if(!started)return;const n=NARR[key];if(!n||!n.f||off>=n.d)return;voice=new Audio('audio/'+n.f);voice.muted=muted;voice._baseR=baseR;voice._t0=performance.now();voice.currentTime=off;voice.play().catch(()=>{});}
-function startVoice(k,off=0){if(mode!=='steps'){stopVoice();return;}playKey(`s${si}_${k}`,off,A2R(cur.caps[k].t));if(!playing&&voice)voice.pause();}
+function startVoice(k,off=0){if(mode!=='steps'){stopVoice();return;}playKey(`${COURSE.cap}${si}_${k}`,off,A2R(cur.caps[k].t));if(!playing&&voice)voice.pause();}
 const voiceBusy=()=>voice&&!voice.paused&&!voice.ended;
 function capIndexAt(a){let k=-1;for(let i=0;i<cur.caps.length;i++)if(cur.caps[i].t<=a+1e-6)k=i;return k;}
 function setCaption(html){const c=$('caption');if(c._h===html)return;c._h=html;c.innerHTML=html;c.classList.remove('anim');void c.offsetWidth;c.classList.add('anim');}
@@ -1299,7 +1300,7 @@ function goStep(i){i=clamp(i,0,SCENES.length-1);showPage('steps');mode='steps';i
  const d=SCENES[i];cur=makeS(d);stage.classList.toggle('clickable',!!cur.clickable);buildKnots();ta=0;tr=0;renderAt(cur,0,0,false);
  playing=started;if(cur.caps.length&&cur.caps[0].t===0)startVoice(0,0);if(d.quiz&&started)startQuiz();updateUI();}
 function updateUI(){if(mode==='explore'){$('chtag').innerHTML=`<span>EXPLORE</span> · MEET THE PLAYERS`;$('chnum').textContent='Explore';$('next').disabled=true;$('back').disabled=false;$('progbar').style.width='100%';return;}
- const d=SCENES[si];$('chtag').innerHTML=`<span>${si+1}</span> · ${d.title.toUpperCase()}`;$('chnum').textContent=`Step ${si+1} of ${SCENES.length}`;
+ const d=SCENES[si];$('chtag').innerHTML=`<span>${si+1}</span> · ${d.title.toUpperCase()}`;$('chnum').textContent=`${COURSE.short?COURSE.short+' · ':''}Step ${si+1} of ${SCENES.length}`;
  $('back').disabled=si===0;$('next').disabled=si===SCENES.length-1||gateNext;$('progbar').style.width=((si+1)/SCENES.length*100)+'%';}
 function finishStep(){done=true;playing=false;}
 
@@ -1332,11 +1333,11 @@ function seekReal(v){if(!cur||mode!=='steps')return;const max=A2R(cur.mainEnd);v
  const k=capIndexAt(na);stopVoice();if(k>=0){const off=v-A2R(cur.caps[k].t);startVoice(k,off);}}
 
 /* ---------- quick checks ---------- */
-function trigger(ev){pend=ev;if(ev.type==='ask'){const n=cur.events.filter(e=>e.type==='ask').indexOf(ev);showAsk(ev.q,`q${si}_${n}`,()=>{hideOvl();pend=null;const last=!cur.caps.some(c=>c.t>ev.t+1e-6)&&cur.mainEnd-ev.t<2;if(last&&si<SCENES.length-1)goStep(si+1);});}else showChoose(ev);}
+function trigger(ev){pend=ev;if(ev.type==='ask'){const n=cur.events.filter(e=>e.type==='ask').indexOf(ev);showAsk(ev.q,`${COURSE.ask}${si}_${n}`,()=>{hideOvl();pend=null;const last=!cur.caps.some(c=>c.t>ev.t+1e-6)&&cur.mainEnd-ev.t<2;if(last&&si<SCENES.length-1)goStep(si+1);});}else showChoose(ev);}
 function showAsk(q,key,onDone,label='✅ QUICK CHECK',btnText='Continue ▶'){const o=$('ovl');o.className='dim';o.style.display='flex';overrideCap=true;setCaption('');
- o.innerHTML=`<div class="qcard"><div class="qtag">${label}</div>${q.visual?`<div class="qvis">${q.visual}</div>`:''}<h2>${q.q}</h2><div class="opts">${q.opts.map((t,i)=>`<button class="opt" data-i="${i}">${t}</button>`).join('')}</div><div class="fb2" hidden></div><div class="row" hidden></div></div>`;
+ o.innerHTML=`<div class="qcard"><div class="qtag">${label}</div>${q.visual?`<div class="qvis">${q.visual}</div>`:''}<h2>${q.q}</h2><div class="opts">${(()=>{const ord=q.opts.map((_,i)=>i);for(let i=ord.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[ord[i],ord[j]]=[ord[j],ord[i]];}return ord.map(i=>`<button class="opt" data-i="${i}">${q.opts[i]}</button>`).join('');})()}</div><div class="fb2" hidden></div><div class="row" hidden></div></div>`;
  playKey(key);
- o.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{if(o.querySelector('.opt.right'))return;const i=+b.dataset.i,ok=i===q.ans;o.querySelectorAll('.opt')[q.ans].classList.add('right');if(!ok)b.classList.add('wrong');
+ o.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{if(o.querySelector('.opt.right'))return;const i=+b.dataset.i,ok=i===q.ans;o.querySelector(`.opt[data-i="${q.ans}"]`).classList.add('right');if(!ok)b.classList.add('wrong');
   o.querySelectorAll('.opt').forEach(x=>{if(!x.classList.contains('right')&&!x.classList.contains('wrong'))x.classList.add('faded');});
   if(ok){SFX.play('jingle');confetti(70);}else SFX.play('wrong');playKey(key+(ok?'_ok':'_no'));
   const fb=o.querySelector('.fb2');fb.hidden=false;if(!ok)fb.classList.add('no');fb.innerHTML=(ok?'🎉 <b>That\'s right!</b> ':'<b>Not quite.</b> ')+q.why;
@@ -1355,20 +1356,22 @@ function playBranch(ev,item){hideOvl();pend=null;branch=item;branch.ev=ev;cur=ma
 function endBranch(){const ev=branch.ev;visited.add(branch.label);branch=null;stopVoice();cur=makeS(SCENES[si]);ta=ev.t;tr=A2R(ta);renderAt(cur,ta,0,false);pend=ev;showChoose(ev);}
 
 /* ---------- final quiz ---------- */
-function startQuiz(){let q=0,score=0;
+function startQuiz(){let q=0,score=0;const QUIZ=COURSE.quiz,C2=COURSE;
  const show=()=>{if(q>=QUIZ.length){finish();return;}const [qq,opts,ans,why]=QUIZ[q];
-  showAsk({q:qq,opts,ans,why},`fq${q}`,ok=>{if(ok)score++;q++;show();},`QUESTION ${q+1} OF ${QUIZ.length}`,q<QUIZ.length-1?'Next question ▶':'See my score ▶');};
+  showAsk({q:qq,opts,ans,why},`${C2.fq}${q}`,ok=>{if(ok)score++;q++;show();},`QUESTION ${q+1} OF ${QUIZ.length}`,q<QUIZ.length-1?'Next question ▶':'See my score ▶');};
  const finish=()=>{const o=$('ovl');o.className='dim';o.style.display='flex';const perfect=score===QUIZ.length;
-  const msg=perfect?'PERFECT! You\'re ready for game day! 🏈':score>=3?'Nice work! You know the basics.':'Good start! Rewatch a few steps and try again.';
+  const good=score>=Math.ceil(QUIZ.length*.6);const fm=C2.finMsg||['PERFECT! You\'re ready for game day! 🏈','Nice work! You know the basics.','Good start! Rewatch a few steps and try again.'];const msg=perfect?fm[0]:good?fm[1]:fm[2];
   o.innerHTML=`<div class="qcard"><div class="qtag">YOUR SCORE</div><div class="big">${score} / ${QUIZ.length}</div><h2>${msg}</h2>
   <div class="row"><button class="btn" id="qagain">↺ Start again</button><button class="btn primary" id="qmore">🧭 Explore more</button></div></div>`;
-  $('qagain').onclick=()=>goStep(0);$('qmore').onclick=showMenu;playKey(perfect?'fin_5':score>=3?'fin_3':'fin_0');
-  if(perfect){SFX.play('fanfare');confetti(260,true);setTimeout(()=>{if(mode==='steps'&&$('qmore'))confetti(200,true)},900);setTimeout(()=>{if(mode==='steps'&&$('qmore'))confetti(200,true)},1800);}else if(score>=3){SFX.play('cheer');confetti(120);}};
+  $('qagain').onclick=()=>goStep(0);$('qmore').onclick=showMenu;playKey(C2.fin+(perfect?'5':good?'3':'0'));
+  if(perfect){SFX.play('fanfare');confetti(260,true);setTimeout(()=>{if(mode==='steps'&&$('qmore'))confetti(200,true)},900);setTimeout(()=>{if(mode==='steps'&&$('qmore'))confetti(200,true)},1800);}else if(good){SFX.play('cheer');confetti(120);}};
  show();}
 
 /* ---------- menu page ---------- */
 function showMenu(){stopVoice();hideOvl();mode='menu';playing=false;showPage('menu');}
-$('m1').onclick=()=>goStep(0);$('m2').onclick=()=>loadExplore();$('m3').onclick=()=>openChat();
+function setCourse(k,step=0){COURSE=COURSES[k];SCENES=COURSE.list;goStep(step);}
+COURSES.basics.quiz=QUIZ;
+$('m1').onclick=()=>setCourse('basics');$('m4').onclick=()=>{begin();setCourse('rules');};$('m5').onclick=()=>{begin();setCourse('smarts');};$('m2').onclick=()=>loadExplore();$('m3').onclick=()=>openChat();
 
 /* ---------- explore: meet the players ---------- */
 let ex={rot:0,target:-90,view:'both'};
@@ -1442,9 +1445,10 @@ if(SR){const mb=$('micBtn');mb.hidden=false;rec=new SR();rec.lang='en-US';rec.in
 document.querySelectorAll('.sugg button').forEach(b=>b.onclick=()=>sendChat(b.textContent));
 
 {const mq=matchMedia('(orientation:portrait) and (max-width:700px)');const onRot=()=>{if(mq.matches&&playing&&mode==='steps'){playing=false;if(voice)voice.pause();}};mq.addEventListener?mq.addEventListener('change',onRot):mq.addListener(onRot);}
-window.__dbg={get cur(){return cur},playBranch,seekBranch,get branch(){return branch},goStep,SCENES,get ta(){return ta},get tr(){return tr},pause(){playing=false;},setStarted(){started=true;$('start').style.display='none';},seekReal,get pend(){return pend},A2R,R2A,showMenu,loadExplore,startQuiz,setView};
+window.__dbg={get cur(){return cur},COURSES,setCourse,get COURSE(){return COURSE},playBranch,seekBranch,get branch(){return branch},goStep,SCENES,get ta(){return ta},get tr(){return tr},pause(){playing=false;},setStarted(){started=true;$('start').style.display='none';},seekReal,get pend(){return pend},A2R,R2A,showMenu,loadExplore,startQuiz,setView};
 goStep(0);requestAnimationFrame(frame);
 
 </script>
+<script src="courses.js"></script>
 </body>
 </html>

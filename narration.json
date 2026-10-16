@@ -825,6 +825,436 @@
   "file": "n_25cb532d4977.wav"
  },
  {
+  "id": "r0_0",
+  "text": "Football has rules. When a player breaks one, that's a foul, and the punishment is called a penalty.",
+  "file": "n_a5916f7f40bb.wav"
+ },
+ {
+  "id": "r0_1",
+  "text": "Officials in black-and-white stripes watch every play. When they see a foul, they throw a bright yellow flag onto the field.",
+  "file": "n_cad938a3caf1.wav"
+ },
+ {
+  "id": "r0_2",
+  "text": "A penalty usually costs yards. The team that broke the rule gets pushed backward, or the other team gets moved forward.",
+  "file": "n_cd934646e777.wav"
+ },
+ {
+  "id": "r0_3",
+  "text": "Most penalties are worth 5, 10, or 15 yards. The more yards, the more serious the foul.",
+  "file": "n_58a25eb6876c.wav"
+ },
+ {
+  "id": "r0_4",
+  "text": "Some penalties also give the other team an automatic first down: a brand-new set of 4 tries.",
+  "file": "n_0c72b43c0596.wav"
+ },
+ {
+  "id": "r0_5",
+  "text": "And the team that was fouled gets to choose: accept the penalty yards, or decline them if the play itself turned out better. If the offense just gained 20 yards, it would happily decline a 5-yard penalty.",
+  "file": "n_0cd2d43d77d2.wav"
+ },
+ {
+  "id": "r1_0",
+  "text": "Some penalties happen before the play even starts. Until the ball is snapped, the linemen have to stay still, and nobody can cross the line of scrimmage.",
+  "file": "n_289fb0927289.wav"
+ },
+ {
+  "id": "r1_1",
+  "text": "A false start is when an offensive player moves early. Watch this lineman flinch...",
+  "file": "n_e571ced30ad3.wav"
+ },
+ {
+  "id": "r1_2",
+  "text": "Whistle! That costs the offense 5 yards, and the play never even happens.",
+  "file": "n_286d22674d53.wav"
+ },
+ {
+  "id": "r1_3",
+  "text": "Offside is the defense's version: a defender is across the line of scrimmage when the ball is snapped.",
+  "file": "n_aa69a12c9472.wav"
+ },
+ {
+  "id": "r1_4",
+  "text": "That moves the offense 5 yards forward for free!",
+  "file": "n_591727834764.wav"
+ },
+ {
+  "id": "r1_5",
+  "text": "And remember the play clock? If it hits zero before the snap, that's delay of game: another 5 yards.",
+  "file": "n_cfda8ec2617d.wav"
+ },
+ {
+  "id": "r1_6",
+  "text": "Memory tip: before the snap, linemen freeze like statues. Move early, and your team pays for it.",
+  "file": "n_7b479b3dbd0b.wav"
+ },
+ {
+  "id": "r2_0",
+  "text": "What counts as a catch? It sounds simple, but it has three parts.",
+  "file": "n_11dedc056fbe.wav"
+ },
+ {
+  "id": "r2_1",
+  "text": "One: the receiver has to control the ball, holding it securely, not juggling it.",
+  "file": "n_18e2468df89f.wav"
+ },
+ {
+  "id": "r2_2",
+  "text": "Two: he needs two feet down in bounds. A knee or another body part counts too.",
+  "file": "n_1048578aa405.wav"
+ },
+ {
+  "id": "r2_3",
+  "text": "Three: he keeps control long enough to make a football move, like taking another step or reaching the ball forward.",
+  "file": "n_6dc000527633.wav"
+ },
+ {
+  "id": "r2_4",
+  "text": "All three boxes checked. That's a catch!",
+  "file": "n_bae755e749b7.wav"
+ },
+ {
+  "id": "r2_5",
+  "text": "Now watch this one. He catches it, but his second foot lands out of bounds...",
+  "file": "n_bc847505117a.wav"
+ },
+ {
+  "id": "r2_6",
+  "text": "Only one foot was in bounds, so the pass is incomplete. That's why you see receivers tiptoe along the sideline!",
+  "file": "n_fe5431521553.wav"
+ },
+ {
+  "id": "r3_0",
+  "text": "On a pass play, the offensive linemen form a protective wall around the quarterback. That safe space is called the pocket.",
+  "file": "n_bd962fa986fb.wav"
+ },
+ {
+  "id": "r3_1",
+  "text": "Think of it like a pocket on your jeans: the quarterback stays tucked safely inside while he looks for someone to throw to.",
+  "file": "n_8f8f26a92dfa.wav"
+ },
+ {
+  "id": "r3_2",
+  "text": "Blockers can push with their hands, but they can't grab and hold a defender to stop him.",
+  "file": "n_9bbb5a0b4f15.wav"
+ },
+ {
+  "id": "r3_3",
+  "text": "Here, the defender spins past the blocker, so the blocker grabs his jersey and pulls him back...",
+  "file": "n_ecf19e60c5dc.wav"
+ },
+ {
+  "id": "r3_4",
+  "text": "That's a foul: holding. Offensive holding costs 10 yards.",
+  "file": "n_f56a2d5d0427.wav"
+ },
+ {
+  "id": "r3_5",
+  "text": "Defenders can hold too, by grabbing a receiver. Defensive holding is 5 yards plus an automatic first down.",
+  "file": "n_669432a3bf9c.wav"
+ },
+ {
+  "id": "r4_0",
+  "text": "Once a pass is in the air, the receiver and the defender both have an equal right to go get the ball.",
+  "file": "n_774cb3a2af8d.wav"
+ },
+ {
+  "id": "r4_1",
+  "text": "But neither one can grab, push, or hold the other to stop the catch. That's called pass interference.",
+  "file": "n_8b61df8031e2.wav"
+ },
+ {
+  "id": "r4_2",
+  "text": "Watch: the pass goes deep, and the cornerback grabs the receiver's arm before the ball arrives...",
+  "file": "n_8ad9ce93c7ec.wav"
+ },
+ {
+  "id": "r4_3",
+  "text": "Flag! Defensive pass interference. The offense gets the ball right where the foul happened, plus a first down.",
+  "file": "n_4dd96a5565f8.wav"
+ },
+ {
+  "id": "r4_4",
+  "text": "That's why it's one of the biggest penalties in football. One grab can move the ball 30 or 40 yards!",
+  "file": "n_85b163642024.wav"
+ },
+ {
+  "id": "r4_5",
+  "text": "Receivers can't push off defenders either. Offensive pass interference costs the offense 10 yards.",
+  "file": "n_69b07d96e0b3.wav"
+ },
+ {
+  "id": "r4_6",
+  "text": "Tip: if both players are just going for the ball, that's fair. It's the grabbing and pushing that gets flagged.",
+  "file": "n_1ca62ed3f7f7.wav"
+ },
+ {
+  "id": "r5_0",
+  "text": "Quarterbacks get extra protection. While a quarterback is throwing, he's looking down the field and can't protect himself from a hit.",
+  "file": "n_e8b0297e2758.wav"
+ },
+ {
+  "id": "r5_1",
+  "text": "Watch. The pass is already gone, but a defender hits the quarterback anyway, hard and late...",
+  "file": "n_7ef85850202b.wav"
+ },
+ {
+  "id": "r5_2",
+  "text": "That's roughing the passer: 15 yards and an automatic first down.",
+  "file": "n_7e7a1583f95e.wav"
+ },
+ {
+  "id": "r5_3",
+  "text": "This rule has grown a lot over the years.",
+  "file": "n_7dc91863cb3b.wav"
+ },
+ {
+  "id": "r5_4",
+  "text": "The NFL first made roughing the passer a penalty way back in 1938, mainly to stop rough hits after the ball was thrown.",
+  "file": "n_fba9271b9ae7.wav"
+ },
+ {
+  "id": "r5_5",
+  "text": "Later, hits to the quarterback's head and neck were banned too.",
+  "file": "n_27b39a2222a2.wav"
+ },
+ {
+  "id": "r5_6",
+  "text": "After star quarterback Tom Brady hurt his knee in 2008, the league cracked down on low hits at a quarterback's knees.",
+  "file": "n_0f143c0997c3.wav"
+ },
+ {
+  "id": "r5_7",
+  "text": "And since 2018, defenders can't land on the quarterback with their full body weight when they tackle him.",
+  "file": "n_90f72e1e1ea8.wav"
+ },
+ {
+  "id": "r5_8",
+  "text": "Why so strict? Quarterbacks touch the ball on almost every play, and the league wants its stars healthy. Defenders can still sack the quarterback. They just have to do it the right way.",
+  "file": "n_1e314d6f5a40.wav"
+ },
+ {
+  "id": "r6_0",
+  "text": "Kickers get extra protection too. While a kicker or punter has his leg up in the air, he can't defend himself.",
+  "file": "n_562e9c8cf46b.wav"
+ },
+ {
+  "id": "r6_1",
+  "text": "If a defender crashes into the kicker, that's roughing the kicker: 15 yards and an automatic first down.",
+  "file": "n_683b7fca2bdf.wav"
+ },
+ {
+  "id": "r6_2",
+  "text": "If a defender only bumps him lightly, it's a smaller foul called running into the kicker: just 5 yards.",
+  "file": "n_35ca209044b2.wav"
+ },
+ {
+  "id": "r6_3",
+  "text": "One more big one: the face mask. That's the metal cage on the front of the helmet.",
+  "file": "n_ba1b1ec5da96.wav"
+ },
+ {
+  "id": "r6_4",
+  "text": "Grabbing it and pulling or twisting it can hurt a player's neck, so it's a 15-yard penalty.",
+  "file": "n_986e52736e03.wav"
+ },
+ {
+  "id": "r6_5",
+  "text": "Tip: tacklers can grab jerseys and shoulder pads, but never the face mask.",
+  "file": "n_267c5b9870f2.wav"
+ },
+ {
+  "id": "r7_0",
+  "text": "Rules quiz time! Five quick questions. No tricks.",
+  "file": "n_36bccbfed5e4.wav"
+ },
+ {
+  "id": "m0_0",
+  "text": "A formation is how the offense lines up before the snap. Different formations help with different kinds of plays.",
+  "file": "n_a8afaf2435e0.wav"
+ },
+ {
+  "id": "m0_1",
+  "text": "Under center: the quarterback stands right behind the center and takes the ball straight from his hands. It's great for quick handoffs.",
+  "file": "n_33046c6e83a0.wav"
+ },
+ {
+  "id": "m0_2",
+  "text": "Shotgun: the quarterback stands about 5 yards back. He gets more time to see the field, so it's great for passing.",
+  "file": "n_d76a397a8dc0.wav"
+ },
+ {
+  "id": "m0_3",
+  "text": "The I-formation puts a fullback and a running back one behind the other, straight behind the quarterback. From behind the offense, they look like the letter I. It's built for power running.",
+  "file": "n_5782905549ad.wav"
+ },
+ {
+  "id": "m0_4",
+  "text": "And a spread formation sends lots of receivers out wide, to stretch the defense thin.",
+  "file": "n_80c8389c1dbe.wav"
+ },
+ {
+  "id": "m0_5",
+  "text": "Tip: the formation can give away the plan. Bunched up close often means a run. Spread out wide often means a pass.",
+  "file": "n_16d7812ebc3b.wav"
+ },
+ {
+  "id": "m1_0",
+  "text": "The defense picks a formation too, based on what it expects the offense to do.",
+  "file": "n_f66d3d5eeb42.wav"
+ },
+ {
+  "id": "m1_1",
+  "text": "A 4-3 defense has 4 defensive linemen and 3 linebackers. It's a solid, balanced setup.",
+  "file": "n_9f6b23131120.wav"
+ },
+ {
+  "id": "m1_2",
+  "text": "A 3-4 has 3 linemen and 4 linebackers. That extra linebacker can rush the quarterback or drop back to cover, which keeps the offense guessing.",
+  "file": "n_fb0fe272eb21.wav"
+ },
+ {
+  "id": "m1_3",
+  "text": "Against lots of receivers, the defense switches to nickel: a linebacker leaves, and a fifth defensive back comes in to cover. A nickel is worth 5 cents, and nickel has 5 defensive backs!",
+  "file": "n_b7698c2f75d9.wav"
+ },
+ {
+  "id": "m1_4",
+  "text": "And when the defense sends extra players charging at the quarterback, that's called a blitz. It's risky: fewer players are left to cover.",
+  "file": "n_439abf0a75a2.wav"
+ },
+ {
+  "id": "m2_0",
+  "text": "Before the snap, one offensive player is allowed to run sideways or backward. That's called motion.",
+  "file": "n_d73ba1e6ea03.wav"
+ },
+ {
+  "id": "m2_1",
+  "text": "He can't be heading toward the line when the ball is snapped, and only one player can be moving at a time.",
+  "file": "n_4f775f1c16a5.wav"
+ },
+ {
+  "id": "m2_2",
+  "text": "Motion is like a little spy trick. Watch how the defense reacts...",
+  "file": "n_51e5649188f0.wav"
+ },
+ {
+  "id": "m2_3",
+  "text": "The receiver runs across the field, and one defender follows him the whole way...",
+  "file": "n_cf455aa98bef.wav"
+ },
+ {
+  "id": "m2_4",
+  "text": "That's a big clue the defense is playing man coverage: each defender sticks to one player, like a shadow.",
+  "file": "n_a2078ccc77f3.wav"
+ },
+ {
+  "id": "m2_5",
+  "text": "Now the same motion against a different defense. This time, nobody follows him. The defenders just shift a little and stay in their areas.",
+  "file": "n_df00fb528157.wav"
+ },
+ {
+  "id": "m2_6",
+  "text": "That's probably zone coverage: each defender guards an area of the field instead of one player.",
+  "file": "n_5fab9d77a6ca.wav"
+ },
+ {
+  "id": "m2_7",
+  "text": "Knowing man or zone helps the quarterback decide where to throw. Motion can also give a receiver a running start when the ball is snapped.",
+  "file": "n_142da74d46b4.wav"
+ },
+ {
+  "id": "m3_0",
+  "text": "Before every snap, the quarterback reads the defense, checking where every defender is standing.",
+  "file": "n_ad532c26020a.wav"
+ },
+ {
+  "id": "m3_1",
+  "text": "If he sees a problem, he can change the play right at the line. That's called an audible.",
+  "file": "n_ab40c8948aa1.wav"
+ },
+ {
+  "id": "m3_2",
+  "text": "Peyton Manning was famous for this. He'd point, wave his arms and shout code words like \"Omaha!\" to change plays at the line.",
+  "file": "n_a001354b7836.wav"
+ },
+ {
+  "id": "m3_3",
+  "text": "For example, if he spots a blitz coming, he can switch to a quick pass and throw it before the rushers arrive.",
+  "file": "n_b4298f563128.wav"
+ },
+ {
+  "id": "m3_4",
+  "text": "The rushers arrive a moment too late, and the receiver picks up 12 easy yards!",
+  "file": "n_3b089107d99e.wav"
+ },
+ {
+  "id": "m4_0",
+  "text": "Coaches mix runs and passes so the defense can never be sure what's coming.",
+  "file": "n_10e74cfb0c53.wav"
+ },
+ {
+  "id": "m4_1",
+  "text": "When a team runs the ball well, defenders start creeping closer to the line to stop the run.",
+  "file": "n_e2a89b745752.wav"
+ },
+ {
+  "id": "m4_2",
+  "text": "That sets up play-action. The quarterback fakes a handoff, and the linebackers jump toward the runner...",
+  "file": "n_66899e458dc3.wav"
+ },
+ {
+  "id": "m4_3",
+  "text": "...and the quarterback throws right over their heads to a wide-open receiver!",
+  "file": "n_7e2980277331.wav"
+ },
+ {
+  "id": "m4_4",
+  "text": "Teams also play for field position. Even when they can't score, they can punt and pin the other team deep, near its own end zone. That makes the next drive much harder.",
+  "file": "n_094537143c55.wav"
+ },
+ {
+  "id": "m4_5",
+  "text": "Football is a bit like chess. Every play is a move, and good teams use each one to set up the next.",
+  "file": "n_40fc74911721.wav"
+ },
+ {
+  "id": "m5_0",
+  "text": "Some players were so good that they changed how football is played. Here are a few legends.",
+  "file": "n_a47a5509ac38.wav"
+ },
+ {
+  "id": "m5_1",
+  "text": "Jim Brown was a running back in the 1950s and 60s. He led the league in rushing in 8 of his 9 seasons, and showed how one great runner could carry an entire offense.",
+  "file": "n_1f7aaffe9fd3.wav"
+ },
+ {
+  "id": "m5_2",
+  "text": "Lawrence Taylor was a linebacker who chased quarterbacks with amazing speed. Teams needed a great left tackle just to slow him down, and it became one of the most valued positions in football.",
+  "file": "n_764b011e7619.wav"
+ },
+ {
+  "id": "m5_3",
+  "text": "Jerry Rice holds the NFL records for the most receiving yards and the most receiving touchdowns ever. He showed how dangerous a great receiver could be.",
+  "file": "n_cea5668540a3.wav"
+ },
+ {
+  "id": "m5_4",
+  "text": "Peyton Manning turned the seconds before the snap into a weapon, reading the defense and changing plays right at the line.",
+  "file": "n_ab3154224b45.wav"
+ },
+ {
+  "id": "m5_5",
+  "text": "And Tom Brady won 7 Super Bowls, more than any other player in NFL history.",
+  "file": "n_00fa8718d836.wav"
+ },
+ {
+  "id": "m6_0",
+  "text": "Smarts quiz time! Five quick questions. No tricks.",
+  "file": "n_4e4abda29d81.wav"
+ },
+ {
   "id": "q1_0",
   "text": "Blue is on offense, moving down the field to the right. Which end zone is Blue trying to reach?",
   "file": "n_633c90f78689.wav"
@@ -1290,6 +1720,201 @@
   "file": "n_693cac8cb74a.wav"
  },
  {
+  "id": "rq0_0",
+  "text": "When an official sees a foul, what does he throw onto the field?",
+  "file": "n_9c6ec4593e10.wav"
+ },
+ {
+  "id": "rq0_0_ok",
+  "text": "That's right! Officials throw a yellow flag to show that a foul happened.",
+  "file": "n_37ed360a1b67.wav"
+ },
+ {
+  "id": "rq0_0_no",
+  "text": "Not quite. Officials throw a yellow flag to show that a foul happened.",
+  "file": "n_602124897eff.wav"
+ },
+ {
+  "id": "rq1_0",
+  "text": "A defender jumps across the line of scrimmage before the snap. What is that called?",
+  "file": "n_1e658f61c6a0.wav"
+ },
+ {
+  "id": "rq1_0_ok",
+  "text": "That's right! Crossing the line early is offside. It moves the offense 5 yards forward.",
+  "file": "n_b8cf689440c3.wav"
+ },
+ {
+  "id": "rq1_0_no",
+  "text": "Not quite. Crossing the line early is offside. It moves the offense 5 yards forward.",
+  "file": "n_0dc324429451.wav"
+ },
+ {
+  "id": "rq2_0",
+  "text": "A receiver catches the ball with one foot in bounds and his other foot out of bounds. Is it a catch?",
+  "file": "n_d58c93f6bd15.wav"
+ },
+ {
+  "id": "rq2_0_ok",
+  "text": "That's right! In the NFL, a receiver needs two feet, or another body part like a knee, down in bounds.",
+  "file": "n_d2b6ffcd68d4.wav"
+ },
+ {
+  "id": "rq2_0_no",
+  "text": "Not quite. In the NFL, a receiver needs two feet, or another body part like a knee, down in bounds.",
+  "file": "n_3722460b028d.wav"
+ },
+ {
+  "id": "rq3_0",
+  "text": "What is \"the pocket\"?",
+  "file": "n_36962d6af99c.wav"
+ },
+ {
+  "id": "rq3_0_ok",
+  "text": "That's right! The pocket is the safe area the offensive line builds around the quarterback on a pass play.",
+  "file": "n_68c8523078d2.wav"
+ },
+ {
+  "id": "rq3_0_no",
+  "text": "Not quite. The pocket is the safe area the offensive line builds around the quarterback on a pass play.",
+  "file": "n_d8dbe1b255d1.wav"
+ },
+ {
+  "id": "rq4_0",
+  "text": "A cornerback grabs a receiver's arm while the pass is in the air. What happens?",
+  "file": "n_9bd11bac8f3c.wav"
+ },
+ {
+  "id": "rq4_0_ok",
+  "text": "That's right! Grabbing the receiver before the ball arrives is defensive pass interference. The offense gets the ball where the foul happened, plus a first down.",
+  "file": "n_1618db7221b8.wav"
+ },
+ {
+  "id": "rq4_0_no",
+  "text": "Not quite. Grabbing the receiver before the ball arrives is defensive pass interference. The offense gets the ball where the foul happened, plus a first down.",
+  "file": "n_3700f85b7c67.wav"
+ },
+ {
+  "id": "rq5_0",
+  "text": "A defender hits the quarterback hard, well after the ball has been thrown. What is the penalty?",
+  "file": "n_3c480715edb5.wav"
+ },
+ {
+  "id": "rq5_0_ok",
+  "text": "That's right! Late or dangerous hits on a quarterback are roughing the passer: 15 yards and an automatic first down.",
+  "file": "n_3158d278e937.wav"
+ },
+ {
+  "id": "rq5_0_no",
+  "text": "Not quite. Late or dangerous hits on a quarterback are roughing the passer: 15 yards and an automatic first down.",
+  "file": "n_763035cbc00d.wav"
+ },
+ {
+  "id": "rq6_0",
+  "text": "A defender grabs the ball carrier's face mask and twists it. What happens?",
+  "file": "n_12368cabbf52.wav"
+ },
+ {
+  "id": "rq6_0_ok",
+  "text": "That's right! Grabbing and twisting the face mask is dangerous for the neck, so it's a 15-yard penalty.",
+  "file": "n_1e043e273214.wav"
+ },
+ {
+  "id": "rq6_0_no",
+  "text": "Not quite. Grabbing and twisting the face mask is dangerous for the neck, so it's a 15-yard penalty.",
+  "file": "n_812c6babcfec.wav"
+ },
+ {
+  "id": "mq0_0",
+  "text": "In the shotgun formation, where does the quarterback stand?",
+  "file": "n_49083cd88989.wav"
+ },
+ {
+  "id": "mq0_0_ok",
+  "text": "That's right! In the shotgun, the quarterback stands about 5 yards back so he can see the field.",
+  "file": "n_6fb4a0b82f37.wav"
+ },
+ {
+  "id": "mq0_0_no",
+  "text": "Not quite. In the shotgun, the quarterback stands about 5 yards back so he can see the field.",
+  "file": "n_419d9b76ff05.wav"
+ },
+ {
+  "id": "mq1_0",
+  "text": "Why would a defense switch to nickel?",
+  "file": "n_eeeb9b9553cf.wav"
+ },
+ {
+  "id": "mq1_0_ok",
+  "text": "That's right! Nickel adds a fifth defensive back to help cover lots of receivers.",
+  "file": "n_6efca3e6d480.wav"
+ },
+ {
+  "id": "mq1_0_no",
+  "text": "Not quite. Nickel adds a fifth defensive back to help cover lots of receivers.",
+  "file": "n_1711407d621b.wav"
+ },
+ {
+  "id": "mq2_0",
+  "text": "During motion, a defender follows the receiver all the way across the field. What does that suggest?",
+  "file": "n_ab6ea97d6869.wav"
+ },
+ {
+  "id": "mq2_0_ok",
+  "text": "That's right! A defender sticking to one player is a clue for man coverage.",
+  "file": "n_e228be607adf.wav"
+ },
+ {
+  "id": "mq2_0_no",
+  "text": "Not quite. A defender sticking to one player is a clue for man coverage.",
+  "file": "n_79a52c49d430.wav"
+ },
+ {
+  "id": "mq3_0",
+  "text": "What is an \"audible\"?",
+  "file": "n_0490174d3f79.wav"
+ },
+ {
+  "id": "mq3_0_ok",
+  "text": "That's right! An audible is when the quarterback changes the play right at the line, after reading the defense.",
+  "file": "n_3180312036ee.wav"
+ },
+ {
+  "id": "mq3_0_no",
+  "text": "Not quite. An audible is when the quarterback changes the play right at the line, after reading the defense.",
+  "file": "n_077fdb3cc94d.wav"
+ },
+ {
+  "id": "mq4_0",
+  "text": "What is play-action?",
+  "file": "n_97137ea571b9.wav"
+ },
+ {
+  "id": "mq4_0_ok",
+  "text": "That's right! In play-action, the quarterback fakes a handoff to fool the defense, then throws.",
+  "file": "n_9ba1c09feeed.wav"
+ },
+ {
+  "id": "mq4_0_no",
+  "text": "Not quite. In play-action, the quarterback fakes a handoff to fool the defense, then throws.",
+  "file": "n_8915d2da93c4.wav"
+ },
+ {
+  "id": "mq5_0",
+  "text": "Which legend's pass rushing made the left tackle one of the most important positions?",
+  "file": "n_7dc4f80b19bf.wav"
+ },
+ {
+  "id": "mq5_0_ok",
+  "text": "That's right! Lawrence Taylor was so fast off the edge that teams started valuing the left tackle, who protects the quarterback's blind side.",
+  "file": "n_b25ad26bdb74.wav"
+ },
+ {
+  "id": "mq5_0_no",
+  "text": "Not quite. Lawrence Taylor was so fast off the edge that teams started valuing the left tackle, who protects the quarterback's blind side.",
+  "file": "n_c90633e2c806.wav"
+ },
+ {
   "id": "fq0",
   "text": "How many downs (tries) does the offense get to gain 10 yards?",
   "file": "n_7cd03d384085.wav"
@@ -1365,6 +1990,156 @@
   "file": "n_0ef3f66f5836.wav"
  },
  {
+  "id": "rf0",
+  "text": "Most penalties are worth how many yards?",
+  "file": "n_6c28cea28d4b.wav"
+ },
+ {
+  "id": "rf0_ok",
+  "text": "That's right! Penalties are usually 5, 10 or 15 yards, depending on how serious they are.",
+  "file": "n_b4477ee7b46c.wav"
+ },
+ {
+  "id": "rf0_no",
+  "text": "Not quite. Penalties are usually 5, 10 or 15 yards, depending on how serious they are.",
+  "file": "n_f7b61d63f58e.wav"
+ },
+ {
+  "id": "rf1",
+  "text": "An offensive lineman moves before the snap. What is it called?",
+  "file": "n_77e1c2532e49.wav"
+ },
+ {
+  "id": "rf1_ok",
+  "text": "That's right! Moving early on offense is a false start: 5 yards.",
+  "file": "n_c85305897782.wav"
+ },
+ {
+  "id": "rf1_no",
+  "text": "Not quite. Moving early on offense is a false start: 5 yards.",
+  "file": "n_d552be95e204.wav"
+ },
+ {
+  "id": "rf2",
+  "text": "Which of these is a catch in the NFL?",
+  "file": "n_51caed5aa987.wav"
+ },
+ {
+  "id": "rf2_ok",
+  "text": "That's right! A catch needs control, two feet (or another body part) in bounds, and a football move.",
+  "file": "n_f155c50d5437.wav"
+ },
+ {
+  "id": "rf2_no",
+  "text": "Not quite. A catch needs control, two feet (or another body part) in bounds, and a football move.",
+  "file": "n_b7e9ddf16b88.wav"
+ },
+ {
+  "id": "rf3",
+  "text": "A blocker grabs a defender's jersey to stop him. What is that?",
+  "file": "n_9fc5ef9b9d75.wav"
+ },
+ {
+  "id": "rf3_ok",
+  "text": "That's right! Grabbing to block is holding. On offense it costs 10 yards.",
+  "file": "n_1e051463f1ad.wav"
+ },
+ {
+  "id": "rf3_no",
+  "text": "Not quite. Grabbing to block is holding. On offense it costs 10 yards.",
+  "file": "n_58c6c5091423.wav"
+ },
+ {
+  "id": "rf4",
+  "text": "Why are quarterbacks and kickers specially protected?",
+  "file": "n_2520589c8c6d.wav"
+ },
+ {
+  "id": "rf4_ok",
+  "text": "That's right! While throwing or kicking, they're defenseless, so hits on them are penalized more strictly.",
+  "file": "n_7b40d1bcdf3e.wav"
+ },
+ {
+  "id": "rf4_no",
+  "text": "Not quite. While throwing or kicking, they're defenseless, so hits on them are penalized more strictly.",
+  "file": "n_0b7846f38afe.wav"
+ },
+ {
+  "id": "mf0",
+  "text": "Which formation puts the quarterback about 5 yards behind the center?",
+  "file": "n_dc7b5b41b952.wav"
+ },
+ {
+  "id": "mf0_ok",
+  "text": "That's right! In the shotgun, the quarterback stands about 5 yards back.",
+  "file": "n_5ebcf5ce7749.wav"
+ },
+ {
+  "id": "mf0_no",
+  "text": "Not quite. In the shotgun, the quarterback stands about 5 yards back.",
+  "file": "n_12673e7b2b4b.wav"
+ },
+ {
+  "id": "mf1",
+  "text": "What does a 4-3 defense have?",
+  "file": "n_fd0048bc73db.wav"
+ },
+ {
+  "id": "mf1_ok",
+  "text": "That's right! A 4-3 has 4 defensive linemen and 3 linebackers.",
+  "file": "n_ad0bef2b4bfe.wav"
+ },
+ {
+  "id": "mf1_no",
+  "text": "Not quite. A 4-3 has 4 defensive linemen and 3 linebackers.",
+  "file": "n_9e698026e620.wav"
+ },
+ {
+  "id": "mf2",
+  "text": "What is motion?",
+  "file": "n_f5c605a5714d.wav"
+ },
+ {
+  "id": "mf2_ok",
+  "text": "That's right! Motion is one offensive player moving sideways or backward before the snap.",
+  "file": "n_236c7aac97f6.wav"
+ },
+ {
+  "id": "mf2_no",
+  "text": "Not quite. Motion is one offensive player moving sideways or backward before the snap.",
+  "file": "n_d0e220aba170.wav"
+ },
+ {
+  "id": "mf3",
+  "text": "In zone coverage, what does each defender guard?",
+  "file": "n_26c2a69bd950.wav"
+ },
+ {
+  "id": "mf3_ok",
+  "text": "That's right! In zone, each defender guards an area. In man coverage, each guards one player.",
+  "file": "n_a64a30f8cbc0.wav"
+ },
+ {
+  "id": "mf3_no",
+  "text": "Not quite. In zone, each defender guards an area. In man coverage, each guards one player.",
+  "file": "n_8041856f465a.wav"
+ },
+ {
+  "id": "mf4",
+  "text": "Who won 7 Super Bowls, the most of any player?",
+  "file": "n_f05946cb0946.wav"
+ },
+ {
+  "id": "mf4_ok",
+  "text": "That's right! Tom Brady won 7 Super Bowls, the most in NFL history.",
+  "file": "n_797c35552759.wav"
+ },
+ {
+  "id": "mf4_no",
+  "text": "Not quite. Tom Brady won 7 Super Bowls, the most in NFL history.",
+  "file": "n_2a75ebbd7686.wav"
+ },
+ {
   "id": "fin_5",
   "text": "PERFECT! You're ready for game day!",
   "file": "n_2b98b9f8a33e.wav"
@@ -1376,6 +2151,36 @@
  },
  {
   "id": "fin_0",
+  "text": "Good start! Rewatch a few steps and try again.",
+  "file": "n_a6dbd47d0387.wav"
+ },
+ {
+  "id": "rfin_5",
+  "text": "PERFECT! You could wear the stripes!",
+  "file": "n_f6c7f6c61c0e.wav"
+ },
+ {
+  "id": "rfin_3",
+  "text": "Nice work! You know the rules.",
+  "file": "n_10b5e81900e2.wav"
+ },
+ {
+  "id": "rfin_0",
+  "text": "Good start! Rewatch a few steps and try again.",
+  "file": "n_a6dbd47d0387.wav"
+ },
+ {
+  "id": "mfin_5",
+  "text": "PERFECT! You think like a coach!",
+  "file": "n_112efd0b5469.wav"
+ },
+ {
+  "id": "mfin_3",
+  "text": "Nice work! You're talking football now.",
+  "file": "n_2be436fa5f39.wav"
+ },
+ {
+  "id": "mfin_0",
   "text": "Good start! Rewatch a few steps and try again.",
   "file": "n_a6dbd47d0387.wav"
  }
