@@ -1414,7 +1414,7 @@ $('back').onclick=()=>{begin();if(mode==='explore'){showMenu();return;}goStep(si
 $('play').onclick=()=>{begin();if(mode!=='steps')return;if(done){goStep(si);return;}playing=!playing;if(voice){playing?voice.play().catch(()=>{}):voice.pause();}};
 const sc=$('scrub');sc.addEventListener('pointerdown',()=>{sc._drag=true;});sc.addEventListener('pointerup',()=>{sc._drag=false;});
 sc.addEventListener('input',e=>{begin();if(!cur)return;if(branch){seekBranch(e.target.value/1000*(A2R(branch.to)-A2R(branch.from)));return;}seekReal(e.target.value/1000*A2R(cur.mainEnd));});
-$('ccBtn').onclick=()=>{capsOn=!capsOn;setPref('caps',capsOn);applyPrefs();};$('muteBtn').onclick=()=>{muted=!muted;setPref('mute',muted);applyPrefs();};applyPrefs();
+$('ccBtn').onclick=()=>{capsOn=!capsOn;setPref('caps',capsOn);applyPrefs();};$('muteBtn').onclick=()=>{muted=!muted;setPref('mute',muted);if(muted&&!capsOn){capsOn=true;setPref('caps',true);}applyPrefs();};applyPrefs();
 document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA'].includes(e.target.tagName))return;if(mode!=='steps')return;if(e.key==='ArrowRight'){begin();if(!gateNext)goStep(si+1);}else if(e.key==='ArrowLeft'){begin();goStep(si-1);}else if(e.key===' '){e.preventDefault();$('play').click();}});
 
 /* ---------- Ask Coach chat (corner widget) ---------- */
