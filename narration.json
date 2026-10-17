@@ -2375,153 +2375,798 @@
   "file": "n_a6dbd47d0387.wav"
  },
  {
-  "id": "g_start",
-  "text": "Welcome to the big game! First team to fourteen points wins. That's two touchdowns!",
-  "file": "n_8dd15688d80c.wav"
+  "id": "g_p_start_0",
+  "text": "Welcome to Game Day! Four quarters, one minute each. Let's play some football!",
+  "file": "n_d17011c63a3c.wav"
  },
  {
-  "id": "g_firstdown",
-  "text": "First down! The chains are moving!",
-  "file": "n_38e5b907cc05.wav"
+  "id": "g_p_start_1",
+  "text": "It's a beautiful day for football, folks. Two teams, four quarters, one winner!",
+  "file": "n_70e54dcddd38.wav"
  },
  {
-  "id": "g_bigrun",
-  "text": "Look at him go! What a run!",
-  "file": "n_478a32418e6d.wav"
+  "id": "g_p_kickoff_0",
+  "text": "Here's the kickoff... it sails deep into the end zone. Touchback.",
+  "file": "n_d2c893577c7b.wav"
  },
  {
-  "id": "g_short",
-  "text": "Brought down after a short gain.",
-  "file": "n_b0df8d2d3e2d.wav"
+  "id": "g_p_kickoff_1",
+  "text": "The kick is high and deep. No return. Touchback.",
+  "file": "n_366ad1146e35.wav"
  },
  {
-  "id": "g_nogain",
-  "text": "Stuffed at the line! No gain on the play.",
-  "file": "n_58b4d5d88311.wav"
+  "id": "g_p_kickoff_2",
+  "text": "Booming kickoff into the end zone. They'll start at the thirty-five.",
+  "file": "n_5782b8933659.wav"
  },
  {
-  "id": "g_loss",
+  "id": "g_p_third_long_0",
+  "text": "Third and long. This is a big one.",
+  "file": "n_f6736af3460b.wav"
+ },
+ {
+  "id": "g_p_third_long_1",
+  "text": "Third down, and they need a lot of yards here.",
+  "file": "n_8feef1fe0ae2.wav"
+ },
+ {
+  "id": "g_p_third_short_0",
+  "text": "Third and short. Just a couple of yards needed.",
+  "file": "n_0db4d18ab675.wav"
+ },
+ {
+  "id": "g_p_third_short_1",
+  "text": "Third down, and it's a short one.",
+  "file": "n_035393ac1bca.wav"
+ },
+ {
+  "id": "g_p_fourth_0",
+  "text": "Fourth down. Decision time.",
+  "file": "n_1769f03138cd.wav"
+ },
+ {
+  "id": "g_p_fourth_1",
+  "text": "It's fourth down. What will they do?",
+  "file": "n_caae98b974c7.wav"
+ },
+ {
+  "id": "g_p_goal_0",
+  "text": "They're knocking on the door! Goal to go.",
+  "file": "n_7fb4bc2ba3f5.wav"
+ },
+ {
+  "id": "g_p_goal_1",
+  "text": "Close to the end zone now. Can they punch it in?",
+  "file": "n_27d90991321a.wav"
+ },
+ {
+  "id": "g_p_run_big_0",
+  "text": "He breaks into the open! What a run!",
+  "file": "n_a541686e5c4c.wav"
+ },
+ {
+  "id": "g_p_run_big_1",
+  "text": "Look at him go! Big gain on the ground!",
+  "file": "n_24c146c1cce4.wav"
+ },
+ {
+  "id": "g_p_run_big_2",
+  "text": "He bursts through the hole and he is gone!",
+  "file": "n_a8a687baf940.wav"
+ },
+ {
+  "id": "g_p_run_big_3",
+  "text": "A huge run! The crowd is on its feet!",
+  "file": "n_cafd28e79a97.wav"
+ },
+ {
+  "id": "g_p_run_good_0",
+  "text": "Nice run! Solid gain.",
+  "file": "n_cf1dc95f9464.wav"
+ },
+ {
+  "id": "g_p_run_good_1",
+  "text": "He picks up good yardage on the carry.",
+  "file": "n_7bd29e90c706.wav"
+ },
+ {
+  "id": "g_p_run_good_2",
+  "text": "Good push up front, and a nice gain.",
+  "file": "n_c3b2c5c38361.wav"
+ },
+ {
+  "id": "g_p_run_good_3",
+  "text": "He finds a crease and keeps his legs moving.",
+  "file": "n_ecf7650d7c52.wav"
+ },
+ {
+  "id": "g_p_run_short_0",
+  "text": "Short gain on the play.",
+  "file": "n_d5e2cac64513.wav"
+ },
+ {
+  "id": "g_p_run_short_1",
+  "text": "He's brought down after a few yards.",
+  "file": "n_8132538b30b7.wav"
+ },
+ {
+  "id": "g_p_run_short_2",
+  "text": "Not much there, but he falls forward.",
+  "file": "n_937a73d5c45c.wav"
+ },
+ {
+  "id": "g_p_run_none_0",
+  "text": "Stuffed at the line! No gain.",
+  "file": "n_cd1a02d9e154.wav"
+ },
+ {
+  "id": "g_p_run_none_1",
+  "text": "Nowhere to go! He's stopped right there.",
+  "file": "n_91258258d715.wav"
+ },
+ {
+  "id": "g_p_run_none_2",
+  "text": "The defense swarms. No gain on the play.",
+  "file": "n_c17f99faa917.wav"
+ },
+ {
+  "id": "g_p_run_loss_0",
   "text": "Oh, he's dropped for a loss!",
   "file": "n_9752e64d1dbf.wav"
  },
  {
-  "id": "g_td",
+  "id": "g_p_run_loss_1",
+  "text": "Tackle in the backfield! They lose yards.",
+  "file": "n_43f4126e30e7.wav"
+ },
+ {
+  "id": "g_p_run_loss_2",
+  "text": "The defense gets there first. Loss on the play.",
+  "file": "n_5581e2bfdf9e.wav"
+ },
+ {
+  "id": "g_p_juke_0",
+  "text": "What a juke!",
+  "file": "n_934cd3849892.wav"
+ },
+ {
+  "id": "g_p_juke_1",
+  "text": "Oh, he made him miss!",
+  "file": "n_179a7ab54aee.wav"
+ },
+ {
+  "id": "g_p_juke_2",
+  "text": "A nasty move! The defender grabs nothing but air!",
+  "file": "n_edfae715e1ac.wav"
+ },
+ {
+  "id": "g_p_broken_0",
+  "text": "He breaks the tackle!",
+  "file": "n_fd723c506745.wav"
+ },
+ {
+  "id": "g_p_broken_1",
+  "text": "Bounces right off the defender!",
+  "file": "n_a57ad7a5a52f.wav"
+ },
+ {
+  "id": "g_p_first_0",
+  "text": "First down!",
+  "file": "n_134488c1c572.wav"
+ },
+ {
+  "id": "g_p_first_1",
+  "text": "That's enough for the first down!",
+  "file": "n_0ec9acc847ff.wav"
+ },
+ {
+  "id": "g_p_first_2",
+  "text": "Move the chains! First down!",
+  "file": "n_b6d04380abde.wav"
+ },
+ {
+  "id": "g_p_first_3",
+  "text": "Fresh set of downs!",
+  "file": "n_37b2f04db0ce.wav"
+ },
+ {
+  "id": "g_p_td_0",
   "text": "Touchdown! What a play!",
   "file": "n_c9936d68c1c3.wav"
  },
  {
-  "id": "g_td2",
+  "id": "g_p_td_1",
   "text": "He's in! Touchdown!",
   "file": "n_b22b08771336.wav"
  },
  {
-  "id": "g_catch",
+  "id": "g_p_td_2",
+  "text": "Into the end zone! Six points!",
+  "file": "n_9107a3f98072.wav"
+ },
+ {
+  "id": "g_p_td_3",
+  "text": "Touchdown! The crowd goes wild!",
+  "file": "n_1b094f034fc7.wav"
+ },
+ {
+  "id": "g_p_td_cpu_0",
+  "text": "They score! Touchdown.",
+  "file": "n_ea11771773fb.wav"
+ },
+ {
+  "id": "g_p_td_cpu_1",
+  "text": "Into the end zone they go. Touchdown.",
+  "file": "n_f4cfecd5cadd.wav"
+ },
+ {
+  "id": "g_p_td_cpu_2",
+  "text": "Touchdown. That one stings.",
+  "file": "n_951b135c3b1a.wav"
+ },
+ {
+  "id": "g_p_throw_0",
+  "text": "He fires!",
+  "file": "n_e8f1f10bd072.wav"
+ },
+ {
+  "id": "g_p_throw_1",
+  "text": "Here's the throw!",
+  "file": "n_d28e08784f51.wav"
+ },
+ {
+  "id": "g_p_throw_2",
+  "text": "The pass is in the air!",
+  "file": "n_99fad2509941.wav"
+ },
+ {
+  "id": "g_p_throw_deep_0",
+  "text": "He lets it fly deep!",
+  "file": "n_b2aa8027dc51.wav"
+ },
+ {
+  "id": "g_p_throw_deep_1",
+  "text": "He's going long!",
+  "file": "n_7138255aa3eb.wav"
+ },
+ {
+  "id": "g_p_throw_deep_2",
+  "text": "He launches it down the field!",
+  "file": "n_2ccd3dd2cb58.wav"
+ },
+ {
+  "id": "g_p_catch_0",
   "text": "Caught! Great hands!",
   "file": "n_dea34fa013b9.wav"
  },
  {
-  "id": "g_incomplete",
-  "text": "The pass falls incomplete.",
-  "file": "n_fcac54c59560.wav"
+  "id": "g_p_catch_1",
+  "text": "Complete! Nice throw and catch.",
+  "file": "n_c71840f9be5a.wav"
  },
  {
-  "id": "g_int",
+  "id": "g_p_catch_2",
+  "text": "He hauls it in!",
+  "file": "n_925da5f64012.wav"
+ },
+ {
+  "id": "g_p_catch_3",
+  "text": "Right on the money. Complete!",
+  "file": "n_3ea30dc5d98e.wav"
+ },
+ {
+  "id": "g_p_catch_deep_0",
+  "text": "Caught deep down the field! Huge play!",
+  "file": "n_a194710e6006.wav"
+ },
+ {
+  "id": "g_p_catch_deep_1",
+  "text": "What a strike! A big gain through the air!",
+  "file": "n_832b24a21e37.wav"
+ },
+ {
+  "id": "g_p_incomplete_0",
+  "text": "Incomplete. The pass falls to the turf.",
+  "file": "n_f3d1bef331dc.wav"
+ },
+ {
+  "id": "g_p_incomplete_1",
+  "text": "The pass is off target. Incomplete.",
+  "file": "n_9b7393177496.wav"
+ },
+ {
+  "id": "g_p_incomplete_2",
+  "text": "Broken up! Incomplete.",
+  "file": "n_54193b7a9d34.wav"
+ },
+ {
+  "id": "g_p_incomplete_3",
+  "text": "No good. It hits the ground.",
+  "file": "n_c59d6c9bff79.wav"
+ },
+ {
+  "id": "g_p_int_0",
   "text": "Intercepted! What a turnover!",
   "file": "n_c936113b83d2.wav"
  },
  {
-  "id": "g_sack",
+  "id": "g_p_int_1",
+  "text": "Picked off! The defense takes it away!",
+  "file": "n_978bbd85a695.wav"
+ },
+ {
+  "id": "g_p_int_2",
+  "text": "Interception! He jumped the route!",
+  "file": "n_5be3fa4e6ae5.wav"
+ },
+ {
+  "id": "g_p_sack_0",
   "text": "Sacked! The quarterback goes down!",
   "file": "n_2402f44705cf.wav"
  },
  {
-  "id": "g_fourth",
-  "text": "Fourth down. Big decision time.",
-  "file": "n_2e82b8bd369e.wav"
+  "id": "g_p_sack_1",
+  "text": "He got to the quarterback! Sack!",
+  "file": "n_b5a7c6ce41e7.wav"
  },
  {
-  "id": "g_punt",
-  "text": "They'll punt it away.",
-  "file": "n_bf06b3d312d8.wav"
+  "id": "g_p_sack_2",
+  "text": "Brought down in the backfield! A sack!",
+  "file": "n_1cf55987a86b.wav"
  },
  {
-  "id": "g_fggood",
-  "text": "The kick is up... and it's good!",
-  "file": "n_68067b26b5ab.wav"
+  "id": "g_p_pressure_0",
+  "text": "He's under pressure!",
+  "file": "n_5aabc13d723e.wav"
  },
  {
-  "id": "g_fgmiss",
-  "text": "The kick is up... and it's no good!",
-  "file": "n_4842ee74b032.wav"
+  "id": "g_p_pressure_1",
+  "text": "The pocket is collapsing!",
+  "file": "n_31ef11878b76.wav"
  },
  {
-  "id": "g_tod",
-  "text": "Stopped short on fourth down! Turnover on downs!",
-  "file": "n_eaabdde95faf.wav"
+  "id": "g_p_pa_fake_0",
+  "text": "Fake handoff... and he keeps it!",
+  "file": "n_cdc9706856fc.wav"
  },
  {
-  "id": "g_oob",
+  "id": "g_p_pa_fake_1",
+  "text": "Play action! The fake is on!",
+  "file": "n_1bf37eca21ec.wav"
+ },
+ {
+  "id": "g_p_screen_0",
+  "text": "Screen pass! He's got blockers in front!",
+  "file": "n_66dff68e9fe1.wav"
+ },
+ {
+  "id": "g_p_screen_1",
+  "text": "Dump off to the back, with a wall of blockers!",
+  "file": "n_cc19b05773b9.wav"
+ },
+ {
+  "id": "g_p_oob_0",
   "text": "He's pushed out of bounds.",
   "file": "n_ec41b83acb89.wav"
  },
  {
-  "id": "g_win",
-  "text": "And that's the game! What a performance!",
-  "file": "n_9b05d0e1c8af.wav"
+  "id": "g_p_oob_1",
+  "text": "He steps out of bounds. Clock stops.",
+  "file": "n_f2507319466b.wav"
  },
  {
-  "id": "g_lose",
-  "text": "That's the game. Better luck next time!",
-  "file": "n_023255d65f57.wav"
- },
- {
-  "id": "g_stop",
-  "text": "What a stop by the defense!",
-  "file": "n_949696a41275.wav"
- },
- {
-  "id": "g_cputd",
-  "text": "They score! Touchdown!",
-  "file": "n_9c6c6a3aaca2.wav"
- },
- {
-  "id": "g_blitz",
-  "text": "Here comes the blitz!",
-  "file": "n_ed775ca7011c.wav"
- },
- {
-  "id": "g_deep",
-  "text": "He's going deep!",
-  "file": "n_f8fe248bfd2d.wav"
- },
- {
-  "id": "g_third",
-  "text": "Third down. Time to make something happen.",
-  "file": "n_01ded30bba19.wav"
- },
- {
-  "id": "g_touchback",
-  "text": "Touchback. The ball comes out to the twenty.",
-  "file": "n_66f134f95fc5.wav"
- },
- {
-  "id": "g_kickoff",
-  "text": "The kickoff sails into the end zone. Touchback!",
-  "file": "n_6c8bfca253e4.wav"
- },
- {
-  "id": "g_xp",
-  "text": "And the extra point is good.",
-  "file": "n_2d686e876fc7.wav"
- },
- {
-  "id": "g_fumble",
+  "id": "g_p_fumble_0",
   "text": "Fumble! The ball is loose!",
   "file": "n_4fa4e7584c11.wav"
  },
  {
-  "id": "g_goforit",
-  "text": "They're going for it!",
-  "file": "n_6e02e4a92f52.wav"
+  "id": "g_p_fumble_1",
+  "text": "He coughs it up! Fumble!",
+  "file": "n_eba5af034928.wav"
+ },
+ {
+  "id": "g_p_recover_def_0",
+  "text": "And the defense recovers! Turnover!",
+  "file": "n_d8a4d68051ab.wav"
+ },
+ {
+  "id": "g_p_recover_def_1",
+  "text": "The defense falls on it! Huge turnover!",
+  "file": "n_ead34ef1088c.wav"
+ },
+ {
+  "id": "g_p_recover_off_0",
+  "text": "But the offense gets it back. Phew!",
+  "file": "n_0eaf193a4516.wav"
+ },
+ {
+  "id": "g_p_recover_off_1",
+  "text": "Lucky bounce. The offense keeps it.",
+  "file": "n_6aa22b1cbe1a.wav"
+ },
+ {
+  "id": "g_p_tfl_def_0",
+  "text": "What a stop by the defense!",
+  "file": "n_949696a41275.wav"
+ },
+ {
+  "id": "g_p_tfl_def_1",
+  "text": "Great tackle! Nowhere to go!",
+  "file": "n_baed3d4d759f.wav"
+ },
+ {
+  "id": "g_p_tfl_def_2",
+  "text": "The defense shuts that down!",
+  "file": "n_5ce7e36a0598.wav"
+ },
+ {
+  "id": "g_p_fg_good_0",
+  "text": "The kick is up... and it's good!",
+  "file": "n_68067b26b5ab.wav"
+ },
+ {
+  "id": "g_p_fg_good_1",
+  "text": "Right down the middle! It's good!",
+  "file": "n_6f82921f100d.wav"
+ },
+ {
+  "id": "g_p_fg_good_2",
+  "text": "Through the uprights! Three points!",
+  "file": "n_7c677cc7495f.wav"
+ },
+ {
+  "id": "g_p_fg_wide_0",
+  "text": "The kick is up... and it's wide! No good.",
+  "file": "n_837405c70163.wav"
+ },
+ {
+  "id": "g_p_fg_wide_1",
+  "text": "He hooked it! No good.",
+  "file": "n_916ad0169212.wav"
+ },
+ {
+  "id": "g_p_fg_short_0",
+  "text": "The kick is up... and it's short!",
+  "file": "n_4d5086f4c539.wav"
+ },
+ {
+  "id": "g_p_fg_short_1",
+  "text": "Not enough leg. It falls short.",
+  "file": "n_c4acb18b9757.wav"
+ },
+ {
+  "id": "g_p_xp_good_0",
+  "text": "The extra point is good.",
+  "file": "n_50ef5fe99973.wav"
+ },
+ {
+  "id": "g_p_xp_good_1",
+  "text": "Extra point, good.",
+  "file": "n_367edd18eb2b.wav"
+ },
+ {
+  "id": "g_p_xp_miss_0",
+  "text": "The extra point is no good! A rare miss!",
+  "file": "n_cdbd139790d9.wav"
+ },
+ {
+  "id": "g_p_two_go_0",
+  "text": "They're going for two!",
+  "file": "n_5e9718a8b5c7.wav"
+ },
+ {
+  "id": "g_p_two_go_1",
+  "text": "No kick. They're going for two points!",
+  "file": "n_e9b384f1db38.wav"
+ },
+ {
+  "id": "g_p_two_good_0",
+  "text": "They get in! Two points!",
+  "file": "n_1503cd16a4d6.wav"
+ },
+ {
+  "id": "g_p_two_good_1",
+  "text": "Conversion is good! Two more points!",
+  "file": "n_a3354fba937a.wav"
+ },
+ {
+  "id": "g_p_two_fail_0",
+  "text": "Stopped! No two points.",
+  "file": "n_8755ad3106f8.wav"
+ },
+ {
+  "id": "g_p_two_fail_1",
+  "text": "The try is no good.",
+  "file": "n_328c716abb2b.wav"
+ },
+ {
+  "id": "g_p_punt_0",
+  "text": "Here's the punt. High and deep.",
+  "file": "n_4c22f7cf8111.wav"
+ },
+ {
+  "id": "g_p_punt_1",
+  "text": "Punt is away. Long hang time.",
+  "file": "n_c241652f1843.wav"
+ },
+ {
+  "id": "g_p_punt_2",
+  "text": "He booms the punt!",
+  "file": "n_c76b5038346f.wav"
+ },
+ {
+  "id": "g_p_punt_oob_0",
+  "text": "The punt rolls out of bounds.",
+  "file": "n_bae2632d0d97.wav"
+ },
+ {
+  "id": "g_p_fair_0",
+  "text": "He calls for a fair catch.",
+  "file": "n_5fabb047240a.wav"
+ },
+ {
+  "id": "g_p_fair_1",
+  "text": "Fair catch signaled. No return.",
+  "file": "n_9b1f854ceed9.wav"
+ },
+ {
+  "id": "g_p_punt_ret_0",
+  "text": "He fields the punt and looks for room!",
+  "file": "n_7fd044a4459d.wav"
+ },
+ {
+  "id": "g_p_punt_ret_1",
+  "text": "Here comes the return!",
+  "file": "n_58ce93fb75a4.wav"
+ },
+ {
+  "id": "g_p_punt_tb_0",
+  "text": "The punt bounces into the end zone. Touchback.",
+  "file": "n_2835b422f2ab.wav"
+ },
+ {
+  "id": "g_p_pinned_0",
+  "text": "Pinned deep! What a punt!",
+  "file": "n_8945234ad07e.wav"
+ },
+ {
+  "id": "g_p_pinned_1",
+  "text": "Downed deep in their own territory!",
+  "file": "n_a83b225f9717.wav"
+ },
+ {
+  "id": "g_p_tod_0",
+  "text": "Stopped short on fourth down! Turnover on downs!",
+  "file": "n_eaabdde95faf.wav"
+ },
+ {
+  "id": "g_p_tod_1",
+  "text": "They don't make it! The defense takes over!",
+  "file": "n_fb62f13a13cd.wav"
+ },
+ {
+  "id": "g_p_safety_0",
+  "text": "Tackled in the end zone! That's a safety!",
+  "file": "n_1767bc7e7cab.wav"
+ },
+ {
+  "id": "g_p_q_end_0",
+  "text": "That's the end of the quarter.",
+  "file": "n_e20050a7eb35.wav"
+ },
+ {
+  "id": "g_p_q_end_1",
+  "text": "The quarter comes to a close.",
+  "file": "n_03e329f4644e.wav"
+ },
+ {
+  "id": "g_p_half_0",
+  "text": "That's halftime, folks!",
+  "file": "n_a22680c95804.wav"
+ },
+ {
+  "id": "g_p_q4_0",
+  "text": "Fourth quarter. This is where games are won.",
+  "file": "n_e829534d2707.wav"
+ },
+ {
+  "id": "g_p_tick_0",
+  "text": "Clock is running down!",
+  "file": "n_25222cbe8307.wav"
+ },
+ {
+  "id": "g_p_tick_1",
+  "text": "Time is almost out!",
+  "file": "n_fb624162b74b.wav"
+ },
+ {
+  "id": "g_p_ot_0",
+  "text": "We're going to overtime! Next score wins!",
+  "file": "n_0b11755be57f.wav"
+ },
+ {
+  "id": "g_p_win_0",
+  "text": "And that's the game! What a performance!",
+  "file": "n_9b05d0e1c8af.wav"
+ },
+ {
+  "id": "g_p_win_1",
+  "text": "Final whistle! What a win!",
+  "file": "n_8d0a332c9246.wav"
+ },
+ {
+  "id": "g_p_lose_0",
+  "text": "That's the game. Tough one today.",
+  "file": "n_9bbe4309810f.wav"
+ },
+ {
+  "id": "g_p_lose_1",
+  "text": "Final whistle. Better luck next time.",
+  "file": "n_a2832a22321d.wav"
+ },
+ {
+  "id": "g_p_tie_0",
+  "text": "It ends in a tie! What a battle!",
+  "file": "n_86b43c48efcb.wav"
+ },
+ {
+  "id": "g_a_hole_0",
+  "text": "See that? The blockers pushed the defenders apart and opened a hole. Hit it fast, and you get big yards.",
+  "file": "n_74062b0f1f83.wav"
+ },
+ {
+  "id": "g_a_hole_1",
+  "text": "That's great blocking. When the hole opens, the runner just has to see it and go.",
+  "file": "n_86a52e8d146a.wav"
+ },
+ {
+  "id": "g_a_stuffed_0",
+  "text": "The defense filled the hole before he got there. When that happens, look to cut outside.",
+  "file": "n_03c50ced3d6d.wav"
+ },
+ {
+  "id": "g_a_stuffed_1",
+  "text": "Nowhere to run there. Sometimes a short gain is just part of the game.",
+  "file": "n_ea03a5c6c1b5.wav"
+ },
+ {
+  "id": "g_a_pa_0",
+  "text": "That's play action. The linebackers stepped up to stop the run fake, and that left room behind them.",
+  "file": "n_04c416777871.wav"
+ },
+ {
+  "id": "g_a_pa_1",
+  "text": "The fake handoff froze the defense. That's why play action works so well after you run the ball.",
+  "file": "n_afc9617798cb.wav"
+ },
+ {
+  "id": "g_a_read_open_0",
+  "text": "Great read. He waited for the open receiver instead of forcing it.",
+  "file": "n_dc662611e759.wav"
+ },
+ {
+  "id": "g_a_read_open_1",
+  "text": "He found the open man. That's smart quarterback play.",
+  "file": "n_73c055536bc6.wav"
+ },
+ {
+  "id": "g_a_int_cov_0",
+  "text": "He threw it into coverage. If your read says covered, wait for the next one.",
+  "file": "n_77b45c5b8a50.wav"
+ },
+ {
+  "id": "g_a_int_cov_1",
+  "text": "That receiver was covered. A better choice was to hold it a moment and find the open man.",
+  "file": "n_3760f1fcac35.wav"
+ },
+ {
+  "id": "g_a_sack_0",
+  "text": "He held the ball too long. The longer you wait, the more time the pass rush has to get home.",
+  "file": "n_c63bd028968e.wav"
+ },
+ {
+  "id": "g_a_sack_1",
+  "text": "When the reads are covered, a quick throw or a scramble beats taking the sack.",
+  "file": "n_dacebcdf4692.wav"
+ },
+ {
+  "id": "g_a_first_0",
+  "text": "Ten yards gained, so the downs reset. Four more tries!",
+  "file": "n_afee68b10476.wav"
+ },
+ {
+  "id": "g_a_third_0",
+  "text": "Third and long is a passing down. The defense knows it too.",
+  "file": "n_b63cc7c35c74.wav"
+ },
+ {
+  "id": "g_a_punt_smart_0",
+  "text": "Punting here is smart. It pushes them far away from scoring.",
+  "file": "n_941f9033ff17.wav"
+ },
+ {
+  "id": "g_a_fg_range_0",
+  "text": "They're close enough to try a field goal for three points.",
+  "file": "n_0dd6fcb9b6d5.wav"
+ },
+ {
+  "id": "g_a_guess_right_0",
+  "text": "Good call! You read their formation and picked the right defense.",
+  "file": "n_a78cda184d86.wav"
+ },
+ {
+  "id": "g_a_guess_right_1",
+  "text": "You saw that coming. The scouting report paid off.",
+  "file": "n_a94db5224544.wav"
+ },
+ {
+  "id": "g_a_guess_wrong_0",
+  "text": "They ran right at that defense. The formation gives clues, so check the scouting report.",
+  "file": "n_788b933da587.wav"
+ },
+ {
+  "id": "g_a_guess_wrong_1",
+  "text": "That defense was built for something else. Watch the formation for hints.",
+  "file": "n_f348f8fdd326.wav"
+ },
+ {
+  "id": "g_a_blitz_screen_0",
+  "text": "The blitz sent extra rushers, and the screen pass slipped right behind them.",
+  "file": "n_2b5b72c2d9f2.wav"
+ },
+ {
+  "id": "g_a_zone_deep_0",
+  "text": "The defense dropped deep into zones, so the long pass had nowhere to go.",
+  "file": "n_e3535dd5ee24.wav"
+ },
+ {
+  "id": "g_a_oob_0",
+  "text": "Out of bounds stops the clock. That saves time.",
+  "file": "n_9c30f492aade.wav"
+ },
+ {
+  "id": "g_a_touchback_0",
+  "text": "A touchback means no return. The ball is just placed out at the thirty-five.",
+  "file": "n_a87ff0e9a4a6.wav"
+ },
+ {
+  "id": "g_a_safety_0",
+  "text": "Tackled in his own end zone: that's two points for the defense, and they get the ball back too.",
+  "file": "n_09e075cb0cac.wav"
+ },
+ {
+  "id": "g_a_pinned_0",
+  "text": "Pinned deep. Now the other team has a long way to go.",
+  "file": "n_2d516422b409.wav"
+ },
+ {
+  "id": "g_a_two_0",
+  "text": "Going for two: one play from the two-yard line. Score and it's worth two points instead of one.",
+  "file": "n_2ab234b07a0b.wav"
+ },
+ {
+  "id": "g_a_tod_0",
+  "text": "They came up short on fourth down, so the other team takes over right there.",
+  "file": "n_01cdf1838ca6.wav"
+ },
+ {
+  "id": "g_a_juke_0",
+  "text": "Nice juke! Making a defender miss turns a short gain into a big one.",
+  "file": "n_56939bef8968.wav"
+ },
+ {
+  "id": "g_a_fair_0",
+  "text": "A fair catch means no return, but nobody can hit him either.",
+  "file": "n_65eeb0a1fd7a.wav"
+ },
+ {
+  "id": "g_a_half_0",
+  "text": "Good first half. Remember: watch the scouting report on defense, and read your receivers on offense.",
+  "file": "n_289f4468ec31.wav"
+ },
+ {
+  "id": "g_a_runstop_0",
+  "text": "The defense is crowding the line to stop the run. That's a perfect time for play action.",
+  "file": "n_22590540897f.wav"
  }
 ]

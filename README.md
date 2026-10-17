@@ -10,7 +10,11 @@ An animated, narrated crash course that teaches complete beginners the basics of
 - **Football Smarts:** formations, defensive fronts, motion, reading the defense, play-action and other tricks.
 - **Quizzes:** quick checks in every step, a final quiz for each course, and a 10-question bonus quiz.
 - **Flashcards:** every football word from all three courses, plus all the quiz questions.
-- **Game Day:** an arcade football game. Name your team, call the plays, steer your runner, pick your receiver. First to 14 points (two touchdowns) wins.
+- **Game Day:** an arcade football game with 4 one-minute quarters.
+  - **Offense:** pick from a 7-play playbook. A coach card explains each play and draws it on the field. Run through the glowing hole, or watch your QB's reads and press Throw when one says OPEN.
+  - **Defense:** read the scouting report, pick a defense, and steer your player to the ball.
+  - **Kicking:** power and accuracy meters, a behind-the-kicker view for field goals, and aim-where-it-lands punts.
+  - **Booth:** a play-by-play announcer and an analyst who explains what just happened.
 - **Ask Coach:** Coach Sam Lite, a chat helper built into the page (`coachlite.js`). It matches questions against about 100 beginner-friendly answers plus every flashcard.
   - **Speed:** instant, and it works offline.
   - **Cost:** no AI model, download, API key or server.
