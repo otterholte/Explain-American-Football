@@ -2420,6 +2420,16 @@
   "file": "n_035393ac1bca.wav"
  },
  {
+  "id": "g_p_third_med_0",
+  "text": "Third down, a few yards to go.",
+  "file": "n_8162c9ecdd4e.wav"
+ },
+ {
+  "id": "g_p_third_med_1",
+  "text": "Third and medium. A big play coming up.",
+  "file": "n_e8e7e1e98f23.wav"
+ },
+ {
   "id": "g_p_fourth_0",
   "text": "Fourth down. Decision time.",
   "file": "n_1769f03138cd.wav"
@@ -2735,6 +2745,11 @@
   "file": "n_1bf37eca21ec.wav"
  },
  {
+  "id": "g_p_pa_fake_2",
+  "text": "He fakes it to the back... and looks downfield!",
+  "file": "n_4e5fa0b88a37.wav"
+ },
+ {
   "id": "g_p_screen_0",
   "text": "Screen pass! He's got blockers in front!",
   "file": "n_66dff68e9fe1.wav"
@@ -2743,6 +2758,11 @@
   "id": "g_p_screen_1",
   "text": "Dump off to the back, with a wall of blockers!",
   "file": "n_cc19b05773b9.wav"
+ },
+ {
+  "id": "g_p_screen_2",
+  "text": "The screen is set up! Linemen leading the way!",
+  "file": "n_7d74815c5ef7.wav"
  },
  {
   "id": "g_p_oob_0",
@@ -2843,6 +2863,11 @@
   "id": "g_p_xp_good_1",
   "text": "Extra point, good.",
   "file": "n_367edd18eb2b.wav"
+ },
+ {
+  "id": "g_p_xp_good_2",
+  "text": "Easy kick. The extra point is good.",
+  "file": "n_2bc1bfccb2cf.wav"
  },
  {
   "id": "g_p_xp_miss_0",
