@@ -111,468 +111,543 @@
  },
  {
   "id": "s4_0",
-  "text": "Football happens in short bursts called plays. Every play starts with a snap.",
-  "file": "n_c701065e8f71.wav"
- },
- {
-  "id": "s4_1",
-  "text": "The line of scrimmage is an imaginary line where the ball sits. Nobody can cross it until the snap.",
-  "file": "n_4ed5b3bf970e.wav"
- },
- {
-  "id": "s4_2",
-  "text": "So what's a snap? The center passes the ball backward, between his legs, to the quarterback.",
-  "file": "n_bc2a9da9c3c3.wav"
- },
- {
-  "id": "s4_3",
-  "text": "As soon as the ball is snapped, the play starts and all 22 players move at once. Here, the running back takes the ball and runs around the end of the line...",
-  "file": "n_e75ea4c802f7.wav"
- },
- {
-  "id": "s4_4",
-  "text": "The play ends when the ball carrier is tackled, runs out of bounds, or a pass hits the ground. A referee blows a whistle to end it.",
-  "file": "n_a1cdabdbb0ef.wav"
- },
- {
-  "id": "s4_5",
-  "text": "The ball is placed where the play ended. That spot becomes the new line of scrimmage.",
-  "file": "n_eb2218c96d65.wav"
- },
- {
-  "id": "s4_6",
-  "text": "Then the teams huddle, pick their next play, and have 40 seconds to snap the ball again.",
-  "file": "n_eee65da7650c.wav"
- },
- {
-  "id": "s5_0",
-  "text": "There are two ways to move the ball forward. Way number one is the run.",
-  "file": "n_c12f4f80d9eb.wav"
- },
- {
-  "id": "s5_1",
-  "text": "The quarterback takes the snap and hands the ball to the running back...",
-  "file": "n_251937d571b5.wav"
- },
- {
-  "id": "s5_2",
-  "text": "...who runs through a gap in the line, called the hole. His blockers push defenders out of the way to open it, so fewer defenders can reach him.",
-  "file": "n_d5f81df63398.wav"
- },
- {
-  "id": "s5_3",
-  "text": "He's tackled after gaining 7 yards.",
-  "file": "n_90e721c95806.wav"
- },
- {
-  "id": "s5_4",
-  "text": "Teams often run the ball because it's the safer choice. We'll see why in just a moment!",
-  "file": "n_7a370e0b06ae.wav"
- },
- {
-  "id": "s6_0",
-  "text": "Way number two is the pass: the quarterback throws the ball to a teammate down the field.",
-  "file": "n_39f6ca7ce157.wav"
- },
- {
-  "id": "s6_1",
-  "text": "Receivers run down the field, while the offensive linemen, the big blockers up front, protect the quarterback...",
-  "file": "n_929512af4ef8.wav"
- },
- {
-  "id": "s6_2",
-  "text": "Caught! He runs a few more yards before he's tackled.",
-  "file": "n_ec8f136d5fe5.wav"
- },
- {
-  "id": "s6_3",
-  "text": "That's a gain of 16 yards. Passes can gain a lot of yards at once.",
-  "file": "n_535728660c48.wav"
- },
- {
-  "id": "s6_4",
-  "text": "But passing is risky. If nobody catches it, the pass is incomplete...",
-  "file": "n_3e5dce0a1998.wav"
- },
- {
-  "id": "s6_5",
-  "text": "An incomplete pass means no gain. The ball goes back to where the play started.",
-  "file": "n_afb8eebbd294.wav"
- },
- {
-  "id": "s6_6",
-  "text": "And if a defender catches the pass, that's an interception. More on that later!",
-  "file": "n_c5b0f7a18778.wav"
- },
- {
-  "id": "s6_7",
-  "text": "So, why is running often the safer choice? Let's see what you think.",
-  "file": "n_e8b570631424.wav"
- },
- {
-  "id": "s7_0",
-  "text": "Now the most important idea in football: downs.",
-  "file": "n_3906d5798880.wav"
- },
- {
-  "id": "s7_1",
-  "text": "The offense gets 4 tries to move the ball 10 yards. Each try is called a down.",
-  "file": "n_0aabb4286c05.wav"
- },
- {
-  "id": "s7_2",
-  "text": "Memory tip: whenever you hear \"down,\" just think \"try.\"",
-  "file": "n_4dd576004fb2.wav"
- },
- {
-  "id": "s7_3",
-  "text": "On TV, that 10-yard target shows up as a yellow line painted on the field.",
-  "file": "n_9fea96f794d1.wav"
- },
- {
-  "id": "s7_4",
-  "text": "The scoreboard says \"1st and 10.\" That means first down, with 10 yards to go.",
-  "file": "n_2d07c2ee784a.wav"
- },
- {
-  "id": "s7_5",
-  "text": "On 1st down, they run the ball...",
-  "file": "n_f56b12ea5be4.wav"
- },
- {
-  "id": "s7_6",
-  "text": "...and gain 4 yards.",
-  "file": "n_15347f8a2a10.wav"
- },
- {
-  "id": "s7_7",
-  "text": "They needed 10 yards. 10 minus 4 leaves 6 yards to go.",
-  "file": "n_c2250249e710.wav"
- },
- {
-  "id": "s7_8",
-  "text": "And they've used one try, so it's now their second try. That's called \"2nd and 6.\"",
-  "file": "n_3692ad0bda57.wav"
- },
- {
-  "id": "s7_9",
-  "text": "On 2nd down, the quarterback throws a pass...",
-  "file": "n_23c7d1e1bff3.wav"
- },
- {
-  "id": "s7_10",
-  "text": "...caught, and he runs right past the yellow line!",
-  "file": "n_219e7a0faaf5.wav"
- },
- {
-  "id": "s7_11",
-  "text": "Reaching the yellow line earns a first down. All 4 tries come back...",
-  "file": "n_44c486da662a.wav"
- },
- {
-  "id": "s7_12",
-  "text": "...and a new yellow line appears 10 yards ahead. So it's \"1st and 10\" again.",
-  "file": "n_cc47f4f1da34.wav"
- },
- {
-  "id": "s7_13",
-  "text": "Keep earning first downs, and you move down the field toward the end zone. That's called a drive.",
-  "file": "n_224f63bee188.wav"
- },
- {
-  "id": "s7_14",
-  "text": "Think of it like a road trip: each first down is a stop along the way, and the end zone is your destination!",
-  "file": "n_856f063cf997.wav"
- },
- {
-  "id": "s8_0",
-  "text": "Your turn! Quick reminder: the down is which try it is, out of 4. The distance is how many yards they still need to reach the yellow line.",
-  "file": "n_48a46ab3167e.wav"
- },
- {
-  "id": "s8_1",
-  "text": "Watch each play, then pick the new down and distance. It's 1st and 10. Blue hands the ball off...",
-  "file": "n_da652c9bbbdb.wav"
- },
- {
-  "id": "s8_2",
-  "text": "Yes, 2nd and 7. The players reset. Now Blue throws a pass...",
-  "file": "n_3e9f195e2771.wav"
- },
- {
-  "id": "s8_3",
-  "text": "That's a first down! The yellow line moves 10 yards ahead, and the players reset. Next play...",
-  "file": "n_5123ae6aa220.wav"
- },
- {
-  "id": "s8_4",
-  "text": "Right, 2nd and 10. The players reset, and Blue runs it again...",
-  "file": "n_d992af324144.wav"
- },
- {
-  "id": "s8_5",
-  "text": "Perfect, 3rd and 6. Blue goes for a deep pass...",
-  "file": "n_26f7297bdd33.wav"
- },
- {
-  "id": "s8_6",
-  "text": "Touchdown! You called every down. That's how a drive works.",
-  "file": "n_860592c0487b.wav"
- },
- {
-  "id": "s9_0",
-  "text": "After a team scores, it kicks the ball to the other team. This is called a kickoff.",
-  "file": "n_72c1ce7afe26.wav"
- },
- {
-  "id": "s9_1",
-  "text": "The kicker boots it far down the field, and the other team catches it...",
-  "file": "n_ca9a8d2fcee2.wav"
- },
- {
-  "id": "s9_2",
-  "text": "...then tries to run it back as far as they can. That's called a kick return.",
-  "file": "n_da85062c8dfd.wav"
- },
- {
-  "id": "s9_3",
-  "text": "What a return! Now Red is on offense, close to Blue's end zone, and moving toward the end zone that Blue protects.",
-  "file": "n_e8855a9eb129.wav"
- },
- {
-  "id": "s9_4",
-  "text": "1st and 10: Red runs for 2 yards.",
-  "file": "n_deb551ed68fc.wav"
- },
- {
-  "id": "s9_5",
-  "text": "The players reset for their next try. Red gained 2 yards, so now it's 2nd and 8.",
-  "file": "n_b1459f987786.wav"
- },
- {
-  "id": "s9_6",
-  "text": "2nd and 8: Red throws, but the pass falls incomplete.",
-  "file": "n_5104b9595538.wav"
- },
- {
-  "id": "s9_7",
-  "text": "The players reset again. The pass was incomplete, so no yards were gained. Now it's 3rd and 8.",
-  "file": "n_58ab958aefec.wav"
- },
- {
-  "id": "s9_8",
-  "text": "3rd and 8: Red runs for 3 more yards.",
-  "file": "n_b5d2cb74e6c3.wav"
- },
- {
-  "id": "s9_9",
-  "text": "Now it's 4th and 5, at Blue's 17-yard line. What should Red do? You'll decide in the next step!",
-  "file": "n_4c6bf1c94800.wav"
- },
- {
-  "id": "s10_0",
-  "text": "It's 4th and 5. This is Red's last try to reach the yellow line.",
-  "file": "n_f0d3d3df4526.wav"
- },
- {
-  "id": "s10_1",
-  "text": "On 4th down, a team has three choices. Tap each one, in order, to see what would happen!",
-  "file": "n_33df82a6fbeb.wav"
- },
- {
-  "id": "s10_2",
-  "text": "Going for it means running one more normal play on 4th down, to try to reach the yellow line.",
-  "file": "n_9d7be4df7dc7.wav"
- },
- {
-  "id": "s10_3",
-  "text": "Red hands the ball off...",
-  "file": "n_fd73252b32ec.wav"
- },
- {
-  "id": "s10_4",
-  "text": "...but he's stopped short of the yellow line! Blue gets the ball right here.",
-  "file": "n_bf710b4d040f.wav"
- },
- {
-  "id": "s10_5",
-  "text": "This is called a turnover on downs. Think of it as Red's turn being over: they turned the ball over to Blue, so now it's Blue's turn.",
-  "file": "n_cbcd5a3dfaf8.wav"
- },
- {
-  "id": "s10_6",
-  "text": "Teams usually go for it when they need just a yard or so, when they're very close to scoring a touchdown, or when they're far behind late in the game and really need points.",
-  "file": "n_289e93136a16.wav"
- },
- {
-  "id": "s10_7",
-  "text": "A field goal is a kick worth 3 points. Instead of a normal play, the team sends out its kicker, a player whose main job is kicking the ball.",
-  "file": "n_a183f594b0d1.wav"
- },
- {
-  "id": "s10_8",
-  "text": "Here's the view from right behind the kicker. To score, the ball has to go between the two posts and above the crossbar.",
-  "file": "n_ad6cdf1054c0.wav"
- },
- {
-  "id": "s10_9",
-  "text": "The ball is snapped to the holder, and the kicker kicks it...",
-  "file": "n_fc59513b0a7b.wav"
- },
- {
-  "id": "s10_10",
-  "text": "It's good! The ball went between the posts and over the crossbar, so Red gets 3 points. When you're this close, a field goal is often the smart choice.",
-  "file": "n_5a4228d7a1ea.wav"
- },
- {
-  "id": "s10_11",
-  "text": "A punt means kicking the ball away to the other team on purpose, so they have to start far from where they want to go.",
-  "file": "n_3f3d8fe84b64.wav"
- },
- {
-  "id": "s10_12",
-  "text": "If Red punts from this close, the ball flies into the end zone. Blue gets it back at its own 20, and Red gives up a great chance to score.",
-  "file": "n_1b2ef054757b.wav"
- },
- {
-  "id": "s10_13",
-  "text": "It's not a hard rule, but teams usually punt when they're around midfield or on their own side of the field.",
-  "file": "n_4d4078ca27af.wav"
- },
- {
-  "id": "s10_14",
-  "text": "That's because most kickers can't make a field goal from much more than 60 yards away. From the green area, a kick is possible. From the red area, it's too far, so teams punt. The longest field goal ever in the NFL was 68 yards!",
-  "file": "n_a61f111844d1.wav"
- },
- {
-  "id": "s11_0",
-  "text": "Let's talk points! Here are the main ways to score.",
-  "file": "n_b53c3c09008a.wav"
- },
- {
-  "id": "s11_1",
-  "text": "A touchdown is worth 6 points: carry or catch the ball in the other team's end zone.",
-  "file": "n_afbefb8543ab.wav"
- },
- {
-  "id": "s11_2",
-  "text": "After every touchdown, the team gets a bonus try. They can choose...",
-  "file": "n_d9902ae310ef.wav"
- },
- {
-  "id": "s11_3",
-  "text": "...to kick it through the goal posts for 1 point, called the extra point...",
-  "file": "n_ed886c6d9232.wav"
- },
- {
-  "id": "s11_4",
-  "text": "...or to run or pass it into the end zone from the 2-yard line for 2 points.",
-  "file": "n_6072b5393e30.wav"
- },
- {
-  "id": "s11_5",
-  "text": "Most teams choose the 1-point kick, because it's good almost every time. Scoring from the 2-yard line in one try is a lot harder.",
-  "file": "n_188330d1c953.wav"
- },
- {
-  "id": "s11_6",
-  "text": "A field goal is worth 3 points. A team can try one on any down, if they're close enough.",
-  "file": "n_735f76204e17.wav"
- },
- {
-  "id": "s11_7",
-  "text": "The most common scores are a touchdown plus the extra point, which makes 7, and a field goal, which is 3.",
-  "file": "n_80c3a4d80579.wav"
- },
- {
-  "id": "s11_8",
-  "text": "That's why you'll usually see a team's score go up by 7 or by 3.",
-  "file": "n_bfe3ad74781d.wav"
- },
- {
-  "id": "s11_9",
-  "text": "One rare play to know: a safety. If the defense tackles the ball carrier inside his own end zone, the defense gets 2 points.",
-  "file": "n_a0df41298b04.wav"
- },
- {
-  "id": "s12_0",
   "text": "Here's the offense: the 11 players on the team with the ball. Each position has a name that hints at its job.",
   "file": "n_9bf3cfc3276b.wav"
  },
  {
-  "id": "s12_1",
+  "id": "s4_1",
   "text": "The quarterback, or QB, is the leader. In the huddle, he tells everyone which play they're running.",
   "file": "n_f7daafe4608c.wav"
  },
  {
-  "id": "s12_2",
-  "text": "After the snap, he either hands the ball to a runner, or looks down the field and throws a pass.",
-  "file": "n_5492704438ec.wav"
+  "id": "s4_2",
+  "text": "When the play starts, he either hands the ball to a runner, or looks down the field and throws a pass.",
+  "file": "n_f71e830646ef.wav"
  },
  {
-  "id": "s12_3",
-  "text": "The center is in the center of the line, and he's at the center of every play, because he snaps the ball to the quarterback.",
-  "file": "n_0a49484b3438.wav"
+  "id": "s4_3",
+  "text": "The center is in the center of the line, and he's at the center of every play. He starts each play by passing the ball back to the quarterback. That's called the snap.",
+  "file": "n_633002e5b300.wav"
  },
  {
-  "id": "s12_4",
+  "id": "s4_4",
   "text": "The offensive line is just what it sounds like: a line of five big blockers, including the center. Each spot has its own name, but you don't need to know those to enjoy a game.",
   "file": "n_a617e38e8d8c.wav"
  },
  {
-  "id": "s12_5",
+  "id": "s4_5",
   "text": "The running back is easy to remember: he runs! He takes handoffs and carries the ball.",
   "file": "n_f0d42e3f84a4.wav"
  },
  {
-  "id": "s12_6",
+  "id": "s4_6",
   "text": "The wide receivers line up the widest, farthest out on the field, and they receive the ball when it's thrown to them.",
   "file": "n_17d30b4a8447.wav"
  },
  {
-  "id": "s12_7",
+  "id": "s4_7",
   "text": "The tight end lines up tight against the line. He's a hybrid: big enough to block, and quick enough to catch.",
   "file": "n_5be622fd2ced.wav"
  },
  {
-  "id": "s12_8",
+  "id": "s4_8",
   "text": "Add it up, and that's 11 players on offense for every play.",
   "file": "n_de382f82f9c2.wav"
  },
  {
-  "id": "s13_0",
+  "id": "s5_0",
   "text": "Now the defense. Their job is to stop the offense.",
   "file": "n_cca319733a52.wav"
  },
  {
-  "id": "s13_1",
+  "id": "s5_1",
   "text": "The defensive line is the first line of defense. They line up face to face with the offensive line and try to push past them.",
   "file": "n_a09c80536202.wav"
  },
  {
-  "id": "s13_2",
+  "id": "s5_2",
   "text": "If a defender tackles the quarterback before he can throw, that's called a sack, like stuffing him in a sack before he can pass.",
   "file": "n_56acd8d5eddb.wav"
  },
  {
-  "id": "s13_3",
+  "id": "s5_3",
   "text": "The linebackers back up the line. They stand right behind it, ready to chase runners and cover short passes.",
   "file": "n_5f71ff0d0833.wav"
  },
  {
-  "id": "s13_4",
+  "id": "s5_4",
   "text": "The cornerbacks play out on the corners of the defense, guarding the wide receivers.",
   "file": "n_579f048535e1.wav"
  },
  {
-  "id": "s13_5",
+  "id": "s5_5",
   "text": "The safeties play farthest back. They're the team's safety measure: the last chance to stop the play if everything else fails.",
   "file": "n_412e62952972.wav"
  },
  {
-  "id": "s13_6",
+  "id": "s5_6",
+  "text": "Defenders usually guard players in one of two ways. In man defense, each defender picks one player, his \"man,\" and sticks with him like a shadow.",
+  "file": "n_8254a408fcd4.wav"
+ },
+ {
+  "id": "s5_7",
+  "text": "In zone defense, each defender guards an area of the field instead, and covers whoever comes into it.",
+  "file": "n_f72b402aa7d2.wav"
+ },
+ {
+  "id": "s5_8",
+  "text": "Those are the two most common ways defenses play. You can learn more about them in the Football Smarts video.",
+  "file": "n_59b937c2849e.wav"
+ },
+ {
+  "id": "s5_9",
   "text": "Plus special teams: kickers, punters and returners who come in for kicking plays.",
   "file": "n_f56d5f064fe0.wav"
+ },
+ {
+  "id": "s6_0",
+  "text": "Football happens in short bursts called plays. Every play starts with a snap.",
+  "file": "n_c701065e8f71.wav"
+ },
+ {
+  "id": "s6_1",
+  "text": "The line of scrimmage is an imaginary line where the ball sits. Nobody can cross it until the snap.",
+  "file": "n_4ed5b3bf970e.wav"
+ },
+ {
+  "id": "s6_2",
+  "text": "So what's a snap? The center passes the ball backward, between his legs, to the quarterback.",
+  "file": "n_bc2a9da9c3c3.wav"
+ },
+ {
+  "id": "s6_3",
+  "text": "As soon as the ball is snapped, the play starts and all 22 players move at once. Here, the running back takes the ball and runs around the end of the line...",
+  "file": "n_e75ea4c802f7.wav"
+ },
+ {
+  "id": "s6_4",
+  "text": "The play ends when the ball carrier is tackled, runs out of bounds, or a pass hits the ground. A referee blows a whistle to end it.",
+  "file": "n_a1cdabdbb0ef.wav"
+ },
+ {
+  "id": "s6_5",
+  "text": "The ball moves forward to where the play ended. That spot becomes the new line of scrimmage.",
+  "file": "n_c1261f3c5ab4.wav"
+ },
+ {
+  "id": "s6_6",
+  "text": "But he was tackled near the edge of the field. If the next play started way out there, one side of the field would be squished. So the ball gets slid back toward the middle, to the nearest hash marks, the short lines near the center.",
+  "file": "n_635db05d5a2c.wav"
+ },
+ {
+  "id": "s6_7",
+  "text": "Now both teams have room to line up, and the next play starts from there.",
+  "file": "n_0e4022956c0b.wav"
+ },
+ {
+  "id": "s6_8",
+  "text": "Then the teams huddle, pick their next play, and have 40 seconds to snap the ball again.",
+  "file": "n_eee65da7650c.wav"
+ },
+ {
+  "id": "s7_0",
+  "text": "There are two ways to move the ball forward. Way number one is the run.",
+  "file": "n_c12f4f80d9eb.wav"
+ },
+ {
+  "id": "s7_1",
+  "text": "The quarterback takes the snap and hands the ball to the running back...",
+  "file": "n_251937d571b5.wav"
+ },
+ {
+  "id": "s7_2",
+  "text": "...who runs through a gap in the line, called the hole. His blockers push defenders out of the way to open it, so fewer defenders can reach him.",
+  "file": "n_d5f81df63398.wav"
+ },
+ {
+  "id": "s7_3",
+  "text": "He's tackled after gaining 7 yards.",
+  "file": "n_90e721c95806.wav"
+ },
+ {
+  "id": "s7_4",
+  "text": "Teams often run the ball because it's the safer choice. We'll see why in just a moment!",
+  "file": "n_7a370e0b06ae.wav"
+ },
+ {
+  "id": "s8_0",
+  "text": "Way number two is the pass: the quarterback throws the ball to a teammate down the field.",
+  "file": "n_39f6ca7ce157.wav"
+ },
+ {
+  "id": "s8_1",
+  "text": "Receivers run down the field, while the offensive linemen, the big blockers up front, protect the quarterback...",
+  "file": "n_929512af4ef8.wav"
+ },
+ {
+  "id": "s8_2",
+  "text": "Caught! He runs a few more yards before he's tackled.",
+  "file": "n_ec8f136d5fe5.wav"
+ },
+ {
+  "id": "s8_3",
+  "text": "That's a gain of 16 yards. Passes can gain a lot of yards at once.",
+  "file": "n_535728660c48.wav"
+ },
+ {
+  "id": "s8_4",
+  "text": "But passing is risky. If nobody catches it, the pass is incomplete...",
+  "file": "n_3e5dce0a1998.wav"
+ },
+ {
+  "id": "s8_5",
+  "text": "An incomplete pass means no gain. The ball goes back to where the play started.",
+  "file": "n_afb8eebbd294.wav"
+ },
+ {
+  "id": "s8_6",
+  "text": "And if a defender catches the pass, that's an interception. More on that later!",
+  "file": "n_c5b0f7a18778.wav"
+ },
+ {
+  "id": "s8_7",
+  "text": "So, why is running often the safer choice? Let's see what you think.",
+  "file": "n_e8b570631424.wav"
+ },
+ {
+  "id": "s9_0",
+  "text": "Now the most important idea in football: downs.",
+  "file": "n_3906d5798880.wav"
+ },
+ {
+  "id": "s9_1",
+  "text": "The offense gets 4 tries to move the ball 10 yards. Each try is called a down.",
+  "file": "n_0aabb4286c05.wav"
+ },
+ {
+  "id": "s9_2",
+  "text": "Memory tip: whenever you hear \"down,\" just think \"try.\"",
+  "file": "n_4dd576004fb2.wav"
+ },
+ {
+  "id": "s9_3",
+  "text": "On TV, that 10-yard target shows up as a yellow line painted on the field.",
+  "file": "n_9fea96f794d1.wav"
+ },
+ {
+  "id": "s9_4",
+  "text": "The scoreboard says \"1st and 10.\" That means first down, with 10 yards to go.",
+  "file": "n_2d07c2ee784a.wav"
+ },
+ {
+  "id": "s9_5",
+  "text": "On 1st down, they run the ball...",
+  "file": "n_f56b12ea5be4.wav"
+ },
+ {
+  "id": "s9_6",
+  "text": "...and gain 4 yards.",
+  "file": "n_15347f8a2a10.wav"
+ },
+ {
+  "id": "s9_7",
+  "text": "They needed 10 yards. 10 minus 4 leaves 6 yards to go.",
+  "file": "n_c2250249e710.wav"
+ },
+ {
+  "id": "s9_8",
+  "text": "And they've used one try, so it's now their second try. That's called \"2nd and 6.\"",
+  "file": "n_3692ad0bda57.wav"
+ },
+ {
+  "id": "s9_9",
+  "text": "On 2nd down, the quarterback throws a pass...",
+  "file": "n_23c7d1e1bff3.wav"
+ },
+ {
+  "id": "s9_10",
+  "text": "...caught, and he runs right past the yellow line!",
+  "file": "n_219e7a0faaf5.wav"
+ },
+ {
+  "id": "s9_11",
+  "text": "Reaching the yellow line earns a first down. All 4 tries come back...",
+  "file": "n_44c486da662a.wav"
+ },
+ {
+  "id": "s9_12",
+  "text": "...and a new yellow line appears 10 yards ahead. So it's \"1st and 10\" again.",
+  "file": "n_cc47f4f1da34.wav"
+ },
+ {
+  "id": "s9_13",
+  "text": "Keep earning first downs, and you move down the field toward the end zone. That's called a drive.",
+  "file": "n_224f63bee188.wav"
+ },
+ {
+  "id": "s9_14",
+  "text": "Think of it like a road trip: each first down is a stop along the way, and the end zone is your destination!",
+  "file": "n_856f063cf997.wav"
+ },
+ {
+  "id": "s10_0",
+  "text": "Your turn! Quick reminder: the down is which try it is, out of 4. The distance is how many yards they still need to reach the yellow line.",
+  "file": "n_48a46ab3167e.wav"
+ },
+ {
+  "id": "s10_1",
+  "text": "Watch each play, then pick the new down and distance. It's 1st and 10. Blue hands the ball off...",
+  "file": "n_da652c9bbbdb.wav"
+ },
+ {
+  "id": "s10_2",
+  "text": "Yes, 2nd and 7. The players reset. Now Blue throws a pass...",
+  "file": "n_3e9f195e2771.wav"
+ },
+ {
+  "id": "s10_3",
+  "text": "That's a first down! The yellow line moves 10 yards ahead, and the players reset. Next play...",
+  "file": "n_5123ae6aa220.wav"
+ },
+ {
+  "id": "s10_4",
+  "text": "Right, 2nd and 10. The players reset, and Blue runs it again...",
+  "file": "n_d992af324144.wav"
+ },
+ {
+  "id": "s10_5",
+  "text": "Perfect, 3rd and 6. Blue goes for a deep pass...",
+  "file": "n_26f7297bdd33.wav"
+ },
+ {
+  "id": "s10_6",
+  "text": "Touchdown! You called every down. That's how a drive works.",
+  "file": "n_860592c0487b.wav"
+ },
+ {
+  "id": "s11_0",
+  "text": "After a team scores, it kicks the ball to the other team. This is called a kickoff.",
+  "file": "n_72c1ce7afe26.wav"
+ },
+ {
+  "id": "s11_1",
+  "text": "The kicker boots it far down the field, and the other team catches it...",
+  "file": "n_ca9a8d2fcee2.wav"
+ },
+ {
+  "id": "s11_2",
+  "text": "...then tries to run it back as far as they can. That's called a kick return.",
+  "file": "n_da85062c8dfd.wav"
+ },
+ {
+  "id": "s11_3",
+  "text": "What a return! Now Red is on offense, close to Blue's end zone, and moving toward the end zone that Blue protects.",
+  "file": "n_e8855a9eb129.wav"
+ },
+ {
+  "id": "s11_4",
+  "text": "1st and 10: Red runs for 2 yards.",
+  "file": "n_deb551ed68fc.wav"
+ },
+ {
+  "id": "s11_5",
+  "text": "The players reset for their next try. Red gained 2 yards, so now it's 2nd and 8.",
+  "file": "n_b1459f987786.wav"
+ },
+ {
+  "id": "s11_6",
+  "text": "2nd and 8: Red throws, but the pass falls incomplete.",
+  "file": "n_5104b9595538.wav"
+ },
+ {
+  "id": "s11_7",
+  "text": "The players reset again. The pass was incomplete, so no yards were gained. Now it's 3rd and 8.",
+  "file": "n_58ab958aefec.wav"
+ },
+ {
+  "id": "s11_8",
+  "text": "3rd and 8: Red runs for 3 more yards.",
+  "file": "n_b5d2cb74e6c3.wav"
+ },
+ {
+  "id": "s11_9",
+  "text": "Now it's 4th and 5, at Blue's 17-yard line. What should Red do? You'll decide in the next step!",
+  "file": "n_4c6bf1c94800.wav"
+ },
+ {
+  "id": "s12_0",
+  "text": "It's 4th and 5. This is Red's last try to reach the yellow line.",
+  "file": "n_f0d3d3df4526.wav"
+ },
+ {
+  "id": "s12_1",
+  "text": "On 4th down, a team has three choices. Tap each one, in order, to see what would happen!",
+  "file": "n_33df82a6fbeb.wav"
+ },
+ {
+  "id": "s12_2",
+  "text": "Going for it means running one more normal play on 4th down, to try to reach the yellow line.",
+  "file": "n_9d7be4df7dc7.wav"
+ },
+ {
+  "id": "s12_3",
+  "text": "Red hands the ball off...",
+  "file": "n_fd73252b32ec.wav"
+ },
+ {
+  "id": "s12_4",
+  "text": "...but he's stopped short of the yellow line! Blue gets the ball right here.",
+  "file": "n_bf710b4d040f.wav"
+ },
+ {
+  "id": "s12_5",
+  "text": "This is called a turnover on downs. Think of it as Red's turn being over: they turned the ball over to Blue, so now it's Blue's turn.",
+  "file": "n_cbcd5a3dfaf8.wav"
+ },
+ {
+  "id": "s12_6",
+  "text": "Teams usually go for it when they need just a yard or so, when they're very close to scoring a touchdown, or when they're far behind late in the game and really need points.",
+  "file": "n_289e93136a16.wav"
+ },
+ {
+  "id": "s12_7",
+  "text": "A field goal is a kick worth 3 points. Instead of a normal play, the team sends out its kicker, a player whose main job is kicking the ball.",
+  "file": "n_a183f594b0d1.wav"
+ },
+ {
+  "id": "s12_8",
+  "text": "Here's the view from right behind the kicker. To score, the ball has to go between the two posts and above the crossbar.",
+  "file": "n_ad6cdf1054c0.wav"
+ },
+ {
+  "id": "s12_9",
+  "text": "The ball is snapped to the holder, and the kicker kicks it...",
+  "file": "n_fc59513b0a7b.wav"
+ },
+ {
+  "id": "s12_10",
+  "text": "It's good! The ball went between the posts and over the crossbar, so Red gets 3 points. When you're this close, a field goal is often the smart choice.",
+  "file": "n_5a4228d7a1ea.wav"
+ },
+ {
+  "id": "s12_11",
+  "text": "A punt means kicking the ball away to the other team on purpose, so they have to start far from where they want to go.",
+  "file": "n_3f3d8fe84b64.wav"
+ },
+ {
+  "id": "s12_12",
+  "text": "But punting from this close doesn't usually make sense, so you won't see it often. When a team is this close, it can usually kick a field goal and score 3 points, instead of just giving the ball away.",
+  "file": "n_d3cbd20cd939.wav"
+ },
+ {
+  "id": "s12_13",
+  "text": "So, just to explain, let's say it's still 4th and 5, but Red is much farther away, back on its own 15-yard line.",
+  "file": "n_70792b805a9f.wav"
+ },
+ {
+  "id": "s12_14",
+  "text": "The punter stands way back and kicks the ball as far as he can. Blue catches it and runs it back a little...",
+  "file": "n_51c565a7d43d.wav"
+ },
+ {
+  "id": "s12_15",
+  "text": "...but now Blue has to start way back at its own 35, 75 yards away from scoring. That's the whole point of a punt!",
+  "file": "n_33360418a673.wav"
+ },
+ {
+  "id": "s12_16",
+  "text": "Punters try to kick it far, but not too far. If the ball goes into the end zone, it's called a touchback, and Blue simply gets the ball at its own 20.",
+  "file": "n_e75eea7f23f8.wav"
+ },
+ {
+  "id": "s12_17",
+  "text": "So kicking it too far actually helps the other team! Punters aim to land the ball deep, but still in front of the end zone. And kicking it out of bounds just stops it where it went out, so that doesn't help either.",
+  "file": "n_7a34789f3575.wav"
+ },
+ {
+  "id": "s12_18",
+  "text": "One more thing. It's not a hard rule, but teams usually punt when they're around midfield or on their own side of the field.",
+  "file": "n_cc3b62bc3ed8.wav"
+ },
+ {
+  "id": "s12_19",
+  "text": "That's because most kickers can't make a field goal from much more than 60 yards away. From the green area, a kick is possible. From the red area, it's too far, so teams punt. The longest field goal ever in the NFL was 68 yards!",
+  "file": "n_a61f111844d1.wav"
+ },
+ {
+  "id": "s13_0",
+  "text": "Let's talk points! Here are the main ways to score.",
+  "file": "n_b53c3c09008a.wav"
+ },
+ {
+  "id": "s13_1",
+  "text": "A touchdown is worth 6 points: carry or catch the ball in the other team's end zone.",
+  "file": "n_afbefb8543ab.wav"
+ },
+ {
+  "id": "s13_2",
+  "text": "After every touchdown, the team gets a bonus try. They can choose...",
+  "file": "n_d9902ae310ef.wav"
+ },
+ {
+  "id": "s13_3",
+  "text": "...to kick it through the goal posts for 1 point, called the extra point. It's basically a really short field goal...",
+  "file": "n_a00f2156bcb4.wav"
+ },
+ {
+  "id": "s13_4",
+  "text": "...or to run or pass it into the end zone from the 2-yard line for 2 points.",
+  "file": "n_6072b5393e30.wav"
+ },
+ {
+  "id": "s13_5",
+  "text": "Most teams kick for the 1 point. The kick is so short that NFL kickers make it almost every time. Scoring from the 2-yard line in one try is a lot harder.",
+  "file": "n_75f15e5640c9.wav"
+ },
+ {
+  "id": "s13_6",
+  "text": "A field goal is worth 3 points. A team can try one on any down, if they're close enough.",
+  "file": "n_735f76204e17.wav"
+ },
+ {
+  "id": "s13_7",
+  "text": "The most common scores are a touchdown plus the extra point, which makes 7, and a field goal, which is 3.",
+  "file": "n_80c3a4d80579.wav"
+ },
+ {
+  "id": "s13_8",
+  "text": "That's why you'll usually see a team's score go up by 7 or by 3.",
+  "file": "n_bfe3ad74781d.wav"
+ },
+ {
+  "id": "s13_9",
+  "text": "There's one more way to score, but it's a special rule that doesn't happen often. It's called a safety, it's worth 2 points, and it's scored by the defense!",
+  "file": "n_5aa61c12fa7c.wav"
+ },
+ {
+  "id": "s13_10",
+  "text": "Here's how one can happen. Red punts the ball, and it rolls all the way down to Blue's 2-yard line. Blue now has the ball, right up against its own end zone.",
+  "file": "n_d46ee8beca41.wav"
+ },
+ {
+  "id": "s13_11",
+  "text": "Remember, that's Blue's own end zone, the one behind them. Like a soccer goal, it's the one they're trying to protect.",
+  "file": "n_f44e809578ea.wav"
+ },
+ {
+  "id": "s13_12",
+  "text": "Blue hands the ball to the running back, but the defense crashes through, and he gets pushed back and tackled inside his own end zone.",
+  "file": "n_1573b9139096.wav"
+ },
+ {
+  "id": "s13_13",
+  "text": "Normally, the ball would be placed where he was tackled. But that spot is behind the field, so there's nowhere to put it. Instead, the rules give the defense 2 points. That's a safety!",
+  "file": "n_2339c72b5381.wav"
+ },
+ {
+  "id": "s13_14",
+  "text": "Don't worry if it seems strange. Safeties are rare, and you might watch lots of games before you see one!",
+  "file": "n_e3b7a5d873a4.wav"
  },
  {
   "id": "s14_0",
@@ -631,8 +706,18 @@
  },
  {
   "id": "s14_11",
-  "text": "Interceptions and fumbles are called turnovers, because the ball gets turned over to the other team.",
-  "file": "n_dec677cefd6f.wav"
+  "text": "Interceptions and fumbles are called turnovers: the defense takes the ball away during a play.",
+  "file": "n_a3e92321b884.wav"
+ },
+ {
+  "id": "s14_12",
+  "text": "Wait, a turnover on downs also hands the ball over. So why isn't it called a turnover too? It's a little confusing!",
+  "file": "n_95002c563d7d.wav"
+ },
+ {
+  "id": "s14_13",
+  "text": "Here's the difference. In a turnover on downs, nobody lost the ball. The offense just ran out of tries. Easy way to remember: when you hear the word \"turnover\" by itself, it means the ball was taken away, by an interception or a fumble.",
+  "file": "n_0c71bca6f962.wav"
  },
  {
   "id": "s15_0",
@@ -663,86 +748,6 @@
   "id": "s15_5",
   "text": "Because sometimes, the wind can have big plans of its own!",
   "file": "n_8c202ac29779.wav"
- },
- {
-  "id": "s15_6",
-  "text": "But the game clock doesn't always keep running. It stops in a few situations...",
-  "file": "n_c4dc6db890e4.wav"
- },
- {
-  "id": "s15_7",
-  "text": "When a pass is incomplete , nobody caught it.",
-  "file": "n_c68395094ea1.wav"
- },
- {
-  "id": "s15_8",
-  "text": "When the player with the ball runs out of bounds, off the side of the field.",
-  "file": "n_72abaacd6de0.wav"
- },
- {
-  "id": "s15_9",
-  "text": "After scores and turnovers, while the teams get set up again.",
-  "file": "n_714b26b9d288.wav"
- },
- {
-  "id": "s15_10",
-  "text": "And when a team calls a timeout , a short break each team can use 3 times per half.",
-  "file": "n_ed77f4705e02.wav"
- },
- {
-  "id": "s15_11",
-  "text": "All those stops are why 60 minutes of game clock usually takes about 3 hours in real life.",
-  "file": "n_278d836eb1ee.wav"
- },
- {
-  "id": "s15_12",
-  "text": "Near the end of a game, the clock matters a lot. The team that's winning wants time to run out, so the other team can't catch up.",
-  "file": "n_21f00983f8b8.wav"
- },
- {
-  "id": "s15_13",
-  "text": "So they run the ball and stay in bounds to keep the clock moving. That's called running out the clock.",
-  "file": "n_58f2e43cb5a6.wav"
- },
- {
-  "id": "s15_14",
-  "text": "The team that's losing needs more time. They hurry, throw passes toward the sideline, and use timeouts to stop the clock.",
-  "file": "n_df8056856183.wav"
- },
- {
-  "id": "s15_15",
-  "text": "Want to learn a few more clock words you'll hear on TV? Tap one, or press Next to skip.",
-  "file": "n_e3db7727dcea.wav"
- },
- {
-  "id": "s15_16",
-  "text": "The play clock is a separate, shorter clock. After each play, the offense has 40 seconds to snap the ball again.",
-  "file": "n_71597ddb6843.wav"
- },
- {
-  "id": "s15_17",
-  "text": "If they take too long, it's a penalty, and they get moved back 5 yards.",
-  "file": "n_9206eeee11ea.wav"
- },
- {
-  "id": "s15_18",
-  "text": "The two-minute warning happens when there are 2 minutes left in each half. The clock stops automatically.",
-  "file": "n_ceaeee9b4fa9.wav"
- },
- {
-  "id": "s15_19",
-  "text": "It works like a free timeout that gives both teams a moment to plan the end of the half.",
-  "file": "n_2591a1da4174.wav"
- },
- {
-  "id": "s15_20",
-  "text": "When the winning team just wants time to run out, the quarterback takes the snap and simply kneels down.",
-  "file": "n_a8392c3f69e1.wav"
- },
- {
-  "id": "s15_21",
-  "text": "The play ends right away, nobody gets hurt, and the clock keeps ticking. It's the easiest way to run out the clock!",
-  "file": "n_f20b77f7fee0.wav"
  },
  {
   "id": "s16_0",
@@ -886,8 +891,13 @@
  },
  {
   "id": "r1_6",
-  "text": "Memory tip: before the snap, linemen freeze like statues. Move early, and your team pays for it.",
-  "file": "n_7b479b3dbd0b.wav"
+  "text": "Here's an easy way to tell them apart. The offense starts each play, so if the offense moves too early, it's a false start.",
+  "file": "n_66e52a1317cd.wav"
+ },
+ {
+  "id": "r1_7",
+  "text": "The defense has to stay on its own side of the line. If a defender is on the wrong side when the ball is snapped, he's off his side: offside!",
+  "file": "n_6a26b866216b.wav"
  },
  {
   "id": "r2_0",
@@ -946,13 +956,18 @@
  },
  {
   "id": "r3_4",
-  "text": "That's a foul: holding. Offensive holding costs 10 yards.",
-  "file": "n_f56a2d5d0427.wav"
+  "text": "Why would a blocker do that? Because the defender got past him and was about to tackle the quarterback. Grabbing him is a desperate way to stop the sack.",
+  "file": "n_d542e431dadb.wav"
  },
  {
   "id": "r3_5",
-  "text": "Defenders can hold too, by grabbing a receiver. Defensive holding is 5 yards plus an automatic first down.",
-  "file": "n_669432a3bf9c.wav"
+  "text": "But it's a foul: holding. Offensive holding costs 10 yards.",
+  "file": "n_ea46ceda6e65.wav"
+ },
+ {
+  "id": "r3_6",
+  "text": "Defenders can hold too. When a receiver is about to get open, a defender might grab him so he can't get free to catch a pass. Defensive holding is 5 yards plus an automatic first down.",
+  "file": "n_8c6eea89eb5f.wav"
  },
  {
   "id": "r4_0",
@@ -1006,31 +1021,36 @@
  },
  {
   "id": "r5_3",
+  "text": "Why would anyone do that? Defenders are charging at full speed, trying to stop the throw, and sometimes they just can't stop in time. Other times, a defender hits hard on purpose, hoping the quarterback gets nervous and rushes his next throw. That's exactly what the rule is there to stop.",
+  "file": "n_2d2af047fa7b.wav"
+ },
+ {
+  "id": "r5_4",
   "text": "This rule has grown a lot over the years.",
   "file": "n_7dc91863cb3b.wav"
  },
  {
-  "id": "r5_4",
+  "id": "r5_5",
   "text": "The NFL first made roughing the passer a penalty way back in 1938, mainly to stop rough hits after the ball was thrown.",
   "file": "n_fba9271b9ae7.wav"
  },
  {
-  "id": "r5_5",
+  "id": "r5_6",
   "text": "Later, hits to the quarterback's head and neck were banned too.",
   "file": "n_27b39a2222a2.wav"
  },
  {
-  "id": "r5_6",
+  "id": "r5_7",
   "text": "After star quarterback Tom Brady hurt his knee in 2008, the league cracked down on low hits at a quarterback's knees.",
   "file": "n_0f143c0997c3.wav"
  },
  {
-  "id": "r5_7",
+  "id": "r5_8",
   "text": "And since 2018, defenders can't land on the quarterback with their full body weight when they tackle him.",
   "file": "n_90f72e1e1ea8.wav"
  },
  {
-  "id": "r5_8",
+  "id": "r5_9",
   "text": "Why so strict? Quarterbacks touch the ball on almost every play, and the league wants its stars healthy. Defenders can still sack the quarterback. They just have to do it the right way.",
   "file": "n_1e314d6f5a40.wav"
  },
@@ -1046,21 +1066,26 @@
  },
  {
   "id": "r6_2",
+  "text": "Why would a defender run into the kicker? He's diving to block the kick. If he misses the ball, he can crash right into the kicker's leg.",
+  "file": "n_4d3b0fde85ab.wav"
+ },
+ {
+  "id": "r6_3",
   "text": "If a defender only bumps him lightly, it's a smaller foul called running into the kicker: just 5 yards.",
   "file": "n_35ca209044b2.wav"
  },
  {
-  "id": "r6_3",
+  "id": "r6_4",
   "text": "One more big one: the face mask. That's the metal cage on the front of the helmet.",
   "file": "n_ba1b1ec5da96.wav"
  },
  {
-  "id": "r6_4",
+  "id": "r6_5",
   "text": "Grabbing it and pulling or twisting it can hurt a player's neck, so it's a 15-yard penalty.",
   "file": "n_986e52736e03.wav"
  },
  {
-  "id": "r6_5",
+  "id": "r6_6",
   "text": "Tip: tacklers can grab jerseys and shoulder pads, but never the face mask.",
   "file": "n_267c5b9870f2.wav"
  },
@@ -1086,16 +1111,21 @@
  },
  {
   "id": "m0_3",
-  "text": "The I-formation puts a fullback and a running back one behind the other, straight behind the quarterback. From behind the offense, they look like the letter I. It's built for power running.",
-  "file": "n_5782905549ad.wav"
+  "text": "The I-formation adds a fullback: a big, strong running back whose main job is to block. He and the running back line up one behind the other, straight behind the quarterback. From behind the offense, they look like the letter I.",
+  "file": "n_0f9807b2733e.wav"
  },
  {
   "id": "m0_4",
-  "text": "And a spread formation sends lots of receivers out wide, to stretch the defense thin.",
-  "file": "n_80c8389c1dbe.wav"
+  "text": "It's built for power running: the fullback charges ahead and smashes into a defender to clear the way, and the running back follows right behind him, pushing straight ahead for a few tough yards.",
+  "file": "n_4caff9dda1c4.wav"
  },
  {
   "id": "m0_5",
+  "text": "Other formations send lots of receivers out wide. That spreads the defense thin, so it's harder to cover everyone.",
+  "file": "n_759376189548.wav"
+ },
+ {
+  "id": "m0_6",
   "text": "Tip: the formation can give away the plan. Bunched up close often means a run. Spread out wide often means a pass.",
   "file": "n_16d7812ebc3b.wav"
  },
@@ -1106,21 +1136,46 @@
  },
  {
   "id": "m1_1",
-  "text": "A 4-3 defense has 4 defensive linemen and 3 linebackers. It's a solid, balanced setup.",
-  "file": "n_9f6b23131120.wav"
+  "text": "Defenses are named by counting players, starting at the front. Let's build the most common one, the 4-3.",
+  "file": "n_83d76af2f2c7.wav"
  },
  {
   "id": "m1_2",
-  "text": "A 3-4 has 3 linemen and 4 linebackers. That extra linebacker can rush the quarterback or drop back to cover, which keeps the offense guessing.",
-  "file": "n_fb0fe272eb21.wav"
+  "text": "Start with the first line of defense: the defensive line. These are the 4 big players lined up face to face with the blockers. That's the 4.",
+  "file": "n_47e77b43b7c2.wav"
  },
  {
   "id": "m1_3",
-  "text": "Against lots of receivers, the defense switches to nickel: a linebacker leaves, and a fifth defensive back comes in to cover. A nickel is worth 5 cents, and nickel has 5 defensive backs!",
-  "file": "n_b7698c2f75d9.wav"
+  "text": "Right behind them are the linebackers. There are 3 of them. That's the 3. Four in front, three behind: a 4-3.",
+  "file": "n_75b24c721d0e.wav"
  },
  {
   "id": "m1_4",
+  "text": "Behind them are the cornerbacks and safeties. Together they're called defensive backs: the defenders whose main job is covering passes. A 4-3 usually has 4 of them.",
+  "file": "n_029721366de8.wav"
+ },
+ {
+  "id": "m1_5",
+  "text": "A 3-4 flips that: 3 linemen in front, and 4 linebackers behind them. That extra linebacker can rush the quarterback or drop back to cover, which keeps the offense guessing.",
+  "file": "n_c3499f20f271.wav"
+ },
+ {
+  "id": "m1_6",
+  "text": "Now, what if the offense sends lots of receivers out wide? Linebackers are big and strong, but they're not as quick at covering fast receivers.",
+  "file": "n_d204c1ab4b17.wav"
+ },
+ {
+  "id": "m1_7",
+  "text": "So the defense makes a swap. One linebacker jogs off the field, and a quick defensive back comes in to cover a receiver.",
+  "file": "n_f2044085b5d5.wav"
+ },
+ {
+  "id": "m1_8",
+  "text": "Now there are 5 defensive backs instead of 4. That's called nickel, and here's how to remember it: a nickel coin is worth 5 cents.",
+  "file": "n_e5a59001f5f1.wav"
+ },
+ {
+  "id": "m1_9",
   "text": "And when the defense sends extra players charging at the quarterback, that's called a blitz. It's risky: fewer players are left to cover.",
   "file": "n_439abf0a75a2.wav"
  },
@@ -1191,68 +1246,68 @@
  },
  {
   "id": "m4_0",
-  "text": "Coaches mix runs and passes so the defense can never be sure what's coming.",
-  "file": "n_10e74cfb0c53.wav"
+  "text": "Offenses don't just try to be faster and stronger. They also try to trick the defense on purpose, by making one play look like another.",
+  "file": "n_b8286c3aa5d1.wav"
  },
  {
   "id": "m4_1",
-  "text": "When a team runs the ball well, defenders start creeping closer to the line to stop the run.",
-  "file": "n_e2a89b745752.wav"
+  "text": "Here's the most common trick. First, the offense runs the ball a few times. Soon the defenders start creeping closer to the line, expecting another run.",
+  "file": "n_faa98a8aebbe.wav"
  },
  {
   "id": "m4_2",
-  "text": "That sets up play-action. The quarterback fakes a handoff, and the linebackers jump toward the runner...",
-  "file": "n_66899e458dc3.wav"
+  "text": "Now the quarterback takes the snap and pretends to hand the ball to the running back. He even sticks the ball out, then pulls it right back. That fake is called play-action.",
+  "file": "n_7defd58065a9.wav"
  },
  {
   "id": "m4_3",
-  "text": "...and the quarterback throws right over their heads to a wide-open receiver!",
-  "file": "n_7e2980277331.wav"
+  "text": "The linebackers see what looks like a run, so they rush forward to tackle the running back. But he doesn't have the ball!",
+  "file": "n_4b781cdbbfe5.wav"
  },
  {
   "id": "m4_4",
+  "text": "Behind them, a receiver has slipped into the open space, and the quarterback throws right over their heads!",
+  "file": "n_83e04bc89c2e.wav"
+ },
+ {
+  "id": "m4_5",
+  "text": "By the way, the receiver the quarterback plans to throw to has a name: the intended target.",
+  "file": "n_6a742ab413d8.wav"
+ },
+ {
+  "id": "m4_6",
+  "text": "Quarterbacks can trick the defense with their eyes, too. Remember zone defense, where each defender guards an area? Here, a safety guards the deep middle.",
+  "file": "n_760329917cd1.wav"
+ },
+ {
+  "id": "m4_7",
+  "text": "After the snap, the quarterback stares at the receiver on the left, like that's where he's throwing. The safety follows his eyes and slides over to help.",
+  "file": "n_624f9b182dba.wav"
+ },
+ {
+  "id": "m4_8",
+  "text": "But his intended target was on the right the whole time. With the safety pulled away, that receiver is wide open!",
+  "file": "n_1fc1599d63f1.wav"
+ },
+ {
+  "id": "m4_9",
   "text": "Teams also play for field position. Even when they can't score, they can punt and pin the other team deep, near its own end zone. That makes the next drive much harder.",
   "file": "n_094537143c55.wav"
  },
  {
-  "id": "m4_5",
+  "id": "m4_10",
   "text": "Football is a bit like chess. Every play is a move, and good teams use each one to set up the next.",
   "file": "n_40fc74911721.wav"
  },
  {
   "id": "m5_0",
-  "text": "Some players were so good that they changed how football is played. Here are a few legends.",
-  "file": "n_a47a5509ac38.wav"
- },
- {
-  "id": "m5_1",
-  "text": "Jim Brown was a running back in the 1950s and 60s. He led the league in rushing in 8 of his 9 seasons, and showed how one great runner could carry an entire offense.",
-  "file": "n_1f7aaffe9fd3.wav"
- },
- {
-  "id": "m5_2",
-  "text": "Lawrence Taylor was a linebacker who chased quarterbacks with amazing speed. Teams needed a great left tackle just to slow him down, and it became one of the most valued positions in football.",
-  "file": "n_764b011e7619.wav"
- },
- {
-  "id": "m5_3",
-  "text": "Jerry Rice holds the NFL records for the most receiving yards and the most receiving touchdowns ever. He showed how dangerous a great receiver could be.",
-  "file": "n_cea5668540a3.wav"
- },
- {
-  "id": "m5_4",
-  "text": "Peyton Manning turned the seconds before the snap into a weapon, reading the defense and changing plays right at the line.",
-  "file": "n_ab3154224b45.wav"
- },
- {
-  "id": "m5_5",
-  "text": "And Tom Brady won 7 Super Bowls, more than any other player in NFL history.",
-  "file": "n_00fa8718d836.wav"
- },
- {
-  "id": "m6_0",
   "text": "Smarts quiz time! Five quick questions. No tricks.",
   "file": "n_4e4abda29d81.wav"
+ },
+ {
+  "id": "b0_0",
+  "text": "Bonus round! Ten more questions about the crash course. No tricks.",
+  "file": "n_d5d52980b75c.wav"
  },
  {
   "id": "q1_0",
@@ -1301,318 +1356,318 @@
  },
  {
   "id": "q4_0",
-  "text": "What starts every play?",
-  "file": "n_9a2b33227037.wav"
- },
- {
-  "id": "q4_0_ok",
-  "text": "That's right! Every play begins with the snap: the center passes the ball back to the quarterback.",
-  "file": "n_a4096f0a9f66.wav"
- },
- {
-  "id": "q4_0_no",
-  "text": "Not quite. Every play begins with the snap: the center passes the ball back to the quarterback.",
-  "file": "n_343470c067de.wav"
- },
- {
-  "id": "q5_0",
-  "text": "On a running play, who usually carries the ball?",
-  "file": "n_f256c029b996.wav"
- },
- {
-  "id": "q5_0_ok",
-  "text": "That's right! The quarterback hands off to the running back, who runs with it.",
-  "file": "n_592355b3da7e.wav"
- },
- {
-  "id": "q5_0_no",
-  "text": "Not quite. The quarterback hands off to the running back, who runs with it.",
-  "file": "n_871b8a74b8ea.wav"
- },
- {
-  "id": "q6_0",
-  "text": "Why is running the ball often safer than passing?",
-  "file": "n_f2f0a2374dcb.wav"
- },
- {
-  "id": "q6_0_ok",
-  "text": "That's right! A runner can hold the ball with both hands, so it rarely gets loose, and most runs move the team a little closer to the end zone. A pass can fall incomplete or get caught by the defense.",
-  "file": "n_97efc800e9dc.wav"
- },
- {
-  "id": "q6_0_no",
-  "text": "Not quite. A runner can hold the ball with both hands, so it rarely gets loose, and most runs move the team a little closer to the end zone. A pass can fall incomplete or get caught by the defense.",
-  "file": "n_a73ec7475c31.wav"
- },
- {
-  "id": "q6_1",
-  "text": "A pass hits the ground and nobody catches it. What happens?",
-  "file": "n_ff5412f812ed.wav"
- },
- {
-  "id": "q6_1_ok",
-  "text": "That's right! An incomplete pass gains nothing, and the next play starts from the same spot.",
-  "file": "n_e52cdca972bb.wav"
- },
- {
-  "id": "q6_1_no",
-  "text": "Not quite. An incomplete pass gains nothing, and the next play starts from the same spot.",
-  "file": "n_c51cb720c921.wav"
- },
- {
-  "id": "q7_0",
-  "text": "It's 1st and 10. The offense gains 4 yards. What's the down and distance now?",
-  "file": "n_9e6827857fc1.wav"
- },
- {
-  "id": "q7_0_ok",
-  "text": "That's right! They used one try (now 2nd down), and 10 − 4 = 6 yards to go.",
-  "file": "n_8bd8a256b5b6.wav"
- },
- {
-  "id": "q7_0_no",
-  "text": "Not quite. They used one try (now 2nd down), and 10 − 4 = 6 yards to go.",
-  "file": "n_712f71e16538.wav"
- },
- {
-  "id": "q7_1",
-  "text": "What is a drive?",
-  "file": "n_ce856e9c1e09.wav"
- },
- {
-  "id": "q7_1_ok",
-  "text": "That's right! Like a road trip, a drive is the team's journey down the field toward the end zone.",
-  "file": "n_f887ee8aa182.wav"
- },
- {
-  "id": "q7_1_no",
-  "text": "Not quite. Like a road trip, a drive is the team's journey down the field toward the end zone.",
-  "file": "n_39934a50cbf5.wav"
- },
- {
-  "id": "q8_0",
-  "text": "Blue gained 3 yards on 1st and 10. What's the down and distance now?",
-  "file": "n_35d8e1a817dc.wav"
- },
- {
-  "id": "q8_0_ok",
-  "text": "That's right! They used a try, so it's 2nd down, and 10 minus 3 leaves 7 yards to go.",
-  "file": "n_bf978909f4aa.wav"
- },
- {
-  "id": "q8_0_no",
-  "text": "Not quite. They used a try, so it's 2nd down, and 10 minus 3 leaves 7 yards to go.",
-  "file": "n_88046c995d7c.wav"
- },
- {
-  "id": "q8_1",
-  "text": "On 2nd and 7, Blue gained 9 yards, past the yellow line! What is it now?",
-  "file": "n_7bcc90e92df7.wav"
- },
- {
-  "id": "q8_1_ok",
-  "text": "That's right! Reaching the yellow line earns a first down: back to 4 tries and 10 yards to go.",
-  "file": "n_695f9a9cf2ba.wav"
- },
- {
-  "id": "q8_1_no",
-  "text": "Not quite. Reaching the yellow line earns a first down: back to 4 tries and 10 yards to go.",
-  "file": "n_0e4807b917eb.wav"
- },
- {
-  "id": "q8_2",
-  "text": "The pass on 1st and 10 was incomplete, so no yards were gained. What is it now?",
-  "file": "n_41549066d1b1.wav"
- },
- {
-  "id": "q8_2_ok",
-  "text": "That's right! A try was used, so it's 2nd down, but they still need all 10 yards.",
-  "file": "n_254ec0af432b.wav"
- },
- {
-  "id": "q8_2_no",
-  "text": "Not quite. A try was used, so it's 2nd down, but they still need all 10 yards.",
-  "file": "n_3eb548d65cfb.wav"
- },
- {
-  "id": "q8_3",
-  "text": "On 2nd and 10, Blue ran for 4 yards. What is it now?",
-  "file": "n_aa09fd4a1c02.wav"
- },
- {
-  "id": "q8_3_ok",
-  "text": "That's right! It's the third try (3rd down), and 10 minus 4 leaves 6 yards to go.",
-  "file": "n_73b552f62a39.wav"
- },
- {
-  "id": "q8_3_no",
-  "text": "Not quite. It's the third try (3rd down), and 10 minus 4 leaves 6 yards to go.",
-  "file": "n_dae952cfa054.wav"
- },
- {
-  "id": "q9_0",
-  "text": "What is a kickoff, and when does it happen?",
-  "file": "n_7484e59f843d.wav"
- },
- {
-  "id": "q9_0_ok",
-  "text": "That's right! After a score, the scoring team kicks off to the other team. Kickoffs also start the game and the second half.",
-  "file": "n_a502493b7ecc.wav"
- },
- {
-  "id": "q9_0_no",
-  "text": "Not quite. After a score, the scoring team kicks off to the other team. Kickoffs also start the game and the second half.",
-  "file": "n_9f45e25ad720.wav"
- },
- {
-  "id": "q11_0",
-  "text": "What are the two most common ways to score?",
-  "file": "n_3ba32c5cc030.wav"
- },
- {
-  "id": "q11_0_ok",
-  "text": "That's right! Touchdowns (6, plus a bonus try) and field goals (3).",
-  "file": "n_c6f6159c0c52.wav"
- },
- {
-  "id": "q11_0_no",
-  "text": "Not quite. Touchdowns (6, plus a bonus try) and field goals (3).",
-  "file": "n_47b583e48907.wav"
- },
- {
-  "id": "q11_1",
-  "text": "After a touchdown, what does the team always get to try for?",
-  "file": "n_fafd87cc2b9b.wav"
- },
- {
-  "id": "q11_1_ok",
-  "text": "That's right! Every touchdown comes with a bonus try: kick for 1, or a play for 2.",
-  "file": "n_d381299e1db7.wav"
- },
- {
-  "id": "q11_1_no",
-  "text": "Not quite. Every touchdown comes with a bonus try: kick for 1, or a play for 2.",
-  "file": "n_0a7d0dde46b8.wav"
- },
- {
-  "id": "q11_2",
-  "text": "Blue has 7 points. Blue scores a touchdown and makes the extra point kick. What's Blue's new score?",
-  "file": "n_d488f6167abe.wav"
- },
- {
-  "id": "q11_2_ok",
-  "text": "That's right! 7 + 6 (touchdown) + 1 (kick) = 14.",
-  "file": "n_4c1ff114bb01.wav"
- },
- {
-  "id": "q11_2_no",
-  "text": "Not quite. 7 + 6 (touchdown) + 1 (kick) = 14.",
-  "file": "n_8e58d3c212ad.wav"
- },
- {
-  "id": "q11_3",
-  "text": "Next, Blue kicks a field goal. What's Blue's score now?",
-  "file": "n_d75728c3bea8.wav"
- },
- {
-  "id": "q11_3_ok",
-  "text": "That's right! 14 + 3 = 17.",
-  "file": "n_d802985841cf.wav"
- },
- {
-  "id": "q11_3_no",
-  "text": "Not quite. 14 + 3 = 17.",
-  "file": "n_0353f20cce64.wav"
- },
- {
-  "id": "q12_0",
   "text": "Which player calls the play in the huddle and usually throws the passes?",
   "file": "n_01556bab7de2.wav"
  },
  {
-  "id": "q12_0_ok",
+  "id": "q4_0_ok",
   "text": "That's right! The quarterback is the leader: he calls the play, then hands off or throws.",
   "file": "n_ef2f22ebd03a.wav"
  },
  {
-  "id": "q12_0_no",
+  "id": "q4_0_no",
   "text": "Not quite. The quarterback is the leader: he calls the play, then hands off or throws.",
   "file": "n_81735f4f7612.wav"
  },
  {
-  "id": "q12_1",
+  "id": "q4_1",
   "text": "Which player snaps the ball to the quarterback?",
   "file": "n_566028fc9c55.wav"
  },
  {
-  "id": "q12_1_ok",
+  "id": "q4_1_ok",
   "text": "That's right! The center, in the center of the line, snaps the ball to start every play.",
   "file": "n_230c7ee2dcae.wav"
  },
  {
-  "id": "q12_1_no",
+  "id": "q4_1_no",
   "text": "Not quite. The center, in the center of the line, snaps the ball to start every play.",
   "file": "n_6193dbc8f4ef.wav"
  },
  {
-  "id": "q12_2",
+  "id": "q4_2",
   "text": "Which players line up the widest and catch passes?",
   "file": "n_be8b9f3351b6.wav"
  },
  {
-  "id": "q12_2_ok",
+  "id": "q4_2_ok",
   "text": "That's right! Wide receivers line up wide and receive the ball.",
   "file": "n_2cbae67dbad7.wav"
  },
  {
-  "id": "q12_2_no",
+  "id": "q4_2_no",
   "text": "Not quite. Wide receivers line up wide and receive the ball.",
   "file": "n_679f11f8fd33.wav"
  },
  {
-  "id": "q13_0",
+  "id": "q5_0",
   "text": "Tackling the quarterback before he can throw the ball is called a...",
   "file": "n_0b74b805b4b5.wav"
  },
  {
-  "id": "q13_0_ok",
+  "id": "q5_0_ok",
   "text": "That's right! A sack, like stuffing the quarterback in a sack before he can throw.",
   "file": "n_18bfa4d0cb2d.wav"
  },
  {
-  "id": "q13_0_no",
+  "id": "q5_0_no",
   "text": "Not quite. A sack, like stuffing the quarterback in a sack before he can throw.",
   "file": "n_09cf5740b16c.wav"
  },
  {
-  "id": "q13_1",
+  "id": "q5_1",
   "text": "Which defenders play out wide, guarding the wide receivers?",
   "file": "n_0d2e178b6bc4.wav"
  },
  {
-  "id": "q13_1_ok",
+  "id": "q5_1_ok",
   "text": "That's right! Cornerbacks play out on the corners, guarding the receivers.",
   "file": "n_ffb6a69576bf.wav"
  },
  {
-  "id": "q13_1_no",
+  "id": "q5_1_no",
   "text": "Not quite. Cornerbacks play out on the corners, guarding the receivers.",
   "file": "n_eda5a4b93bf3.wav"
  },
  {
-  "id": "q13_2",
+  "id": "q5_2",
   "text": "Which defenders play farthest back, as the last line of defense?",
   "file": "n_98a07232b04c.wav"
  },
  {
-  "id": "q13_2_ok",
+  "id": "q5_2_ok",
   "text": "That's right! The safeties are the safety measure, the last chance to stop a play.",
   "file": "n_48ba883a7d3c.wav"
  },
  {
-  "id": "q13_2_no",
+  "id": "q5_2_no",
   "text": "Not quite. The safeties are the safety measure, the last chance to stop a play.",
   "file": "n_90e43a127348.wav"
+ },
+ {
+  "id": "q6_0",
+  "text": "What starts every play?",
+  "file": "n_9a2b33227037.wav"
+ },
+ {
+  "id": "q6_0_ok",
+  "text": "That's right! Every play begins with the snap: the center passes the ball back to the quarterback.",
+  "file": "n_a4096f0a9f66.wav"
+ },
+ {
+  "id": "q6_0_no",
+  "text": "Not quite. Every play begins with the snap: the center passes the ball back to the quarterback.",
+  "file": "n_343470c067de.wav"
+ },
+ {
+  "id": "q7_0",
+  "text": "On a running play, who usually carries the ball?",
+  "file": "n_f256c029b996.wav"
+ },
+ {
+  "id": "q7_0_ok",
+  "text": "That's right! The quarterback hands off to the running back, who runs with it.",
+  "file": "n_592355b3da7e.wav"
+ },
+ {
+  "id": "q7_0_no",
+  "text": "Not quite. The quarterback hands off to the running back, who runs with it.",
+  "file": "n_871b8a74b8ea.wav"
+ },
+ {
+  "id": "q8_0",
+  "text": "Why is running the ball often safer than passing?",
+  "file": "n_f2f0a2374dcb.wav"
+ },
+ {
+  "id": "q8_0_ok",
+  "text": "That's right! A runner can hold the ball with both hands, so it rarely gets loose, and most runs move the team a little closer to the end zone. A pass can fall incomplete or get caught by the defense.",
+  "file": "n_97efc800e9dc.wav"
+ },
+ {
+  "id": "q8_0_no",
+  "text": "Not quite. A runner can hold the ball with both hands, so it rarely gets loose, and most runs move the team a little closer to the end zone. A pass can fall incomplete or get caught by the defense.",
+  "file": "n_a73ec7475c31.wav"
+ },
+ {
+  "id": "q8_1",
+  "text": "A pass hits the ground and nobody catches it. What happens?",
+  "file": "n_ff5412f812ed.wav"
+ },
+ {
+  "id": "q8_1_ok",
+  "text": "That's right! An incomplete pass gains nothing, and the next play starts from the same spot.",
+  "file": "n_e52cdca972bb.wav"
+ },
+ {
+  "id": "q8_1_no",
+  "text": "Not quite. An incomplete pass gains nothing, and the next play starts from the same spot.",
+  "file": "n_c51cb720c921.wav"
+ },
+ {
+  "id": "q9_0",
+  "text": "It's 1st and 10. The offense gains 4 yards. What's the down and distance now?",
+  "file": "n_9e6827857fc1.wav"
+ },
+ {
+  "id": "q9_0_ok",
+  "text": "That's right! They used one try (now 2nd down), and 10 − 4 = 6 yards to go.",
+  "file": "n_8bd8a256b5b6.wav"
+ },
+ {
+  "id": "q9_0_no",
+  "text": "Not quite. They used one try (now 2nd down), and 10 − 4 = 6 yards to go.",
+  "file": "n_712f71e16538.wav"
+ },
+ {
+  "id": "q9_1",
+  "text": "What is a drive?",
+  "file": "n_ce856e9c1e09.wav"
+ },
+ {
+  "id": "q9_1_ok",
+  "text": "That's right! Like a road trip, a drive is the team's journey down the field toward the end zone.",
+  "file": "n_f887ee8aa182.wav"
+ },
+ {
+  "id": "q9_1_no",
+  "text": "Not quite. Like a road trip, a drive is the team's journey down the field toward the end zone.",
+  "file": "n_39934a50cbf5.wav"
+ },
+ {
+  "id": "q10_0",
+  "text": "Blue gained 3 yards on 1st and 10. What's the down and distance now?",
+  "file": "n_35d8e1a817dc.wav"
+ },
+ {
+  "id": "q10_0_ok",
+  "text": "That's right! They used a try, so it's 2nd down, and 10 minus 3 leaves 7 yards to go.",
+  "file": "n_bf978909f4aa.wav"
+ },
+ {
+  "id": "q10_0_no",
+  "text": "Not quite. They used a try, so it's 2nd down, and 10 minus 3 leaves 7 yards to go.",
+  "file": "n_88046c995d7c.wav"
+ },
+ {
+  "id": "q10_1",
+  "text": "On 2nd and 7, Blue gained 9 yards, past the yellow line! What is it now?",
+  "file": "n_7bcc90e92df7.wav"
+ },
+ {
+  "id": "q10_1_ok",
+  "text": "That's right! Reaching the yellow line earns a first down: back to 4 tries and 10 yards to go.",
+  "file": "n_695f9a9cf2ba.wav"
+ },
+ {
+  "id": "q10_1_no",
+  "text": "Not quite. Reaching the yellow line earns a first down: back to 4 tries and 10 yards to go.",
+  "file": "n_0e4807b917eb.wav"
+ },
+ {
+  "id": "q10_2",
+  "text": "The pass on 1st and 10 was incomplete, so no yards were gained. What is it now?",
+  "file": "n_41549066d1b1.wav"
+ },
+ {
+  "id": "q10_2_ok",
+  "text": "That's right! A try was used, so it's 2nd down, but they still need all 10 yards.",
+  "file": "n_254ec0af432b.wav"
+ },
+ {
+  "id": "q10_2_no",
+  "text": "Not quite. A try was used, so it's 2nd down, but they still need all 10 yards.",
+  "file": "n_3eb548d65cfb.wav"
+ },
+ {
+  "id": "q10_3",
+  "text": "On 2nd and 10, Blue ran for 4 yards. What is it now?",
+  "file": "n_aa09fd4a1c02.wav"
+ },
+ {
+  "id": "q10_3_ok",
+  "text": "That's right! It's the third try (3rd down), and 10 minus 4 leaves 6 yards to go.",
+  "file": "n_73b552f62a39.wav"
+ },
+ {
+  "id": "q10_3_no",
+  "text": "Not quite. It's the third try (3rd down), and 10 minus 4 leaves 6 yards to go.",
+  "file": "n_dae952cfa054.wav"
+ },
+ {
+  "id": "q11_0",
+  "text": "What is a kickoff, and when does it happen?",
+  "file": "n_7484e59f843d.wav"
+ },
+ {
+  "id": "q11_0_ok",
+  "text": "That's right! After a score, the scoring team kicks off to the other team. Kickoffs also start the game and the second half.",
+  "file": "n_a502493b7ecc.wav"
+ },
+ {
+  "id": "q11_0_no",
+  "text": "Not quite. After a score, the scoring team kicks off to the other team. Kickoffs also start the game and the second half.",
+  "file": "n_9f45e25ad720.wav"
+ },
+ {
+  "id": "q13_0",
+  "text": "What are the two most common ways to score?",
+  "file": "n_3ba32c5cc030.wav"
+ },
+ {
+  "id": "q13_0_ok",
+  "text": "That's right! Touchdowns (6, plus a bonus try) and field goals (3).",
+  "file": "n_c6f6159c0c52.wav"
+ },
+ {
+  "id": "q13_0_no",
+  "text": "Not quite. Touchdowns (6, plus a bonus try) and field goals (3).",
+  "file": "n_47b583e48907.wav"
+ },
+ {
+  "id": "q13_1",
+  "text": "After a touchdown, what does the team always get to try for?",
+  "file": "n_fafd87cc2b9b.wav"
+ },
+ {
+  "id": "q13_1_ok",
+  "text": "That's right! Every touchdown comes with a bonus try: kick for 1, or a play for 2.",
+  "file": "n_d381299e1db7.wav"
+ },
+ {
+  "id": "q13_1_no",
+  "text": "Not quite. Every touchdown comes with a bonus try: kick for 1, or a play for 2.",
+  "file": "n_0a7d0dde46b8.wav"
+ },
+ {
+  "id": "q13_2",
+  "text": "Blue has 7 points. Blue scores a touchdown and makes the extra point kick. What's Blue's new score?",
+  "file": "n_d488f6167abe.wav"
+ },
+ {
+  "id": "q13_2_ok",
+  "text": "That's right! 7 + 6 (touchdown) + 1 (kick) = 14.",
+  "file": "n_4c1ff114bb01.wav"
+ },
+ {
+  "id": "q13_2_no",
+  "text": "Not quite. 7 + 6 (touchdown) + 1 (kick) = 14.",
+  "file": "n_8e58d3c212ad.wav"
+ },
+ {
+  "id": "q13_3",
+  "text": "Next, Blue kicks a field goal. What's Blue's score now?",
+  "file": "n_d75728c3bea8.wav"
+ },
+ {
+  "id": "q13_3_ok",
+  "text": "That's right! 14 + 3 = 17.",
+  "file": "n_d802985841cf.wav"
+ },
+ {
+  "id": "q13_3_no",
+  "text": "Not quite. 14 + 3 = 17.",
+  "file": "n_0353f20cce64.wav"
  },
  {
   "id": "q14_0",
@@ -1673,21 +1728,6 @@
   "id": "q14_3_no",
   "text": "Not quite. A fumble: the ball was dropped and the defense recovered it.",
   "file": "n_6d5e2e519b35.wav"
- },
- {
-  "id": "q15_0",
-  "text": "Blue is winning by 3 points, with 1 minute left in the game. What does Blue want the clock to do?",
-  "file": "n_af83c9fe6d9f.wav"
- },
- {
-  "id": "q15_0_ok",
-  "text": "That's right! The winning team wants the clock to keep running: less time means fewer chances for the other team to catch up.",
-  "file": "n_19d0321f21cf.wav"
- },
- {
-  "id": "q15_0_no",
-  "text": "Not quite. The winning team wants the clock to keep running: less time means fewer chances for the other team to catch up.",
-  "file": "n_92a930cea7f8.wav"
  },
  {
   "id": "q16_0",
@@ -1898,21 +1938,6 @@
   "id": "mq4_0_no",
   "text": "Not quite. In play-action, the quarterback fakes a handoff to fool the defense, then throws.",
   "file": "n_8915d2da93c4.wav"
- },
- {
-  "id": "mq5_0",
-  "text": "Which legend's pass rushing made the left tackle one of the most important positions?",
-  "file": "n_7dc4f80b19bf.wav"
- },
- {
-  "id": "mq5_0_ok",
-  "text": "That's right! Lawrence Taylor was so fast off the edge that teams started valuing the left tackle, who protects the quarterback's blind side.",
-  "file": "n_b25ad26bdb74.wav"
- },
- {
-  "id": "mq5_0_no",
-  "text": "Not quite. Lawrence Taylor was so fast off the edge that teams started valuing the left tackle, who protects the quarterback's blind side.",
-  "file": "n_c90633e2c806.wav"
  },
  {
   "id": "fq0",
@@ -2126,18 +2151,168 @@
  },
  {
   "id": "mf4",
-  "text": "Who won 7 Super Bowls, the most of any player?",
-  "file": "n_f05946cb0946.wav"
+  "text": "What is the intended target?",
+  "file": "n_801cdd29adca.wav"
  },
  {
   "id": "mf4_ok",
-  "text": "That's right! Tom Brady won 7 Super Bowls, the most in NFL history.",
-  "file": "n_797c35552759.wav"
+  "text": "That's right! The intended target is the receiver the quarterback actually means to throw to.",
+  "file": "n_88f11eed6ff5.wav"
  },
  {
   "id": "mf4_no",
-  "text": "Not quite. Tom Brady won 7 Super Bowls, the most in NFL history.",
-  "file": "n_2a75ebbd7686.wav"
+  "text": "Not quite. The intended target is the receiver the quarterback actually means to throw to.",
+  "file": "n_a6b5d57e67db.wav"
+ },
+ {
+  "id": "bq0",
+  "text": "How many players does each team have on the field during a play?",
+  "file": "n_0354b6c1276e.wav"
+ },
+ {
+  "id": "bq0_ok",
+  "text": "That's right! Each team has 11 players on the field at a time.",
+  "file": "n_73a7ca7bb605.wav"
+ },
+ {
+  "id": "bq0_no",
+  "text": "Not quite. Each team has 11 players on the field at a time.",
+  "file": "n_2b25cdf7b152.wav"
+ },
+ {
+  "id": "bq1",
+  "text": "What is the line of scrimmage?",
+  "file": "n_ec25912d968a.wav"
+ },
+ {
+  "id": "bq1_ok",
+  "text": "That's right! The line of scrimmage is where the ball sits. Nobody crosses it until the snap.",
+  "file": "n_cb485d1415f8.wav"
+ },
+ {
+  "id": "bq1_no",
+  "text": "Not quite. The line of scrimmage is where the ball sits. Nobody crosses it until the snap.",
+  "file": "n_d0382657176d.wav"
+ },
+ {
+  "id": "bq2",
+  "text": "It's 3rd and 2, and the offense gains 5 yards. What happens next?",
+  "file": "n_155fd094b765.wav"
+ },
+ {
+  "id": "bq2_ok",
+  "text": "That's right! They went past the yellow line, so they get a first down and 4 fresh tries.",
+  "file": "n_f69541f19eed.wav"
+ },
+ {
+  "id": "bq2_no",
+  "text": "Not quite. They went past the yellow line, so they get a first down and 4 fresh tries.",
+  "file": "n_b7d9793cb0a8.wav"
+ },
+ {
+  "id": "bq3",
+  "text": "How many points is a field goal worth?",
+  "file": "n_e42489ef1ddf.wav"
+ },
+ {
+  "id": "bq3_ok",
+  "text": "That's right! A field goal is worth 3 points.",
+  "file": "n_f131ce71fb03.wav"
+ },
+ {
+  "id": "bq3_no",
+  "text": "Not quite. A field goal is worth 3 points.",
+  "file": "n_b06e7f1e5f0c.wav"
+ },
+ {
+  "id": "bq4",
+  "text": "A punt goes into the end zone. What is that called?",
+  "file": "n_6662e0c4b11d.wav"
+ },
+ {
+  "id": "bq4_ok",
+  "text": "That's right! That's a touchback: the ball comes out to the 20-yard line.",
+  "file": "n_2d25c93e8b07.wav"
+ },
+ {
+  "id": "bq4_no",
+  "text": "Not quite. That's a touchback: the ball comes out to the 20-yard line.",
+  "file": "n_872f6aba9484.wav"
+ },
+ {
+  "id": "bq5",
+  "text": "Which player snaps the ball to start a play?",
+  "file": "n_57200f81a8b2.wav"
+ },
+ {
+  "id": "bq5_ok",
+  "text": "That's right! The center snaps the ball back to the quarterback.",
+  "file": "n_911904cb13b1.wav"
+ },
+ {
+  "id": "bq5_no",
+  "text": "Not quite. The center snaps the ball back to the quarterback.",
+  "file": "n_d6d1bcf74d5c.wav"
+ },
+ {
+  "id": "bq6",
+  "text": "What is a safety?",
+  "file": "n_6b766d44f46b.wav"
+ },
+ {
+  "id": "bq6_ok",
+  "text": "That's right! A safety is a rare play worth 2 points for the defense.",
+  "file": "n_5bb5c812bfde.wav"
+ },
+ {
+  "id": "bq6_no",
+  "text": "Not quite. A safety is a rare play worth 2 points for the defense.",
+  "file": "n_44a341015ba2.wav"
+ },
+ {
+  "id": "bq7",
+  "text": "How long is the game clock in an NFL game?",
+  "file": "n_10b5a637d0d3.wav"
+ },
+ {
+  "id": "bq7_ok",
+  "text": "That's right! The game clock has 60 minutes, split into four quarters.",
+  "file": "n_b4dd7b72055e.wav"
+ },
+ {
+  "id": "bq7_no",
+  "text": "Not quite. The game clock has 60 minutes, split into four quarters.",
+  "file": "n_e383409707cf.wav"
+ },
+ {
+  "id": "bq8",
+  "text": "A runner is tackled near the sideline. Where does the next play start?",
+  "file": "n_b370a90b4385.wav"
+ },
+ {
+  "id": "bq8_ok",
+  "text": "That's right! The ball is slid in to the hash marks, so there's room on both sides.",
+  "file": "n_820119108783.wav"
+ },
+ {
+  "id": "bq8_no",
+  "text": "Not quite. The ball is slid in to the hash marks, so there's room on both sides.",
+  "file": "n_50da1deed2f0.wav"
+ },
+ {
+  "id": "bq9",
+  "text": "In man defense, what does each defender do?",
+  "file": "n_47f613a8b3a7.wav"
+ },
+ {
+  "id": "bq9_ok",
+  "text": "That's right! In man defense, each defender picks one player and stays with him.",
+  "file": "n_3506a9bb1114.wav"
+ },
+ {
+  "id": "bq9_no",
+  "text": "Not quite. In man defense, each defender picks one player and stays with him.",
+  "file": "n_7180bce28db5.wav"
  },
  {
   "id": "fin_5",
@@ -2183,5 +2358,170 @@
   "id": "mfin_0",
   "text": "Good start! Rewatch a few steps and try again.",
   "file": "n_a6dbd47d0387.wav"
+ },
+ {
+  "id": "bfin_5",
+  "text": "PERFECT! You really know your football!",
+  "file": "n_50559342b1e9.wav"
+ },
+ {
+  "id": "bfin_3",
+  "text": "Nice work! You remembered a lot.",
+  "file": "n_c7245a53be15.wav"
+ },
+ {
+  "id": "bfin_0",
+  "text": "Good start! Rewatch a few steps and try again.",
+  "file": "n_a6dbd47d0387.wav"
+ },
+ {
+  "id": "g_start",
+  "text": "Welcome to the big game! First team to fourteen points wins. That's two touchdowns!",
+  "file": "n_8dd15688d80c.wav"
+ },
+ {
+  "id": "g_firstdown",
+  "text": "First down! The chains are moving!",
+  "file": "n_38e5b907cc05.wav"
+ },
+ {
+  "id": "g_bigrun",
+  "text": "Look at him go! What a run!",
+  "file": "n_478a32418e6d.wav"
+ },
+ {
+  "id": "g_short",
+  "text": "Brought down after a short gain.",
+  "file": "n_b0df8d2d3e2d.wav"
+ },
+ {
+  "id": "g_nogain",
+  "text": "Stuffed at the line! No gain on the play.",
+  "file": "n_58b4d5d88311.wav"
+ },
+ {
+  "id": "g_loss",
+  "text": "Oh, he's dropped for a loss!",
+  "file": "n_9752e64d1dbf.wav"
+ },
+ {
+  "id": "g_td",
+  "text": "Touchdown! What a play!",
+  "file": "n_c9936d68c1c3.wav"
+ },
+ {
+  "id": "g_td2",
+  "text": "He's in! Touchdown!",
+  "file": "n_b22b08771336.wav"
+ },
+ {
+  "id": "g_catch",
+  "text": "Caught! Great hands!",
+  "file": "n_dea34fa013b9.wav"
+ },
+ {
+  "id": "g_incomplete",
+  "text": "The pass falls incomplete.",
+  "file": "n_fcac54c59560.wav"
+ },
+ {
+  "id": "g_int",
+  "text": "Intercepted! What a turnover!",
+  "file": "n_c936113b83d2.wav"
+ },
+ {
+  "id": "g_sack",
+  "text": "Sacked! The quarterback goes down!",
+  "file": "n_2402f44705cf.wav"
+ },
+ {
+  "id": "g_fourth",
+  "text": "Fourth down. Big decision time.",
+  "file": "n_2e82b8bd369e.wav"
+ },
+ {
+  "id": "g_punt",
+  "text": "They'll punt it away.",
+  "file": "n_bf06b3d312d8.wav"
+ },
+ {
+  "id": "g_fggood",
+  "text": "The kick is up... and it's good!",
+  "file": "n_68067b26b5ab.wav"
+ },
+ {
+  "id": "g_fgmiss",
+  "text": "The kick is up... and it's no good!",
+  "file": "n_4842ee74b032.wav"
+ },
+ {
+  "id": "g_tod",
+  "text": "Stopped short on fourth down! Turnover on downs!",
+  "file": "n_eaabdde95faf.wav"
+ },
+ {
+  "id": "g_oob",
+  "text": "He's pushed out of bounds.",
+  "file": "n_ec41b83acb89.wav"
+ },
+ {
+  "id": "g_win",
+  "text": "And that's the game! What a performance!",
+  "file": "n_9b05d0e1c8af.wav"
+ },
+ {
+  "id": "g_lose",
+  "text": "That's the game. Better luck next time!",
+  "file": "n_023255d65f57.wav"
+ },
+ {
+  "id": "g_stop",
+  "text": "What a stop by the defense!",
+  "file": "n_949696a41275.wav"
+ },
+ {
+  "id": "g_cputd",
+  "text": "They score! Touchdown!",
+  "file": "n_9c6c6a3aaca2.wav"
+ },
+ {
+  "id": "g_blitz",
+  "text": "Here comes the blitz!",
+  "file": "n_ed775ca7011c.wav"
+ },
+ {
+  "id": "g_deep",
+  "text": "He's going deep!",
+  "file": "n_f8fe248bfd2d.wav"
+ },
+ {
+  "id": "g_third",
+  "text": "Third down. Time to make something happen.",
+  "file": "n_01ded30bba19.wav"
+ },
+ {
+  "id": "g_touchback",
+  "text": "Touchback. The ball comes out to the twenty.",
+  "file": "n_66f134f95fc5.wav"
+ },
+ {
+  "id": "g_kickoff",
+  "text": "The kickoff sails into the end zone. Touchback!",
+  "file": "n_6c8bfca253e4.wav"
+ },
+ {
+  "id": "g_xp",
+  "text": "And the extra point is good.",
+  "file": "n_2d686e876fc7.wav"
+ },
+ {
+  "id": "g_fumble",
+  "text": "Fumble! The ball is loose!",
+  "file": "n_4fa4e7584c11.wav"
+ },
+ {
+  "id": "g_goforit",
+  "text": "They're going for it!",
+  "file": "n_6e02e4a92f52.wav"
  }
 ]

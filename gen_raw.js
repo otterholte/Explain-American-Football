@@ -4,8 +4,8 @@
 //        node gen3.js --force         (regenerate everything, e.g. after setting TTS_MODEL=gemini-3.8-flash-tts)
 const fs=require('fs'),path=require('path');
 const KEY=fs.readFileSync(path.join(__dirname,'gemini_key.txt'),'utf8').trim();
-const MODEL=process.env.TTS_MODEL||'gemini-3.8-flash-tts',VOICE='Achird',FORCE=process.argv.includes('--force');
-const STYLE='a warm, friendly, upbeat narrator of a fun animated educational video for beginners; natural pace, smiling; pause for two full seconds between paragraphs';
+const MODEL=process.env.TTS_MODEL||'gemini-3.8-flash-tts',VOICE=process.env.VOICE||'Achird',FORCE=process.argv.includes('--force');
+const STYLE=process.env.STYLE||'a warm, friendly, upbeat narrator of a fun animated educational video for beginners; natural pace, smiling; pause for two full seconds between paragraphs';
 const dir=path.join(__dirname,'audio');fs.mkdirSync(dir,{recursive:true});
 const items=JSON.parse(fs.readFileSync(path.join(__dirname,'narration.json'),'utf8'));
 
@@ -23,7 +23,7 @@ function wav(pcm,rate){const h=Buffer.alloc(44);const len=pcm.length*2;h.write('
 // Raw batch mode: saves each batch's audio unsplit (raw/<n>.wav + raw/<n>.json) so it can be split precisely afterwards.
 const ONLY=(process.env.ONLY||'').split(',').filter(Boolean);const SIZE=+(process.env.SIZE||10);
 const rawDir=path.join(__dirname,'raw');fs.mkdirSync(rawDir,{recursive:true});
-(async()=>{let todo=items.filter(it=>!fs.existsSync(path.join(dir,it.file)));if(ONLY.length)todo=todo.filter(it=>ONLY.some(p=>it.id.startsWith(p)));
+(async()=>{let todo=items.filter(it=>!fs.existsSync(path.join(dir,it.file)));if(ONLY.length)todo=todo.filter(it=>ONLY.some(p=>it.id.startsWith(p)));const EXC=(process.env.EXCLUDE||'').split(',').filter(Boolean);if(EXC.length)todo=todo.filter(it=>!EXC.some(p=>it.id.startsWith(p)));
  const seen=new Set();todo=todo.filter(it=>!seen.has(it.file)&&seen.add(it.file));
  const done=new Set();for(const f of fs.readdirSync(rawDir))if(f.endsWith('.json'))for(const x of JSON.parse(fs.readFileSync(path.join(rawDir,f))))done.add(x.file);
  todo=todo.filter(it=>!done.has(it.file));console.log('model',MODEL,'to generate:',todo.length);

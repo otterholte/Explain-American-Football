@@ -90,7 +90,8 @@ R({title:'Before the Snap',build(S){
  const pc=G(S.L.ui,1120,120);E('circle',{r:58,fill:NAVY,stroke:'#fff','stroke-width':5},pc);T(pc,0,-26,'PLAY CLOCK',{size:13,fill:GOLD,cls:'fb'});const pct=T(pc,0,10,'5',{size:52,fill:'#fff'});pc.setAttribute('opacity',0);
  S.beat('And remember the <b>play clock</b>? If it hits zero before the snap, that\'s <b>delay of game</b>: another 5 yards.',8,t0=>{S.pop(pc,t0+.8);S.track(t0+1.6,t0+6.6,(p,r)=>{const v=Math.max(0,Math.ceil(5-r*5));pct.textContent=String(v);pct.setAttribute('fill',v<=2?'#ff8a80':'#fff');},Ease.lin);
   for(let i=0;i<5;i++)S.sfx(t0+1.6+i,'tick');flagThrow(S,t0+6.7,[L+8,C-16],[L+.5,C-6],4);S.unpop(pc,t0+7.6);});
- S.beat('Memory tip: before the snap, linemen freeze like statues. Move early, and your team pays for it.',6,t0=>{tipPill(S,t0+.3,t0+5.8,'BEFORE THE SNAP: LINEMEN FREEZE!',640,620,TEAL);});
+ S.beat('Here\'s an easy way to tell them apart. The offense <b>starts</b> each play, so if the offense moves too early, it\'s a false <b>start</b>.',8,t0=>{tipPill(S,t0+.4,t0+7.8,'OFFENSE MOVES EARLY = FALSE START',640,620,BLUE);});
+ S.beat('The defense has to stay on its own <b>side</b> of the line. If a defender is on the wrong side when the ball is snapped, he\'s <b>off</b> his <b>side</b>: offside!',9,t0=>{tipPill(S,t0+.4,t0+8.8,'DEFENSE ON THE WRONG SIDE = OFFSIDE',640,620,RED);});
  S.ask({q:'A defender jumps across the line of scrimmage before the snap. What is that called?',opts:['🏃 Offside','🧱 Holding','🦶 Roughing the kicker'],ans:0,why:'Crossing the line early is <b>offside</b>. It moves the offense 5 yards forward.'});
 }});
 
@@ -141,9 +142,10 @@ R({title:'The Pocket & Holding',build(S){
   S.move(D.DL4,t0+1,t0+2.2,[[L-3.6,C+7.4],[L-5,C+6.4]]);S.move(O.RT,t0+1.6,t0+2.6,[[L-4.6,C+7.2]]);S.move(D.DL4,t0+2.4,t0+3.2,[[L-4.4,C+7.6]]);
   const grab=pill(S.L.wtop,L-4.4,C+11,'✋ GRAB!',{size:1.3,bg:RED,sw:.22});S.pop(grab,t0+2.6);S.hide(grab,t0+6.4);S.move(O.RT,t0+2.6,t0+3,[[L-5.6,C+6.6]]);
   const arm=E('line',{stroke:RED,'stroke-width':.45,'stroke-linecap':'round',opacity:0},S.wfx2);S.renderers.push(()=>{arm.setAttribute('x1',O.RT.x+.3);arm.setAttribute('y1',O.RT.y-1.4);arm.setAttribute('x2',D.DL4.x-.2);arm.setAttribute('y2',D.DL4.y-1.6);});S.attr(arm,t0+2.6,t0+2.8,'opacity',0,1);S.attr(arm,t0+6.2,t0+6.6,'opacity',1,0);flagThrow(S,t0+3.2,[L+8,C+17],[L+.5,C+13.5],4);});
- S.beat('That\'s a foul: <b>holding</b>. Offensive holding costs <b>10 yards</b>.',5,t0=>{penCard(S,t0,t0+4.8,'HOLDING','10 YARDS','Grabbing a defender to stop him');S.clearHi(t0+.4,[...O.all,...D.all]);S.attr(cup,t0+.4,t0+.8,'opacity',.35,0);
+ S.beat('Why would a blocker do that? Because the defender got past him and was about to tackle the quarterback. Grabbing him is a desperate way to stop the sack.',9);
+ S.beat('But it\'s a foul: <b>holding</b>. Offensive holding costs <b>10 yards</b>.',5,t0=>{penCard(S,t0,t0+4.8,'HOLDING','10 YARDS','Grabbing a defender to stop him');S.clearHi(t0+.4,[...O.all,...D.all]);S.attr(cup,t0+.4,t0+.8,'opacity',.35,0);
   spotTo(S,O,D,los,t0+1.5,L-10,1.6);yardBracket(S,t0+3.2,L,L-10,C+10,'−10 YARDS',RED,1.6);});
- S.beat('Defenders can hold too, by grabbing a receiver. <b>Defensive holding</b> is 5 yards plus an <b>automatic first down</b>.',8,t0=>{const L4=L-10;S.highlight(t0+.2,[...O.all,...D.all],[O.WR2,D.CB2]);S.move(O.WR2,t0+.6,t0+2.6,[[L4+4,C+13.2]]);S.move(D.CB2,t0+.6,t0+2.6,[[L4+4.8,C+12.6]]);
+ S.beat('Defenders can hold too. When a receiver is about to get open, a defender might grab him so he can\'t get free to catch a pass. <b>Defensive holding</b> is 5 yards plus an <b>automatic first down</b>.',11,t0=>{const L4=L-10;S.highlight(t0+.2,[...O.all,...D.all],[O.WR2,D.CB2]);S.move(O.WR2,t0+.6,t0+2.6,[[L4+4,C+13.2]]);S.move(D.CB2,t0+.6,t0+2.6,[[L4+4.8,C+12.6]]);
   const g2=pill(S.L.wtop,L4+4.4,C+8.6,'✋ GRAB!',{size:1.3,bg:RED,sw:.22});S.pop(g2,t0+2.4);S.hide(g2,t0+7.4);flagThrow(S,t0+2.8,[L4+14,C+6],[L4+6.5,C+9],3.5);penCard(S,t0+3.4,t0+7.8,'DEFENSIVE HOLDING','5 YARDS','…plus an automatic first down!',RED,108);});
  S.ask({q:'What is "the pocket"?',opts:['🛡️ The safe space around the QB','👖 A pocket on the uniform','🏁 The end zone'],ans:0,why:'The <b>pocket</b> is the safe area the offensive line builds around the quarterback on a pass play.'});
 }});
@@ -176,6 +178,7 @@ R({title:'Protecting the QB',build(S){
   const late=pill(S.L.wtop,L-7,C-6.5,'BALL\'S GONE!',{size:1.3,bg:NAVY,sw:.22});S.pop(late,tth+.4);S.hide(late,tth+1.6);
   S.fall(O.QB,tth+1.45,.35);S.sfx(tth+1.45,'thud');flagThrow(S,tth+1.6,[L-14,C-16],[L-7,C-3.5],4);});
  S.beat('That\'s <b>roughing the passer</b>: <b>15 yards</b> and an automatic first down.',6,t0=>{penCard(S,t0,t0+5.8,'ROUGHING THE PASSER','15 YARDS','…plus an automatic first down');});
+ S.beat('Why would anyone do that? Defenders are charging at full speed, trying to stop the throw, and sometimes they just can\'t stop in time. Other times, a defender hits hard on purpose, hoping the quarterback gets nervous and rushes his next throw. That\'s exactly what the rule is there to stop.',15);
  // timeline
  const tl=G(S.L.top,640,360);tl.setAttribute('opacity',0);E('rect',{x:-560,y:-290,width:1120,height:580,rx:28,fill:'#fff',stroke:NAVY,'stroke-width':6},tl);
  T(tl,0,-240,'HOW THE RULE GREW',{size:38,fill:NAVY});E('rect',{x:-470,y:-12,width:940,height:10,rx:5,fill:'#d4dae6'},tl);
@@ -202,6 +205,7 @@ R({title:'Kickers & Face Masks',build(S){
   S.thr(ts+1.3,ts+3.6,[Lp-12.3,C,1.2],[Lp+38,C+4,0],16,{spins:9});S.sfx(ts+1.3,'kick');S.fall(P,ts+1.95,.35);S.fall(rusher,ts+1.95,.35);S.sfx(ts+1.95,'thud');
   flagThrow(S,ts+2.2,[Lp-24,C-16],[Lp-12,C-4],4);S.highlight(ts+2,[P,...ln,...rs],[P,rusher]);
   penCard(S,ts+3,t0+7.8,'ROUGHING THE KICKER','15 YARDS','…plus an automatic first down');});
+ S.beat('Why would a defender run into the kicker? He\'s diving to <b>block the kick</b>. If he misses the ball, he can crash right into the kicker\'s leg.',8);
  S.beat('If a defender only bumps him lightly, it\'s a smaller foul called <b>running into the kicker</b>: just 5 yards.',8,t0=>{S.wipe(t0);const tw=t0+.4;S.fall(P,tw,.2,0);S.fall(rusher,tw,.2,0);S.place(P,tw,Lp-13,C);S.place(rusher,tw,Lp+1.1,C+1.5);S.ballAt(tw,Lp-.8,C,.15);S.clearHi(tw,[P,...ln,...rs]);
   const ts=tw+.8;S.thr(ts,ts+.5,[Lp-.8,C,.6],[Lp-12.6,C,1.2],.4);S.give(ts+.5,P);S.move(rusher,ts,ts+1.9,[[Lp-4,C+1.5],[Lp-11.8,C+1.2]],Ease.in);S.thr(ts+1.3,ts+3.6,[Lp-12.3,C,1.2],[Lp+38,C+4,0],16,{spins:9});S.sfx(ts+1.3,'kick');
   S.move(P,ts+1.9,ts+2.3,[[Lp-13.4,C-.6]],Ease.out);S.move(rusher,ts+1.9,ts+2.6,[[Lp-13,C+2.4]],Ease.out);const bp=pill(S.L.wtop,Lp-13,C-5.5,'just a bump',{size:1.3,bg:NAVY,sw:.22});S.pop(bp,ts+2);S.hide(bp,ts+5);
@@ -247,12 +251,17 @@ M({title:'Offensive Formations',build(S){
  S.beat('<b>Under center</b>: the quarterback stands right behind the center and takes the ball straight from his hands. It\'s great for quick handoffs.',9,t0=>{nameAt(t0+.3,'UNDER CENTER');shape(S,O,L,t0+.5,t0+1.8,[['QB',-1.4,0],['RB',-6.5,0]]);S.highlight(t0+1.8,O.all,[O.QB,O.C]);});
  S.beat('<b>Shotgun</b>: the quarterback stands about <b>5 yards back</b>. He gets more time to see the field, so it\'s great for passing.',8.5,t0=>{nameAt(t0+.3,'SHOTGUN');S.clearHi(t0,O.all);shape(S,O,L,t0+.5,t0+1.8,[['QB',-5.2,0],['RB',-5.2,2.2]]);S.highlight(t0+1.8,O.all,[O.QB]);
   const yb=S.bracketObj({y:C+4.5,text:'5 YARDS',color:GOLD});yb.x1=L;yb.x2=L;setPlan(yb,'x2',L);S.tw(yb,t0+2,t0+2.1,{op:1});S.tw(yb,t0+2,t0+3,{x2:L-5.2});S.tw(yb,t0+7.6,t0+8,{op:0});});
- S.beat('The <b>I-formation</b> puts a fullback and a running back one behind the other, straight behind the quarterback. From behind the offense, they look like the letter I. It\'s built for <b>power running</b>.',11,t0=>{nameAt(t0+.3,'I-FORMATION');S.clearHi(t0,O.all);S.set(t0+.5,()=>{});S.tw(FB,t0+.5,t0+1,{op:1});
+ S.beat('The <b>I-formation</b> adds a <b>fullback</b>: a big, strong running back whose main job is to <b>block</b>. He and the running back line up one behind the other, straight behind the quarterback. From behind the offense, they look like the letter I.',13,t0=>{nameAt(t0+.3,'I-FORMATION');S.clearHi(t0,O.all);S.set(t0+.5,()=>{});S.tw(FB,t0+.5,t0+1,{op:1});
   shape(S,O,L,t0+.5,t0+1.8,[['QB',-1.4,0],['RB',-7.6,0],['WR3',.9,-17]]);S.move(FB,t0+.5,t0+1.8,[[L-4.6,C]]);S.highlight(t0+1.8,[...O.all,FB],[O.QB,FB,O.RB]);
-  const il=E('rect',{x:L-8.6,y:C-.18,width:7.6,height:.36,fill:GOLD,opacity:0},S.wfx);S.attr(il,t0+2.2,t0+2.6,'opacity',0,.9);S.attr(il,t0+10.3,t0+10.7,'opacity',.9,0);const ig=pill(S.L.wtop,L-12,C,'I',{size:3,bg:GOLD,fg:NAVY,sw:.3});ig.setAttribute('opacity',0);S.set(t0,()=>{});S.pop(ig,t0+4.5);S.hide(ig,t0+10.3);});
- S.beat('And a <b>spread</b> formation sends lots of receivers out wide, to stretch the defense thin.',7,t0=>{nameAt(t0+.3,'SPREAD');S.clearHi(t0,[...O.all,FB]);S.tw(FB,t0+.3,t0+.8,{op:0});S.camTo(t0+.3,t0+1.6,{z:16,x:L-2,y:C+1});
+  const il=E('rect',{x:L-8.6,y:C-.18,width:7.6,height:.36,fill:GOLD,opacity:0},S.wfx);S.attr(il,t0+2.2,t0+2.6,'opacity',0,.9);S.attr(il,t0+12.3,t0+12.7,'opacity',.9,0);const ig=pill(S.L.wtop,L-12,C,'I',{size:3,bg:GOLD,fg:NAVY,sw:.3});ig.setAttribute('opacity',0);S.pop(ig,t0+8);S.hide(ig,t0+12.3);});
+ S.beat('It\'s built for <b>power running</b>: the fullback charges ahead and smashes into a defender to clear the way, and the running back follows right behind him, pushing straight ahead for a few tough yards.',12,t0=>{
+  S.thr(t0+1,t0+1.3,[L-.8,C,.6],[L-1.6,C,1.2],.2);S.give(t0+1.3,O.QB);S.give(t0+1.9,O.RB);S.move(O.QB,t0+1.3,t0+2,[[L-3,C-1.4]]);
+  for(const a of O.OL)S.nudge(a,t0+1.2,t0+3.4,1.6);S.move(FB,t0+1.4,t0+3.2,[[L-1,C+.4],[L+1.6,C+.6]]);S.move(O.RB,t0+1.6,t0+4.2,[[L-4.6,C],[L-1.4,C+.5],[L+2.6,C+.4]]);
+  const pw=pill(S.L.wtop,L+1,C-6,'FULLBACK CLEARS THE WAY',{size:1.4,bg:NAVY,sw:.22});S.pop(pw,t0+2);S.hide(pw,t0+11.4);
+  S.move(O.RB,t0+9.8,t0+11.4,[[L-7.6,C]]);S.move(FB,t0+9.8,t0+11.4,[[L-4.6,C]]);for(const a of O.OL)S.nudge(a,t0+9.8,t0+11.4,-1.6);S.move(O.QB,t0+9.8,t0+11.4,[[L-1.4,C]]);S.ballAt(t0+9.8,L-.7,C,.15);S.give(t0+11.4,O.C);});
+ S.beat('Other formations send lots of receivers out wide. That spreads the defense thin, so it\'s harder to cover everyone.',7.5,t0=>{nameAt(t0+.3,'RECEIVERS OUT WIDE');S.clearHi(t0,[...O.all,FB]);S.tw(FB,t0+.3,t0+.8,{op:0});S.camTo(t0+.3,t0+1.6,{z:16,x:L-2,y:C+1});
   shape(S,O,L,t0+.5,t0+2,[['QB',-5.2,0],['RB',-5.2,2.2],['TE',-1,9],['WR1',-1,-17],['WR2',-1,17],['WR3',-1,-11.5]]);S.highlight(t0+2,O.all,[O.WR1,O.WR2,O.WR3,O.TE]);});
- S.beat('Tip: the formation can give away the plan. Bunched up close often means a run. Spread out wide often means a pass.',8,t0=>{S.clearHi(t0,O.all);S.hide(title,t0,t0+.4);tipPill(S,t0+.4,t0+7.8,'BUNCHED = RUN  ·  SPREAD = PASS',640,640,TEAL);});
+ S.beat('Tip: the formation can give away the plan. Bunched up close often means a run. Spread out wide often means a pass.',8,t0=>{S.clearHi(t0,O.all);S.hide(title,t0,t0+.4);tipPill(S,t0+.4,t0+7.8,'BUNCHED = RUN  ·  SPREAD OUT = PASS',640,640,TEAL);});
  S.ask({q:'In the shotgun formation, where does the quarterback stand?',opts:['About 5 yards behind the center','Right behind the center','Out wide by the sideline'],ans:0,why:'In the <b>shotgun</b>, the quarterback stands about 5 yards back so he can see the field.'});
 }});
 
@@ -263,13 +272,25 @@ M({title:'Defensive Fronts',build(S){
  const title=pill(S.L.ui,640,640,'',{size:30,bg:RED,sw:5});title.setAttribute('opacity',0);
  const nameAt=(t,txt)=>{S.track(t,t+.4,(p,r)=>{title.setText(txt);title.setAttribute('opacity',r>0?1:0);setS(title,1+.15*Math.sin(Math.PI*r));},Ease.lin);S.sfx(t,'pop');};
  S.beat('The <b class=rd>defense</b> picks a formation too, based on what it expects the offense to do.',6);
- S.beat('A <b>4-3</b> defense has <b>4</b> defensive linemen and <b>3</b> linebackers. It\'s a solid, balanced setup.',7,t0=>{nameAt(t0+.3,'4-3 DEFENSE');S.highlight(t0+.6,D.all,[...D.DL,...D.LB]);});
- S.beat('A <b>3-4</b> has <b>3</b> linemen and <b>4</b> linebackers. That extra linebacker can rush the quarterback or drop back to cover, which keeps the offense guessing.',10,t0=>{nameAt(t0+.3,'3-4 DEFENSE');
+ S.beat('Defenses are named by counting players, starting at the front. Let\'s build the most common one, the <b>4-3</b>.',7,t0=>{nameAt(t0+.3,'4-3 DEFENSE');for(const a of D.all)S.tw(a,t0+.3,t0+.8,{op:.12});});
+ S.beat('Start with the first line of defense: the <b>defensive line</b>. These are the 4 big players lined up face to face with the blockers. That\'s the <b>4</b>.',9,t0=>{for(const a of D.DL)S.tw(a,t0+1,t0+1.5,{op:1});S.highlight(t0+1.2,D.DL,D.DL);
+  const n4=pill(S.L.wtop,L+1.1,C-6,'4 LINEMEN',{size:1.6,bg:RED,sw:.25});S.pop(n4,t0+2);S.hide(n4,t0+8.6);S.sfx(t0+1.2,'pop');});
+ S.beat('Right behind them are the <b>linebackers</b>. There are 3 of them. That\'s the <b>3</b>. Four in front, three behind: a 4-3.',9,t0=>{for(const a of D.LB)S.tw(a,t0+.6,t0+1.1,{op:1});S.highlight(t0+.8,[...D.DL,...D.LB],D.LB);
+  const n3=pill(S.L.wtop,L+5,C-8.5,'3 LINEBACKERS',{size:1.6,bg:RED,sw:.25});S.pop(n3,t0+1.4);S.hide(n3,t0+8.6);S.sfx(t0+.8,'pop');});
+ S.beat('Behind them are the cornerbacks and safeties. Together they\'re called <b>defensive backs</b>: the defenders whose main job is covering passes. A 4-3 usually has 4 of them.',10,t0=>{for(const a of [...D.CB,...D.S])S.tw(a,t0+.6,t0+1.1,{op:1});S.highlight(t0+.8,D.all,[...D.CB,...D.S]);
+  const db=pill(S.L.wtop,L+9,C+17.5,'4 DEFENSIVE BACKS',{size:1.6,bg:RED,sw:.25});S.pop(db,t0+1.6);S.hide(db,t0+9.6);});
+ S.beat('A <b>3-4</b> flips that: 3 linemen in front, and 4 linebackers behind them. That extra linebacker can rush the quarterback or drop back to cover, which keeps the offense guessing.',10,t0=>{nameAt(t0+.3,'3-4 DEFENSE');S.clearHi(t0,D.all);
   S.move(D.DL1,t0+.6,t0+1.8,[[L+5,C-7.5]]);S.move(D.DL2,t0+.6,t0+1.8,[[L+1.1,C-2.4]]);S.move(D.DL3,t0+.6,t0+1.8,[[L+1.1,C]]);S.move(D.DL4,t0+.6,t0+1.8,[[L+1.1,C+2.4]]);S.move(D.LB1,t0+.6,t0+1.8,[[L+5,C-2.6]]);S.move(D.LB2,t0+.6,t0+1.8,[[L+5,C+2.6]]);S.move(D.LB3,t0+.6,t0+1.8,[[L+5,C+7.5]]);
-  S.set(t0+1.8,()=>{D.DL1.pos='LB';D.DL1.el.label.setText('LB');});});
- S.beat('Against lots of receivers, the defense switches to <b>nickel</b>: a linebacker leaves, and a fifth defensive back comes in to cover. A nickel is worth 5 cents, and nickel has <b>5</b> defensive backs!',12,t0=>{nameAt(t0+.3,'NICKEL');
-  S.tw(D.LB3,t0+.6,t0+1.2,{op:0});S.tw(NB,t0+.8,t0+1.4,{op:1});S.move(NB,t0+.8,t0+2,[[L+5.5,C+8.5]]);S.highlight(t0+2,[...D.all,NB],[...D.CB,...D.S,NB]);});
- S.beat('And when the defense sends extra players charging at the quarterback, that\'s called a <b>blitz</b>. It\'s risky: fewer players are left to cover.',9,t0=>{nameAt(t0+.3,'BLITZ!');S.clearHi(t0,[...D.all,NB]);
+  S.set(t0+1.8,()=>{D.DL1.pos='LB';D.DL1.el.label.setText('LB');});S.highlight(t0+2,D.all,[D.DL2,D.DL3,D.DL4,D.DL1,D.LB1,D.LB2,D.LB3]);});
+ S.beat('Now, what if the offense sends lots of receivers out wide? Linebackers are big and strong, but they\'re not as quick at covering fast receivers.',9,t0=>{nameAt(t0+.3,'NICKEL');S.clearHi(t0,D.all);
+  for(const a of O.all)S.tw(a,t0+.3,t0+.8,{op:.6});S.move(O.TE,t0+1,t0+2.6,[[L-1,C+16]]);S.move(O.RB,t0+1,t0+2.6,[[L-1,C+9]]);S.highlight(t0+2.8,[...O.all,...D.all],[O.TE,O.RB,O.WR1,O.WR2,O.WR3,D.LB3]);});
+ S.beat('So the defense makes a swap. One linebacker jogs off the field, and a quick <b>defensive back</b> comes in to cover a receiver.',8,t0=>{S.move(D.LB3,t0+.6,t0+2.6,[[L+5,C+30]]);S.tw(D.LB3,t0+2.2,t0+2.6,{op:0});
+  S.reset(NB,L+5,C+30);S.tw(NB,t0+2.6,t0+2.9,{op:1});S.move(NB,t0+2.8,t0+5,[[L+5.5,C+9]]);S.highlight(t0+3,[...D.all,NB],[NB]);
+  const sw=pill(S.L.wtop,L+9,C-15,'LINEBACKER OUT, DEFENSIVE BACK IN',{size:1.4,bg:NAVY,sw:.22});S.pop(sw,t0+3);S.hide(sw,t0+7.6);});
+ S.beat('Now there are <b>5</b> defensive backs instead of 4. That\'s called <b>nickel</b>, and here\'s how to remember it: a nickel coin is worth <b>5 cents</b>.',10,t0=>{S.highlight(t0+.4,[...D.all,NB],[...D.CB,...D.S,NB]);
+  const coin=G(S.L.ui,1110,150);E('circle',{r:58,fill:'#c9ced8',stroke:NAVY,'stroke-width':6},coin);E('circle',{r:46,fill:'none',stroke:'#9aa1af','stroke-width':3},coin);T(coin,0,4,'5¢',{size:44,fill:NAVY});coin.setAttribute('opacity',0);S.pop(coin,t0+5.5);S.unpop(coin,t0+9.6);S.sfx(t0+5.5,'ding');
+  const n5=pill(S.L.wtop,L+9,C+17.5,'5 DEFENSIVE BACKS',{size:1.6,bg:RED,sw:.25});S.pop(n5,t0+1.2);S.hide(n5,t0+9.6);});
+ S.beat('And when the defense sends extra players charging at the quarterback, that\'s called a <b>blitz</b>. It\'s risky: fewer players are left to cover.',9,t0=>{nameAt(t0+.3,'BLITZ!');S.clearHi(t0,[...D.all,NB]);for(const a of O.all)S.tw(a,t0,t0+.4,{op:.25});
   for(const a of [D.LB1,D.LB2])S.move(a,t0+1.2,t0+2.6,[[L-3,planOf(a,'y')+(planOf(a,'y')<C?1.5:-1.5)]],Ease.in);for(const a of D.DL)S.nudge(a,t0+1.2,t0+2.4,-2.2);S.sfx(t0+1.2,'swoosh');
   const b=pill(S.L.wtop,L+1,C-8,'EXTRA RUSHERS',{size:1.6,bg:RED,sw:.22});S.pop(b,t0+2.4);S.hide(b,t0+8.4);});
  S.ask({q:'Why would a defense switch to nickel?',opts:['To cover extra receivers','To kick a field goal','To protect the quarterback'],ans:0,why:'<b>Nickel</b> adds a fifth defensive back to help cover lots of receivers.'});
@@ -314,18 +335,35 @@ M({title:'Reading the Defense',build(S){
 
 M({title:'Game Strategy',build(S){
  const L=40,{O,D}=playSetup(S,L,17,4);const los=S.lineObj('#3d8bff',null);los.x=L;los.op=1;setPlan(los,'x',L);setPlan(los,'op',1);
- S.beat('Coaches mix runs and passes so the defense can never be sure what\'s coming.',6);
- S.beat('When a team runs the ball well, defenders start creeping closer to the line to stop the run.',7,t0=>{for(const a of [...D.LB,...D.S])S.nudge(a,t0+1,t0+3,-2.4);S.highlight(t0+1,[...O.all,...D.all],[...D.LB,...D.S]);
+ S.beat('Offenses don\'t just try to be faster and stronger. They also try to <b>trick</b> the defense on purpose, by making one play look like another.',8);
+ S.beat('Here\'s the most common trick. First, the offense runs the ball a few times. Soon the defenders start creeping closer to the line, expecting another run.',9,t0=>{for(const a of [...D.LB,...D.S])S.nudge(a,t0+1,t0+3,-2.4);S.highlight(t0+1,[...O.all,...D.all],[...D.LB,...D.S]);
   const p=pill(S.L.wtop,L+6,C-11,'CREEPING CLOSER',{size:1.3,bg:RED,sw:.22});S.pop(p,t0+2);S.hide(p,t0+6.6);});
  const KR=S.player({team:'red',num:84,pos:'',x:104,y:C+2,op:0}),cov=[0,1,2,3].map(i=>S.player({team:'blue',num:40+i,pos:'',x:80,y:C-6+i*4,op:0}));
  let ts,th;
- S.beat('That sets up <b>play-action</b>. The quarterback <b>fakes</b> a handoff, and the linebackers jump toward the runner…',7,t0=>{S.clearHi(t0,[...O.all,...D.all]);ts=t0+.8;th=ts+1.1;snapTo(S,O,L,ts);
-  const fk=pill(S.L.wtop,L-3,C-5.4,'FAKE!',{size:1.3,bg:GOLD,fg:NAVY,sw:.22});S.pop(fk,th+.1);S.hide(fk,th+2.4);S.highlight(th+.4,[...O.all,...D.all],[O.RB,O.QB,...D.LB]);});
- S.beat('…and the quarterback throws right over their heads to a wide-open receiver!',6,t0=>{const tth=t0+.5,tc=tth+1.1;
-  simPlay(S,O,D,L,{type:'pass',clean:true,ts,tEnd:tc+2.6,tth,tc,tt:tc+2.2,carrier:'TE',catchPt:[L+13,C+3],
-   script:{RB:[[ts,L-4.6,C-2.4],[th,L-4.3,C-.5],[th+1.2,L-.4,C+1.5],[tc+1,L+.5,C+2.5]],QB:[[ts,L-4.6,C],[th+.1,L-4.6,C-.4],[th+.9,L-7.4,C-.6],[tc,L-7.2,C]],
-   LB1:[[ts,L+5,C-4.5],[th+.9,L+1.6,C-1.2]],LB2:[[ts,L+5,C],[th+.9,L+1.4,C+1]],LB3:[[ts,L+5,C+4.5],[th+.9,L+2,C+3]],TE:[[ts,L-1,C+5.9],[th+.9,L+3,C+6.4],[tc,L+13,C+3],[tc+2.2,L+21,C+1]]},meet:[{a:'S2',t:tc+2.2,x:L+21.6,y:C+1.4}]});
-  S.clearHi(tth,[...O.all,...D.all]);S.highlight(tth,[...O.all,...D.all],[O.TE,O.QB]);S.thr(tth,tc,[L-6.9,C,1.2],[L+13.5,C+3,1.2],3.6);S.give(tc,O.TE);S.sfx(tth,'swoosh');S.fall(O.TE,tc+2.2,.35);S.fall(D.S2,tc+2.2,.35);S.sfx(tc+2.2,'thud');S.clearHi(tc+2.4,[...O.all,...D.all]);});
+ S.beat('Now the quarterback takes the snap and <b>pretends</b> to hand the ball to the running back. He even sticks the ball out, then pulls it right back. That fake is called <b>play-action</b>.',10,t0=>{S.clearHi(t0,[...O.all,...D.all]);ts=t0+.8;th=ts+1.4;snapTo(S,O,L,ts);
+  S.move(O.QB,ts+.3,th,[[L-4.6,C-.6]]);S.move(O.RB,ts,th,[[L-4.2,C-.9]]);S.move(O.RB,th,th+1.4,[[L-.6,C+1.4]]);for(const a of O.OL)S.nudge(a,ts,ts+.8,.8);
+  const fk=pill(S.L.wtop,L-3,C-6.4,'FAKE HANDOFF!',{size:1.4,bg:GOLD,fg:NAVY,sw:.22});S.pop(fk,th-.2);S.hide(fk,th+5);S.highlight(th-.4,[...O.all,...D.all],[O.RB,O.QB]);S.move(O.QB,th+.4,th+1.4,[[L-7.2,C-.4]]);});
+ S.beat('The linebackers see what looks like a run, so they rush forward to tackle the running back. But he doesn\'t have the ball!',8,t0=>{
+  for(const [k,y] of [['LB1',C-1.4],['LB2',C+.6],['LB3',C+2.4]])S.move(D[k],t0+.3,t0+1.6,[[L+.6,y]],Ease.in);S.highlight(t0+.4,[...O.all,...D.all],[O.RB,...D.LB]);
+  S.move(O.TE,t0+.3,t0+4,[[L+4,C+6.4],[L+12,C+3]]);const nb=pill(S.L.wtop,L+1,C-6,'NO BALL!',{size:1.4,bg:RED,sw:.22});S.pop(nb,t0+2);S.hide(nb,t0+7.6);});
+ S.beat('Behind them, a receiver has slipped into the open space, and the quarterback throws right over their heads!',8,t0=>{const tth=t0+.8,tc=tth+1.1;S.clearHi(t0,[...O.all,...D.all]);S.highlight(t0+.2,[...O.all,...D.all],[O.TE,O.QB]);
+  S.thr(tth,tc,[L-6.9,C-.4,1.2],[L+13.4,C+3,1.2],3.6);S.give(tc,O.TE);S.sfx(tth,'swoosh');S.sfx(tc,'pop');S.move(O.TE,tc,tc+2.2,[[L+21,C+1]]);S.move(D.S2,tc,tc+2.2,[[L+21.6,C+1.4]]);
+  S.fall(O.TE,tc+2.2,.35);S.fall(D.S2,tc+2.2,.35);S.sfx(tc+2.2,'thud');S.clearHi(tc+2.4,[...O.all,...D.all]);});
+ S.beat('By the way, the receiver the quarterback plans to throw to has a name: the <b>intended target</b>.',6.5,t0=>{tipPill(S,t0+.4,t0+6.3,'INTENDED TARGET = who the QB is really throwing to',640,630,NAVY);});
+ // look-off trick
+ const L2=50;const zoneM=E('rect',{x:L2+12,y:C-9,width:12,height:18,rx:1,fill:'#ff8fd1',opacity:0,stroke:NAVY,'stroke-width':.15},S.wfx);
+ S.beat('Quarterbacks can trick the defense with their <b>eyes</b>, too. Remember zone defense, where each defender guards an area? Here, a safety guards the deep middle.',10,t0=>{S.wipe(t0);const tw=t0+.4;
+  S.fall(O.TE,tw,.2,0);S.fall(D.S2,tw,.2,0);S.formTo(O,tw,tw+.01,L2);S.formTo(D,tw,tw+.01,L2);S.tw(los,tw,tw+.01,{x:L2});S.ballAt(tw,L2-.7,C,.15);S.give(tw+.02,O.C);S.place(O.QB,tw,L2-5.2,C);S.place(O.RB,tw,L2-5.2,C+2.2);
+  S.place(D.S1,tw,L2+15,C);S.place(D.S2,tw,L2+15,C+18);S.camTo(tw,tw+.01,{x:L2+8,y:C,z:13},Ease.lin);S.attr(zoneM,tw+3,tw+3.6,'opacity',0,.3);S.highlight(tw+3,[...O.all,...D.all],[D.S1]);
+  const sz=pill(S.L.wtop,L2+18,C-11,"SAFETY'S ZONE",{size:1.4,bg:'#c2185b',sw:.22});S.pop(sz,tw+3.6);S.hide(sz,t0+9.6);});
+ const eyes=E('path',{d:'',fill:'rgba(255,240,90,.3)',stroke:GOLD,'stroke-width':.2,opacity:0},S.wfx);
+ S.beat('After the snap, the quarterback stares at the receiver on the left, like that\'s where he\'s throwing. The safety follows his eyes and slides over to help.',10,t0=>{const ts2=t0+.6;snapTo(S,O,L2,ts2);S.move(O.QB,ts2+.3,ts2+1.3,[[L2-7,C]]);
+  S.move(O.WR1,ts2,ts2+3,[[L2+16,C-13]]);S.move(O.WR2,ts2,ts2+3,[[L2+12,C+13.5],[L2+18,C+6]]);S.move(O.WR3,ts2,ts2+3,[[L2+8,C-8.5]]);for(const c of D.CB)S.nudge(c,ts2,ts2+3,9);
+  S.track(ts2+1.4,t0+9.6,(p,r,tt)=>{const x0=O.QB.x,y0=O.QB.y,tx=O.WR1.x,ty=O.WR1.y,a=Math.atan2(ty-y0,tx-x0),R2=Math.hypot(tx-x0,ty-y0);eyes.setAttribute('d',`M${x0},${y0} L${x0+R2*Math.cos(a-.12)},${y0+R2*Math.sin(a-.12)} L${x0+R2*Math.cos(a+.12)},${y0+R2*Math.sin(a+.12)} Z`);eyes.setAttribute('opacity',r>0&&r<1?1:0);},Ease.lin);
+  S.move(D.S1,ts2+2.4,ts2+5,[[L2+15,C-9]]);S.highlight(ts2+2,[...O.all,...D.all],[O.QB,O.WR1,D.S1]);const lk=pill(S.L.wtop,L2+4,C-17,'👀 LOOKING LEFT…',{size:1.4,bg:NAVY,sw:.22});S.pop(lk,ts2+1.6);S.hide(lk,t0+9.6);});
+ S.beat('But his <b>intended target</b> was on the right the whole time. With the safety pulled away, that receiver is wide open!',8,t0=>{S.highlight(t0+.2,[...O.all,...D.all],[O.QB,O.WR2]);
+  const tth=t0+1,tc=tth+1.1;S.thr(tth,tc,[L2-6.5,C,1.2],[L2+20,C+3.6,1.2],3.2);S.give(tc,O.WR2);S.sfx(tth,'swoosh');S.sfx(tc,'pop');S.move(O.WR2,t0,tc,[[L2+20,C+3.6]]);S.move(O.WR2,tc,tc+2.4,[[L2+30,C+2]]);
+  S.burst(tc+.2,'WIDE OPEN!',{size:56,y:600,color:'#bfffcf'});S.clearHi(tc+3,[...O.all,...D.all]);S.attr(zoneM,t0+7,t0+7.6,'opacity',.3,0);});
  S.beat('Teams also play for <b>field position</b>. Even when they can\'t score, they can punt and pin the other team deep, near its own end zone. That makes the next drive much harder.',11,t0=>{
   S.wipe(t0);const tw=t0+.4;S.fall(O.TE,tw,.2,0);S.fall(D.S2,tw,.2,0);for(const a of [...O.all,...D.all])S.place(a,tw,-40,C);S.ballAt(tw,L+21,C,.2);
   S.follow(tw,tw+60,null);S.camTo(tw,tw+.01,{x:L+24,y:C},Ease.lin);S.camTo(tw+1.2,tw+4.4,{x:96});S.thr(tw+1,tw+4.2,[L+21,C,.4],[104,C+2,1.2],22,{spins:10});S.sfx(tw+1,'kick');S.give(tw+4.2,KR);S.sfx(tw+4.2,'pop');
@@ -334,29 +372,7 @@ M({title:'Game Strategy',build(S){
   const pp=pill(S.L.wtop,101,C-9,'PINNED DEEP!',{size:1.6,bg:RED,sw:.25});S.pop(pp,tw+4.6);
   const p=pill(S.L.ui,640,630,'FIELD POSITION = where your drive starts',{size:26,bg:TEAL,sw:4});S.pop(p,t0+.8);S.hide(p,t0+10.6);});
  S.beat('Football is a bit like chess. Every play is a move, and good teams use each one to set up the next.',7,t0=>{tipPill(S,t0+.5,t0+6.8,'FOOTBALL = CHESS ON GRASS',640,630,NAVY);});
- S.ask({q:'What is play-action?',opts:['🎭 Faking a handoff, then passing','🏃 Running out of bounds on purpose','🦶 Kicking the ball short and high'],ans:0,why:'In <b>play-action</b>, the quarterback fakes a handoff to fool the defense, then throws.'});
-}});
-
-M({title:'Legends of the Game',build(S){
- rays(S,'#1d2b53','#24346a',360);
- const card=(i,name,era,pos,stat,col,num)=>{const g=G(S.L.ui,640,360);g.setAttribute('opacity',0);
-  E('rect',{x:-470+8,y:-250+8,width:940,height:500,rx:30,fill:'#0f1838'},g);E('rect',{x:-470,y:-250,width:940,height:500,rx:30,fill:'#fff',stroke:NAVY,'stroke-width':6},g);
-  const badge=G(g,-290,-10);E('circle',{r:150,fill:col,stroke:NAVY,'stroke-width':7},badge);const pl=drawPlayer(badge,col===RED?'red':'blue',num,1);pl.g.setAttribute('transform','translate(0,95) scale(3.1)');
-  T(badge,0,-190,'⭐ ⭐ ⭐',{size:30,fill:GOLD});
-  T(g,170,-160,name,{size:56,fill:NAVY});T(g,170,-104,`${pos}  ·  ${era}`,{size:24,fill:'#5b6684',cls:'fb'});
-  fo(g,-60,-60,470,280,`<div style="font-size:27px;line-height:1.35;text-align:left">${stat}</div>`);return g;};
- let lt;S.beat('Some players were so good that they <b>changed how football is played</b>. Here are a few legends.',6.5,t0=>{lt=pill(S.L.ui,640,360,'⭐ LEGENDS OF THE GAME ⭐',{size:54,bg:GOLD,fg:NAVY,sw:6});S.pop(lt,t0+.4);});S.unpop(lt,S.T-.35);
- const L1=card(0,'Jim Brown','1957–1965','Running back','Led the league in rushing in <b>8 of his 9</b> seasons. He showed how one unstoppable runner could carry an entire offense.',BLUE,32);
- S.beat('<b>Jim Brown</b> was a running back in the 1950s and 60s. He led the league in rushing in <b>8 of his 9 seasons</b>, and showed how one great runner could carry an entire offense.',11,t0=>{S.pop(L1,t0+.2);S.sfx(t0+.2,'ding');});S.unpop(L1,S.T-.35);
- const L2=card(1,'Lawrence Taylor','1981–1993','Linebacker','Rushed the quarterback with amazing speed. Teams needed a great <b>left tackle</b> to slow him down, making it one of football\'s most valued positions.',RED,56);
- S.beat('<b>Lawrence Taylor</b> was a linebacker who chased quarterbacks with amazing speed. Teams needed a great <b>left tackle</b> just to slow him down, and it became one of the most valued positions in football.',11,t0=>{S.pop(L2,t0+.2);S.sfx(t0+.2,'ding');});S.unpop(L2,S.T-.35);
- const L3=card(2,'Jerry Rice','1985–2004','Wide receiver','Holds the NFL records for the most <b>receiving yards</b> and the most <b>receiving touchdowns</b> ever.',RED,80);
- S.beat('<b>Jerry Rice</b> holds the NFL records for the most receiving yards and the most receiving touchdowns ever. He showed how dangerous a great receiver could be.',10,t0=>{S.pop(L3,t0+.2);S.sfx(t0+.2,'ding');});S.unpop(L3,S.T-.35);
- const L4=card(3,'Peyton Manning','1998–2015','Quarterback','Turned the seconds before the snap into a weapon: reading the defense and changing plays at the line.',BLUE,18);
- S.beat('<b>Peyton Manning</b> turned the seconds before the snap into a weapon, reading the defense and changing plays right at the line.',8.5,t0=>{S.pop(L4,t0+.2);S.sfx(t0+.2,'ding');});S.unpop(L4,S.T-.35);
- const L5=card(4,'Tom Brady','2000–2022','Quarterback','Won <b>7 Super Bowls</b>, more than any other player in NFL history.',BLUE,12);
- S.beat('And <b>Tom Brady</b> won <b>7 Super Bowls</b>, more than any other player in NFL history.',7,t0=>{S.pop(L5,t0+.2);S.sfx(t0+.2,'cheer');S.confetti(t0+.6,{y:200});});S.unpop(L5,S.T-.35);
- S.ask({q:'Which legend\'s pass rushing made the left tackle one of the most important positions?',opts:['Lawrence Taylor','Jerry Rice','Jim Brown'],ans:0,why:'<b>Lawrence Taylor</b> was so fast off the edge that teams started valuing the left tackle, who protects the quarterback\'s blind side.'});
+ S.ask({q:'What is play-action?',opts:['Faking a handoff, then passing','Running out of bounds on purpose','Kicking the ball short and high'],ans:0,why:'In <b>play-action</b>, the quarterback fakes a handoff to fool the defense, then throws.'});
 }});
 
 M({title:'Smarts Quiz',quiz:true,build(S){rays(S,'#bfe3ff','#a6d6ff',360);S.beat('Smarts quiz time! Five quick questions. No tricks.',3);}});
@@ -365,5 +381,5 @@ COURSES.smarts.quiz=[
  ['What does a 4-3 defense have?',['4 linemen and 3 linebackers','4 quarterbacks and 3 kickers','4 safeties and 3 cornerbacks'],0,'A <b>4-3</b> has 4 defensive linemen and 3 linebackers.'],
  ['What is motion?',['One player moving sideways or back before the snap','The whole team running onto the field together','A trick play where the kicker runs with the ball'],0,'<b>Motion</b> is one offensive player moving sideways or backward before the snap.'],
  ['In zone coverage, what does each defender guard?',['An area of the field','One specific player','The quarterback only'],0,'In <b>zone</b>, each defender guards an <b>area</b>. In man coverage, each guards one player.'],
- ['Who won 7 Super Bowls, the most of any player?',['Tom Brady','Jerry Rice','Jim Brown'],0,'<b>Tom Brady</b> won 7 Super Bowls, the most in NFL history.']];
+ ['What is the intended target?',['The receiver the quarterback really plans to throw to','The goal posts on a field goal','The defender guarding the quarterback'],0,'The <b>intended target</b> is the receiver the quarterback actually means to throw to.']];
 })();

@@ -2,25 +2,27 @@
 
 **▶ Watch it here: https://otterholte.github.io/Explain-American-Football/**
 
-An animated, narrated crash course that teaches a complete beginner the basics of NFL football, one short step at a time. It's in the style of a Crash Course video, but you can pause, scrub and click along.
+An animated, narrated crash course that teaches complete beginners the basics of NFL football. It's in the style of a Crash Course video, but you can pause, scrub and click along.
 
 ## What's inside
-- **18 short steps:** the goal, the field, offense vs. defense, how a play works, downs, 4th-down choices, scoring, player positions, changing possession, the game clock and reading a TV scoreboard.
-- **Narration and animation:** every step is voiced (Gemini text-to-speech, voice "Achird") and timed to animated 11-on-11 plays.
-- **Quick checks:** questions throughout, plus a 5-question final quiz.
-- **Meet the Players:** an explore mode where you can rotate, zoom and click any player.
-- **Ask Coach:** an AI chat helper. It only works when the site runs locally with `serve.js`, because it needs a private API key.
+- **The Crash Course (18 steps):** the goal, the field, offense and defense, positions, how a play works, downs, 4th-down choices, scoring, changing possession, the game clock, and reading a TV scoreboard.
+- **Rules & Penalties:** catches, false starts, offside, holding, pass interference, roughing the passer and kicker, and face masks.
+- **Football Smarts:** formations, defensive fronts, motion, reading the defense, play-action and other tricks.
+- **Quizzes:** quick checks in every step, a final quiz for each course, and a 10-question bonus quiz.
+- **Flashcards:** every football word from all three courses, plus all the quiz questions.
+- **Game Day:** an arcade football game. Name your team, call the plays, steer your runner, pick your receiver. First to 2 touchdowns wins.
+- **Ask Coach:** an AI chat helper (Coach Sam) that runs **entirely in your browser** with a small open model (Qwen 3.5 via [WebLLM](https://github.com/mlc-ai/web-llm)).
+  - **Needs:** a browser with WebGPU (Chrome or Edge on a computer, or a recent phone browser).
+  - **First use:** the model downloads once (about 0.6–2.5 GB, depending on the size you pick) and is then cached.
+  - **Cost:** no API key or server, and nothing is sent anywhere.
 
 ## Controls
-- **Next / Back:** move between steps. You can also use the arrow keys.
-- **Play/pause and scrubber:** pause with the button or the Space key, and drag the scrubber to move through a step.
-- **CC:** shows or hides captions (off by default).
-- **🔊:** mutes or unmutes sound.
+- **Moving around:** Next and Back (or the arrow keys) step through the course. Space pauses, and you can drag the scrubber.
+- **Buttons:** **CC** turns captions on or off, **🔊** mutes, **⛶** (or F) goes full screen, and **☰ Menu** jumps anywhere at any time.
 
-## Run it locally (with Ask Coach)
-1. Put a Gemini API key in `gemini_key.txt`. This file is git-ignored and never served.
-2. Run `node serve.js`.
-3. Open http://localhost:8101.
+## Run it locally
+- **Basic:** run `node serve.js` and open http://localhost:8101.
+- **Server fallback for Coach Sam (optional):** put a Gemini API key in `gemini_key.txt`. The file is git-ignored and never served. This is only for browsers without WebGPU.
 
 ## Regenerating narration
-`node gen3.js` reads `narration.json` and writes the clips to `audio/`. Set `TTS_MODEL` to pick the Gemini TTS model, and set `SINGLE=1` to make one request per line.
+- **`node gen3.js` / `node gen_raw.js`:** read `narration.json` and write clips to `audio/`. Set `TTS_MODEL` to pick the Gemini TTS model, and `VOICE` / `STYLE` to change the voice.
