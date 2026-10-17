@@ -127,6 +127,7 @@ function fcAnswer(ok){if(!fc.flip)return;const c=fc.cards.shift();if(ok){fc.stre
  else{fc.streak=0;SFX.play('pop');fc.cards.splice(Math.min(fc.cards.length,3),0,c);}fc.flip=false;fcRender();}
 document.addEventListener('keydown',e=>{if(document.getElementById('fcPage').hidden||['INPUT','TEXTAREA'].includes(e.target.tagName))return;
  if(e.key===' '){e.preventDefault();const b=document.getElementById('fcCard');if(b)b.click();}else if(e.key==='ArrowRight'){fcAnswer(true);}else if(e.key==='ArrowLeft'){fcAnswer(false);}});
+window.F101_DECKS=DECKS;
 window.openFlash=function(){stopVoice();hideOvl();mode='flash';playing=false;showPage('flash');fcStart('basics');};
 window.FC_DECKS=DECKS;
 

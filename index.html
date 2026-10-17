@@ -117,6 +117,7 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;bac
 .sugg button{font-family:Nunito;font-weight:800;font-size:12px;border:2px solid var(--navy);border-radius:999px;background:var(--cream);padding:4px 10px;cursor:pointer;color:var(--navy)}
 #chatForm{display:flex;gap:8px;padding:10px;background:#fff}
 .cnote{font-size:11.5px;font-weight:800;color:#5b6684;padding:6px 12px 0;background:#fff}.cnote select{font:800 11.5px Nunito;border:2px solid var(--navy);border-radius:8px;color:var(--navy)}
+.csug{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.csug button{font:800 12px Nunito;border:2px solid var(--navy);border-radius:999px;background:var(--cream);padding:3px 9px;cursor:pointer;color:var(--navy)}.csug button:hover{background:var(--gold)}
 .cload{font-weight:800}.cload i{display:block;height:10px;border:2px solid var(--navy);border-radius:6px;margin:6px 0;overflow:hidden;background:#fff}.cload i b{display:block;height:100%;background:var(--teal)}.cload small{display:block;font-size:12px;opacity:.75}
 #chatIn{flex:1;font-family:Nunito;font-weight:800;font-size:15px;border:3px solid var(--navy);border-radius:12px;padding:8px 10px}
 .dots i{display:inline-block;width:7px;height:7px;margin:0 2px;border-radius:50%;background:var(--navy);animation:dots 1s infinite}
@@ -259,7 +260,7 @@ body.pfs header{display:none}body.pfs #player{width:min(100%,calc((100dvh - 80px
   <header><div>💬 Coach Sam<small>Ask anything about football. I'll keep it simple!</small></div><div class="cbtns"><button id="chatMax" title="Full screen">⛶</button><button id="chatX" title="Close">✕</button></div></header>
   <div id="msgs"></div>
   <div class="sugg"><button>What's a first down?</button><button>Why do teams punt?</button><button>What does a referee do?</button></div>
-  <div class="cnote">🔒 Runs on your device, free. Brain: <select id="coachSize"><option value="small">Quick (small)</option><option value="normal">Normal</option><option value="big">Smartest (big)</option></select></div>
+  <div class="cnote">⚡ Instant answers from the lessons. Works offline, nothing to download.</div>
   <form id="chatForm"><input id="chatIn" placeholder="Type or tap the mic…" autocomplete="off"><button type="button" class="micb" id="micBtn" title="Talk instead of typing" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="8.5" y="3" width="7" height="12" rx="3.5" fill="currentColor"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button><button class="btn primary" style="padding:4px 12px;font-size:16px">Ask</button></form>
 </aside>
 <script>
@@ -1475,27 +1476,21 @@ document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA'].includes(e.targe
 /* ---------- Ask Coach chat (corner widget) ---------- */
 let chatHist=[],chatWas=false;
 function openChat(){const c=$('chat');c.classList.add('open');$('coachFab').classList.add('hide');chatWas=playing&&!done;playing=false;if(voice)voice.pause();setTimeout(()=>$('chatIn').focus({preventScroll:true}),50);
- if(!chatHist.length&&!$('msgs').children.length)addMsg('model','Hi! I\'m <b>Coach Sam</b> 🏈. Ask me anything about football, and I\'ll explain it simply. (The first question takes a moment while I wake up.)');}
+ if(!chatHist.length&&!$('msgs').children.length)addMsg('model','Hi! I\'m <b>Coach Sam</b> 🏈. Ask me a football question, like <i>what\'s a safety?</i> or <i>why do teams punt?</i> Short, simple questions work best.');}
 function closeChat(){const c=$('chat');c.classList.remove('open','max');$('coachFab').classList.remove('hide');if(chatWas&&mode==='steps'&&!pend){playing=true;if(voice)voice.play().catch(()=>{});}}
 function md(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\n/g,'<br>');}
 function addMsg(role,html){const d=document.createElement('div');d.className='msg '+role;d.innerHTML=html;$('msgs').appendChild(d);$('msgs').scrollTop=1e9;return d;}
 const isLocalHost=/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
 async function serverChat(w,text){const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:chatHist.slice(-10),step:mode==='steps'?SCENES[si].title:mode})});const j=await r.json();
  if(!r.ok||!j.text)throw new Error(j.error||'no answer');return j.text;}
-async function sendChat(text){text=(text||'').trim();if(!text||sendChat.busy)return;sendChat.busy=true;$('chatIn').value='';addMsg('user',md(text));chatHist.push({role:'user',text});const w=addMsg('model','<span class="dots"><i></i><i></i><i></i></span>');
- const step=mode==='steps'&&SCENES[si]?SCENES[si].title:'';
- try{let ans;
-  if(window.coachLocal&&coachLocal.supported()){
-   try{ans=await coachLocal.ask(chatHist,t=>{w.innerHTML=t?md(t):'<span class="dots"><i></i><i></i><i></i></span>';$('msgs').scrollTop=1e9;},
-    p=>{const pc=Math.round((p.progress||0)*100);const sz=coachLocal.sizes[coachLocal.size()][1];w.innerHTML=`<div class="cload">🧠 Waking up Coach Sam… <b>${pc}%</b><i><b style="width:${pc}%"></b></i><small>First time only: downloading a small AI brain (${sz}). It runs right on your device, for free.</small></div>`;$('msgs').scrollTop=1e9;},step);}
-   catch(e){console.warn(e);if(isLocalHost)ans=await serverChat(w,text);else throw e;}}
-  else if(isLocalHost)ans=await serverChat(w,text);
-  else{w.innerHTML='Coach Sam runs on your device using <b>WebGPU</b>, which this browser doesn\'t support yet. Try Chrome or Edge on a computer, or a recent phone browser.';chatHist.pop();sendChat.busy=false;return;}
-  w.innerHTML=md(ans);chatHist.push({role:'model',text:ans});}
- catch(e){w.innerHTML='Sorry, Coach Sam couldn\'t wake up on this device. It needs a browser with WebGPU and a bit of free memory. Try the <b>smaller brain</b> below, or another browser.';chatHist.pop();}
- sendChat.busy=false;$('msgs').scrollTop=1e9;}
+function sendChat(text){text=(text||'').trim();if(!text||sendChat.busy)return;sendChat.busy=true;$('chatIn').value='';addMsg('user',md(text));chatHist.push({role:'user',text});const w=addMsg('model','<span class="dots"><i></i><i></i><i></i></span>');
+ setTimeout(()=>{let r;try{r=window.coachLite?coachLite.ask(text):null;}catch(e){console.warn(e);}
+  if(!r)r={html:'Sorry, I had trouble with that one. Try asking it a different way!',chips:[]};
+  w.innerHTML=r.html+(r.chips&&r.chips.length?`<div class="csug">${r.chips.map(c=>`<button type="button">${md(c)}</button>`).join('')}</div>`:'');
+  w.querySelectorAll('.csug button').forEach(b=>b.onclick=()=>{w.querySelector('.csug')?.remove();sendChat(b.textContent);});
+  chatHist.push({role:'model',text:w.textContent});sendChat.busy=false;$('msgs').scrollTop=1e9;},420+Math.random()*300);}
 $('coachFab').onclick=openChat;
-{const cs=$('coachSize');const sync=()=>{if(window.coachLocal)cs.value=coachLocal.size();};setTimeout(sync,500);cs.onchange=()=>{if(window.coachLocal)coachLocal.setSize(cs.value);addMsg('model',`Okay! I'll use the <b>${cs.options[cs.selectedIndex].text}</b> brain from your next question.`);};}$('chatX').onclick=closeChat;$('chatMax').onclick=()=>{const c=$('chat');c.classList.toggle('max');$('chatMax').textContent=c.classList.contains('max')?'🗗':'⛶';$('chatMax').title=c.classList.contains('max')?'Shrink':'Full screen';};
+$('chatX').onclick=closeChat;$('chatMax').onclick=()=>{const c=$('chat');c.classList.toggle('max');$('chatMax').textContent=c.classList.contains('max')?'🗗':'⛶';$('chatMax').title=c.classList.contains('max')?'Shrink':'Full screen';};
 $('chatForm').onsubmit=e=>{e.preventDefault();if(rec&&recOn)rec.stop();sendChat($('chatIn').value);};
 /* free voice-to-text (built into Chrome, Edge and Safari) */
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;let rec=null,recOn=false;
@@ -1515,6 +1510,6 @@ goStep(0);requestAnimationFrame(frame);
 <script src="courses.js"></script>
 <script src="extras.js"></script>
 <script src="game.js"></script>
-<script type="module" src="coach.js"></script>
+<script src="coachlite.js"></script>
 </body>
 </html>
