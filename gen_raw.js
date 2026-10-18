@@ -24,7 +24,7 @@ function wav(pcm,rate){const h=Buffer.alloc(44);const len=pcm.length*2;h.write('
 const ONLY=(process.env.ONLY||'').split(',').filter(Boolean);const SIZE=+(process.env.SIZE||10);
 const rawDir=path.join(__dirname,'raw');fs.mkdirSync(rawDir,{recursive:true});
 (async()=>{let todo=items.filter(it=>!fs.existsSync(path.join(dir,it.file)));if(ONLY.length)todo=todo.filter(it=>ONLY.some(p=>it.id.startsWith(p)));const EXC=(process.env.EXCLUDE||'').split(',').filter(Boolean);if(EXC.length)todo=todo.filter(it=>!EXC.some(p=>it.id.startsWith(p)));
- if(process.env.VF)todo=todo.filter(it=>process.env.VF==='pbp'?it.v==='pbp':!it.v);const seen=new Set();todo=todo.filter(it=>!seen.has(it.file)&&seen.add(it.file));
+ if(process.env.VF)todo=todo.filter(it=>(it.v||'an')===process.env.VF);const seen=new Set();todo=todo.filter(it=>!seen.has(it.file)&&seen.add(it.file));
  const done=new Set();for(const f of fs.readdirSync(rawDir))if(f.endsWith('.json'))for(const x of JSON.parse(fs.readFileSync(path.join(rawDir,f))))done.add(x.file);
  todo=todo.filter(it=>!done.has(it.file));console.log('model',MODEL,'to generate:',todo.length);
  const groups={};for(const it of todo){const g=it.id.split('_')[0].replace(/\d+$/,'');(groups[g]=groups[g]||[]).push(it);}

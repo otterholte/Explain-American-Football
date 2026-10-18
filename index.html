@@ -1319,7 +1319,7 @@ fetch('audio/manifest.json',{cache:'no-store'}).then(r=>r.ok?r.json():{}).then(j
 const nd=k=>{const n=NARR[`${COURSE.cap}${si}_${k}`];return n&&n.d?n.d:0;};
 function buildKnots(){const caps=cur.caps,A=[0],R=[0];const end=cur.dur;
  for(let k=0;k<caps.length;k++){const c=caps[k].t,next=k<caps.length-1?caps[k+1].t:end;if(c>A.at(-1)+1e-6){R.push(R.at(-1)+(c-A.at(-1)));A.push(c);}
-  const seg=Math.max(next-c,0.01),need=nd(k)?nd(k)+.35:0;A.push(c+seg);R.push(R.at(-1)+Math.max(seg,need));}
+  const seg=Math.max(next-c,0.01),need=nd(k)?nd(k)+(caps[k].pad??COURSE.pad??.35):0;A.push(c+seg);R.push(R.at(-1)+Math.max(seg,need));}
  if(end>A.at(-1)+1e-6){R.push(R.at(-1)+end-A.at(-1));A.push(end);}if(A.length<2){A.push(1);R.push(1);}knots={A,R};}
 const interp=(X,Y,v)=>{if(v<=X[0])return Y[0];for(let i=1;i<X.length;i++)if(v<=X[i]){const p=X[i]>X[i-1]?(v-X[i-1])/(X[i]-X[i-1]):1;return Y[i-1]+(Y[i]-Y[i-1])*p;}return Y.at(-1)+(v-X.at(-1));};
 const A2R=a=>interp(knots.A,knots.R,a),R2A=r=>interp(knots.R,knots.A,r);
