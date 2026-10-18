@@ -2386,18 +2386,68 @@
  },
  {
   "id": "g_p_kickoff_0",
-  "text": "Here's the kickoff... it sails deep into the end zone. Touchback.",
-  "file": "n_d2c893577c7b.wav"
+  "text": "Here's the kickoff!",
+  "file": "n_ef21844eb5c5.wav"
  },
  {
   "id": "g_p_kickoff_1",
-  "text": "The kick is high and deep. No return. Touchback.",
-  "file": "n_366ad1146e35.wav"
+  "text": "The kickoff is in the air!",
+  "file": "n_891a643dbab3.wav"
  },
  {
   "id": "g_p_kickoff_2",
-  "text": "Booming kickoff into the end zone. They'll start at the thirty-five.",
-  "file": "n_5782b8933659.wav"
+  "text": "Kickoff is away! High and deep!",
+  "file": "n_0e1dea96ff66.wav"
+ },
+ {
+  "id": "g_p_ko_ret_0",
+  "text": "He takes it out! Here comes the return!",
+  "file": "n_3be1b44b8f4e.wav"
+ },
+ {
+  "id": "g_p_ko_ret_1",
+  "text": "He fields it and looks for running room!",
+  "file": "n_4ddeaf3e7307.wav"
+ },
+ {
+  "id": "g_p_ko_ret_2",
+  "text": "Return man has it, and he's off!",
+  "file": "n_817197af06bd.wav"
+ },
+ {
+  "id": "g_p_ko_tb_0",
+  "text": "It's deep in the end zone. He takes a knee. Touchback.",
+  "file": "n_156e6af92b6c.wav"
+ },
+ {
+  "id": "g_p_reverse_0",
+  "text": "Reverse! He hands it to the receiver going the other way!",
+  "file": "n_5da9d1578ead.wav"
+ },
+ {
+  "id": "g_p_reverse_1",
+  "text": "Oh, it's a reverse! The defense is fooled!",
+  "file": "n_ccf9873e7905.wav"
+ },
+ {
+  "id": "g_p_flea_0",
+  "text": "Handoff... and he tosses it back! Flea flicker!",
+  "file": "n_4ac36002d335.wav"
+ },
+ {
+  "id": "g_p_flea_1",
+  "text": "Flea flicker! The running back flips it back to the quarterback!",
+  "file": "n_6eacab2f5f2a.wav"
+ },
+ {
+  "id": "g_p_hbpass_0",
+  "text": "The running back stops... he's going to throw it!",
+  "file": "n_d79ee5235cdd.wav"
+ },
+ {
+  "id": "g_p_hbpass_1",
+  "text": "Halfback pass! The running back is throwing!",
+  "file": "n_4abc4e25b3ea.wav"
  },
  {
   "id": "g_p_third_long_0",
@@ -3151,8 +3201,13 @@
  },
  {
   "id": "g_a_touchback_0",
-  "text": "A touchback means no return. The ball is just placed out at the thirty-five.",
-  "file": "n_a87ff0e9a4a6.wav"
+  "text": "Touchback! The ball went deep into the end zone, so the returner knelt down. No run back: his team starts at the thirty-five.",
+  "file": "n_badccc2f2f97.wav"
+ },
+ {
+  "id": "g_a_ko_return_0",
+  "text": "On a kickoff, the receiving team catches the ball and runs it back as far as they can.",
+  "file": "n_1c2aa4a56b13.wav"
  },
  {
   "id": "g_a_safety_0",
@@ -3193,5 +3248,65 @@
   "id": "g_a_runstop_0",
   "text": "The defense is crowding the line to stop the run. That's a perfect time for play action.",
   "file": "n_22590540897f.wav"
+ },
+ {
+  "id": "g_h_cat",
+  "text": "This is the play menu. Pick Run to hand the ball to your runner, Pass to throw it to a receiver, or Trick Play to fool the defense. The green star is the coach's pick, and it's always a good choice.",
+  "file": "n_911fb1ac6bc3.wav"
+ },
+ {
+  "id": "g_h_plays",
+  "text": "These are your plays. Each little picture shows where your players will go, and the yellow line is the main idea. Pick one, and the coach card will explain it before the snap.",
+  "file": "n_3fb9d8598d22.wav"
+ },
+ {
+  "id": "g_h_prerun",
+  "text": "This is a running play. The yellow arrow is your runner's path, and the glowing circle is the hole your blockers will open. Press snap. Then steer with the arrow keys, or do nothing and your runner follows the arrow on his own.",
+  "file": "n_74f17f80e0ec.wav"
+ },
+ {
+  "id": "g_h_prepass",
+  "text": "This is a passing play. The lines show where each receiver will run, and the numbers show the order your quarterback checks them. After the snap, wait for a green tag that says open, then press Enter to throw.",
+  "file": "n_80bc33ea7ff1.wav"
+ },
+ {
+  "id": "g_h_liverun",
+  "text": "You have the ball! Run toward open grass and away from the other team. Press space, or the juke button, to dodge a tackler.",
+  "file": "n_3796d904c78c.wav"
+ },
+ {
+  "id": "g_h_livepass",
+  "text": "Your quarterback is checking his receivers one at a time. A red tag means covered, so wait. A green tag means open: press Enter, or tap throw, right now.",
+  "file": "n_036069b77492.wav"
+ },
+ {
+  "id": "g_h_defcall",
+  "text": "You're on defense. The scouting report guesses what they'll do. If they'll probably run, pick Stop the Run. If they'll probably pass, pick Stop the Pass.",
+  "file": "n_6e80c50e304a.wav"
+ },
+ {
+  "id": "g_h_deflive",
+  "text": "You control the player with the glowing ring. Run into the ball carrier to tackle him. Press switch to jump to the defender closest to the ball, or just watch your teammates play.",
+  "file": "n_77820b98fa73.wav"
+ },
+ {
+  "id": "g_h_kick",
+  "text": "Time to kick! First, stop the power bar past the black line so the ball goes far enough. Then stop the needle in the green so it flies straight between the posts.",
+  "file": "n_162330a151e7.wav"
+ },
+ {
+  "id": "g_h_punt",
+  "text": "You're punting the ball away. Drag the yellow target to where you want it to land. Close to their end zone is great, but inside the end zone is just a touchback.",
+  "file": "n_e0128d027f66.wav"
+ },
+ {
+  "id": "g_h_ret",
+  "text": "The ball is coming to your returner. After he catches it, run up the field and follow your blockers. If he catches it deep in the end zone, he kneels for a touchback.",
+  "file": "n_3ba058b5be7b.wav"
+ },
+ {
+  "id": "g_h_general",
+  "text": "This is Game Day! Score more points than the other team in four short quarters. A touchdown is worth six points, and a field goal is worth three.",
+  "file": "n_9098421cb39e.wav"
  }
 ]
