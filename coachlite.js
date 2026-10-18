@@ -224,9 +224,9 @@ const KB=[
  "Football is a full-contact sport, so players wear **helmets** and shoulder **pads** to protect themselves. The rules also ban dangerous hits, like hitting with the top of the helmet.",['facemask','roughness']],
 // ---------- this site ----------
 ['site',"how do i use this site|what can i do here|help","help site app menu use lessons",
- "Use the **☰ Menu** to pick a lesson: the Crash Course, Rules & Penalties, Football Smarts, Flashcards, the Bonus Quiz, or the **Game Day** game. You can ask me a question any time!",['game']],
-['game',"how do i play the game|game controls|how do i throw in game day|how do i juke","game day controls play arrows juke",
- "In **Game Day**, pick a play. On runs, steer with the arrow keys or drag your finger, and press Space (or tap with a second finger) to **juke**. On passes, tap a receiver's number or press 1-4; **green** numbers are open. First to 14 points wins!",['site']],
+ "Use the **☰ Menu** to pick a lesson: the Crash Course, Rules & Penalties, Football Smarts, Flashcards, the Bonus Quiz, or **Watch a Game**. You can ask me a question any time!",['game']],
+['game',"how do i play the game|watch a game|what is watch a game|game day|the game","watch game announcers broadcast thunder titans",
+ "**Watch a Game** is a narrated broadcast of the Thunder vs. the Titans. Two announcers call the action and explain the **scoreboard**, the **down and distance**, and the **formation clues** before each snap. Pick **The basics** (about 5 min), or add Rules & Penalties and Football Smarts (about 6½ min).",['site']],
 ];
 const SYN={td:'touchdown',tds:'touchdown',qb:'quarterback',qbs:'quarterback',fg:'field goal',fgs:'field goal',pat:'extra point',rb:'running back',wr:'wide receiver',te:'tight end',cb:'cornerback',lb:'linebacker',
  db:'defensive back',ol:'offensive line',dl:'defensive line',pi:'pass interference',dpi:'pass interference',int:'interception',pick:'interception',ot:'overtime',refs:'referee',ref:'referee',zebras:'referee',

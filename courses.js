@@ -382,4 +382,5 @@ COURSES.smarts.quiz=[
  ['What is motion?',['One player moving sideways or back before the snap','The whole team running onto the field together','A trick play where the kicker runs with the ball'],0,'<b>Motion</b> is one offensive player moving sideways or backward before the snap.'],
  ['In zone coverage, what does each defender guard?',['An area of the field','One specific player','The quarterback only'],0,'In <b>zone</b>, each defender guards an <b>area</b>. In man coverage, each guards one player.'],
  ['What is the intended target?',['The receiver the quarterback really plans to throw to','The goal posts on a field goal','The defender guarding the quarterback'],0,'The <b>intended target</b> is the receiver the quarterback actually means to throw to.']];
+window.CH={drawRef,flagThrow,penCard,infoCard,spotTo,yardBracket,worldRect,scrim,topTip,chip};
 })();

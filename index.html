@@ -249,7 +249,7 @@ body.pfs header{display:none}body.pfs #player{width:min(100%,calc((100dvh - 80px
     <button class="mi" id="m5"><span>🧠</span><b>Football Smarts</b><small>Formations, motion and strategy · 6 min</small></button>
     <button class="mi" id="m6"><span>🃏</span><b>Flashcards</b><small>Learn every football word</small></button>
     <button class="mi" id="m7"><span>✅</span><b>Bonus Quiz</b><small>10 more questions on the basics</small></button>
-    <button class="mi star" id="m8"><span>🎮</span><b>Play the Game</b><small>Call the plays. First to 2 touchdowns wins!</small></button>
+    <button class="mi star" id="m8"><span>📺</span><b>Watch a Game</b><small>Sit back: the announcers explain a full game</small></button>
   </div>
 </section>
 <section id="fcPage" hidden></section>
@@ -1316,7 +1316,7 @@ const ICON_SND='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
 function applyPrefs(){document.querySelector('.card').classList.toggle('nocap',!(capsOn&&started)||mode==='explore');const cc=$('ccBtn');cc.classList.toggle('off',!capsOn);cc.title=capsOn?'Hide captions':'Show captions';
  const mb=$('muteBtn');mb.innerHTML=muted?ICON_MUTE:ICON_SND;mb.classList.toggle('off',muted);mb.title=muted?'Unmute':'Mute';if(voice)voice.muted=muted;SFX.on=!muted;}
 fetch('audio/manifest.json',{cache:'no-store'}).then(r=>r.ok?r.json():{}).then(j=>{NARR=j||{};if(cur&&mode==='steps'){buildKnots();tr=A2R(ta);}}).catch(()=>{});
-const nd=k=>{const n=NARR[`s${si}_${k}`];return n&&n.d?n.d:0;};
+const nd=k=>{const n=NARR[`${COURSE.cap}${si}_${k}`];return n&&n.d?n.d:0;};
 function buildKnots(){const caps=cur.caps,A=[0],R=[0];const end=cur.dur;
  for(let k=0;k<caps.length;k++){const c=caps[k].t,next=k<caps.length-1?caps[k+1].t:end;if(c>A.at(-1)+1e-6){R.push(R.at(-1)+(c-A.at(-1)));A.push(c);}
   const seg=Math.max(next-c,0.01),need=nd(k)?nd(k)+.35:0;A.push(c+seg);R.push(R.at(-1)+Math.max(seg,need));}
@@ -1342,7 +1342,7 @@ function goStep(i){i=clamp(i,0,SCENES.length-1);showPage('steps');mode='steps';i
 function updateUI(){if(mode==='explore'){$('chtag').innerHTML=`<span>EXPLORE</span> · MEET THE PLAYERS`;$('chnum').textContent='Explore';$('next').disabled=true;$('back').disabled=false;$('progbar').style.width='100%';return;}
  const d=SCENES[si];$('chtag').innerHTML=`<span>${si+1}</span> · ${d.title.toUpperCase()}`;$('chnum').textContent=`${COURSE.short?COURSE.short+' · ':''}Step ${si+1} of ${SCENES.length}`;
  $('back').disabled=si===0;$('next').disabled=si===SCENES.length-1||gateNext;$('progbar').style.width=((si+1)/SCENES.length*100)+'%';}
-function finishStep(){done=true;playing=false;}
+function finishStep(){done=true;playing=false;try{const k='f101_prog_'+COURSE.key;localStorage.setItem(k,Math.max(+localStorage.getItem(k)||0,si+1));}catch(e){}if(COURSE.auto&&si<SCENES.length-1){const at=si,ac=COURSE;setTimeout(()=>{if(done&&si===at&&COURSE===ac&&mode==='steps')goStep(si+1);},1400);}}
 
 /* ---------- main loop ---------- */
 let lastTs=0;
@@ -1413,7 +1413,7 @@ let lastSpot=null;
 function setCourse(k,step=0){COURSE=COURSES[k];SCENES=COURSE.list;goStep(step);}
 COURSES.basics.quiz=QUIZ;
 $('m1').onclick=()=>{begin();setCourse('basics');};$('m4').onclick=()=>{begin();setCourse('rules');};$('m5').onclick=()=>{begin();setCourse('smarts');};$('m3')&&($('m3').onclick=()=>openChat());
-$('m7').onclick=()=>{begin();setCourse('bonus');};$('m6').onclick=()=>{begin();window.openFlash&&openFlash();};$('m8').onclick=()=>{begin();window.openGame&&openGame();};
+$('m7').onclick=()=>{begin();setCourse('bonus');};$('m6').onclick=()=>{begin();window.openFlash&&openFlash();};$('m8').onclick=()=>{window.openWatch&&openWatch();};
 $('mResume').onclick=()=>{begin();if(lastSpot){const l=lastSpot;lastSpot=null;setCourse(l.c,l.i);}};
 $('menuBtn').onclick=()=>{begin();if(window.gameStop)gameStop();showMenu();};
 /* full screen for the video (falls back to a full-window mode where the browser can't) */
@@ -1508,8 +1508,8 @@ goStep(0);requestAnimationFrame(frame);
 
 </script>
 <script src="courses.js"></script>
+<script src="watch.js"></script>
 <script src="extras.js"></script>
-<script src="game.js"></script>
 <script src="coachlite.js"></script>
 </body>
 </html>

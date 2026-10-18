@@ -10,12 +10,10 @@ An animated, narrated crash course that teaches complete beginners the basics of
 - **Football Smarts:** formations, defensive fronts, motion, reading the defense, play-action and other tricks.
 - **Quizzes:** quick checks in every step, a final quiz for each course, and a 10-question bonus quiz.
 - **Flashcards:** every football word from all three courses, plus all the quiz questions.
-- **Game Day:** an arcade football game with 4 one-minute quarters.
-  - **Offense:** pick Run, Pass or Trick, then one of 4 plays (12 total, including a reverse, flea flicker and halfback pass). A coach card shows the plan on the field, the keys to press, and why it works.
-  - **Passing:** your QB checks receivers one at a time; press Enter (or tap Throw) when one turns green.
-  - **Defense:** a simple scouting report, then steer your player to the ball.
-  - **Kicking:** power and accuracy meters with a behind-the-kicker view, aim-where-it-lands punts, and real kickoff returns.
-  - **Help:** first-time tip cards for each part of the game, plus a Help button that pauses and talks you through the screen.
+- **Watch a Game:** a narrated TV-style broadcast of the Thunder vs. the Titans, from kickoff to the final whistle.
+  - **Two announcers:** an excited play-by-play voice calls the action, and an analyst explains it while the screen highlights the scoreboard, the yellow line and the players.
+  - **What it teaches:** score, quarter and clock, down and distance, run and pass formations, punts, field goals, touchdowns, turnovers and the final two minutes.
+  - **Two lengths:** the basics (about 5 minutes) or, after Rules & Penalties and Football Smarts, a longer cut that adds penalties, motion, man and zone coverage, the nickel defense, play-action and timeouts.
 - **Ask Coach:** Coach Sam Lite, a chat helper built into the page (`coachlite.js`). It matches questions against about 100 beginner-friendly answers plus every flashcard.
   - **Speed:** instant, and it works offline.
   - **Cost:** no AI model, download, API key or server.
