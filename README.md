@@ -11,10 +11,10 @@ An animated, narrated crash course that teaches complete beginners the basics of
 - **Quizzes:** quick checks in every step, a final quiz for each course, and a 10-question bonus quiz.
 - **Flashcards:** every football word from all three courses, plus all the quiz questions.
 - **Watch a Game:** a narrated TV-style broadcast of the Thunder vs. the Titans, from kickoff to the final whistle.
-  - **Two announcers:** Mike, the play-by-play voice, calls each play as it happens. Dana, the color commentator, explains what it means for beginners.
-  - **Real game flow:** every play goes huddle, walk to the line, play clock, snap, whistle, then back to the huddle. Results like incomplete, interception and fumble pop up small in the corner.
-  - **What it teaches:** score, quarter and clock, down and distance, run and pass formations, tackles, punts and fair catches, field goals, touchdowns and extra points, interceptions, fumbles and the final two minutes.
-  - **Two lengths:** the basics (about 13 minutes) or, after Rules & Penalties and Football Smarts, a longer cut (about 15 minutes) that adds a false start, holding, motion, man and zone coverage, the nickel defense, play-action and timeouts.
+  - **Two announcers:** Mike calls each play as it happens, and Dana adds color, quick reminders and a few jokes, like a good sports podcast.
+  - **Real game flow:** the offense huddles (the defense doesn't), walks to the line under the play clock, snaps, and heads back to the huddle. Special teams jog on and off for punts and field goals, and kickoffs follow the newer rule where nobody moves until the catch.
+  - **3D replays:** slow-motion replays of a catch, a big tackle, a toe-tap sideline catch, the touchdown, an interception and a fumble (`replay3d.js`, built on three.js in `vendor/`).
+  - **Two lengths:** the basics (about 11 minutes) or, after Rules & Penalties and Football Smarts, a longer cut (about 13 minutes) that adds a false start, holding, motion, man and zone coverage, the nickel defense, play-action and timeouts.
 - **Ask Coach:** Coach Sam Lite, a chat helper built into the page (`coachlite.js`). It matches questions against about 100 beginner-friendly answers plus every flashcard.
   - **Speed:** instant, and it works offline.
   - **Cost:** no AI model, download, API key or server.

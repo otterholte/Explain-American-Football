@@ -1306,219 +1306,165 @@
  },
  {
   "id": "w0_0",
-  "text": "Good afternoon, everybody, and welcome to the big game! I'm Mike Carter, and today it's the Thunder against the Titans.",
-  "file": "n_580cf3a6a13a.wav",
+  "text": "Hey, everybody, welcome in! I'm Mike, and it is a beautiful day for football. It's the Thunder and the Titans!",
+  "file": "n_8de8ad4cdff8.wav",
   "v": "pbp"
  },
  {
   "id": "w0_1",
-  "text": "And I'm Dana Brooks. If you're brand new to football, you're in the right place. Mike will tell you what happens, and I'll explain why it matters.",
-  "file": "n_1e09c0d7eaa7.wav",
+  "text": "And I'm Dana! Mike, I've been looking forward to this one all week. I even wore my lucky socks.",
+  "file": "n_e095dffd0c7f.wav",
   "v": "col"
  },
  {
   "id": "w0_2",
-  "text": "Let's start with the scoreboard at the bottom of your screen.",
-  "file": "n_deb25933fa40.wav",
+  "text": "Bold move. Let's hope they're lucky for somebody. Zero to zero, first quarter, a full fifteen minutes on the clock.",
+  "file": "n_93e960f98673.wav",
   "v": "pbp"
  },
  {
   "id": "w0_3",
-  "text": "On the left are the two teams and their scores. Right now, it's zero to zero.",
-  "file": "n_07c7f006ceac.wav",
+  "text": "Thunder in blue, going right. Titans in red, going left. Down and distance and the play clock are down there on the scoreboard, like always.",
+  "file": "n_f363d2b6084a.wav",
   "v": "col"
  },
  {
   "id": "w0_4",
-  "text": "Next is the quarter and the game clock. A game has four quarters, and each one is fifteen minutes long.",
-  "file": "n_f9b844812aa2.wav",
-  "v": "col"
- },
- {
-  "id": "w0_5",
-  "text": "The gold box shows the down and distance. It'll make sense in a minute, once a team has the ball.",
-  "file": "n_6f36bd6e3ba0.wav",
-  "v": "col"
- },
- {
-  "id": "w0_6",
-  "text": "And on the end is the play clock. Between plays, the offense gets forty seconds to start the next one.",
-  "file": "n_e007b4997f39.wav",
-  "v": "col"
- },
- {
-  "id": "w0_7",
-  "text": "The Thunder, in blue, are going to the right. The Titans, in red, are going to the left.",
-  "file": "n_bfc14e9c7b02.wav",
-  "v": "pbp"
- },
- {
-  "id": "w0_8",
-  "text": "Each team is trying to get the ball into the end zone it's facing. That's a touchdown, and it's the best way to score.",
-  "file": "n_8f99357906af.wav",
-  "v": "col"
- },
- {
-  "id": "w0_9",
-  "text": "Alright, the teams are heading to their sidelines. It's almost time for kickoff!",
-  "file": "n_c185d3fbda42.wav",
+  "text": "Teams are heading to the sidelines. Kickoff is coming right up!",
+  "file": "n_93f766a13e82.wav",
   "v": "pbp"
  },
  {
   "id": "w1_0",
-  "text": "The Titans line up to kick off. Here we go!",
-  "file": "n_6fb147c01eab.wav",
+  "text": "The Titans will kick it off. And look at this setup: the two teams are lined up just a few yards apart.",
+  "file": "n_03913a8773ce.wav",
   "v": "pbp"
  },
  {
   "id": "w1_1",
-  "text": "A kickoff starts every game. One team kicks the ball deep, and the other team tries to catch it and run it back.",
-  "file": "n_1a1597a81f6a.wav",
+  "text": "That's the newer kickoff rule. Nobody's allowed to move until the ball lands or somebody catches it. It's basically the world's most intense game of freeze tag.",
+  "file": "n_c71d61bd7a7c.wav",
   "v": "col"
  },
  {
   "id": "w1_2",
-  "text": "And there's the kick. It's high, and it's deep...",
-  "file": "n_30aa9fe1a35f.wav",
+  "text": "Here's the kick. High, and deep...",
+  "file": "n_ca673730f478.wav",
   "v": "pbp"
  },
  {
   "id": "w1_3",
-  "text": "Thomas catches it at the 3 and heads up the field...",
-  "file": "n_cc00dcfd6f2b.wav",
+  "text": "Taken at the 3. And now everybody can go!",
+  "file": "n_172d62dbc2cf.wav",
   "v": "pbp"
  },
  {
   "id": "w1_4",
-  "text": "...and he's brought down at the 27-yard line. A nice return!",
-  "file": "n_5a776c9fde67.wav",
+  "text": "He's brought down at the 27. Nice return!",
+  "file": "n_390478be06e8.wav",
   "v": "pbp"
  },
  {
   "id": "w1_5",
-  "text": "Now the Thunder have the ball, so they're on offense. See the little football on the scoreboard? It shows which team has the ball.",
-  "file": "n_f4948cc1912e.wav",
-  "v": "col"
- },
- {
-  "id": "w1_6",
-  "text": "And this is the down and distance: 1st and 10. The offense gets four tries, called downs, to move the ball ten yards.",
-  "file": "n_cc5cd07e5be7.wav",
-  "v": "col"
- },
- {
-  "id": "w1_7",
-  "text": "If they make it, they earn four brand-new downs. That's called getting a first down.",
-  "file": "n_ecacc34d80a4.wav",
+  "text": "And now that the play's over, the kickoff teams jog off and the offense and defense come on. There's the little football on the scoreboard. Thunder ball, first and ten.",
+  "file": "n_23821be22f9d.wav",
   "v": "col"
  },
  {
   "id": "w2_0",
-  "text": "The Thunder offense jogs onto the field for its first drive.",
-  "file": "n_770ba0eafd44.wav",
+  "text": "Here comes the Thunder offense, jogging out for the first drive.",
+  "file": "n_b35c95041d59.wav",
   "v": "pbp"
  },
  {
   "id": "w2_1",
-  "text": "Before every play, the offense gathers in a circle called a huddle. The quarterback, Cole Parker, tells everyone which play they're running.",
-  "file": "n_55dcf6a12f02.wav",
+  "text": "The quarterback's calling the play in the huddle. The defense doesn't huddle up like that, though. They're just watching their coach on the sideline for the call.",
+  "file": "n_0cabc1036c41.wav",
   "v": "col"
  },
  {
   "id": "w2_2",
-  "text": "The defense huddles too. On the first drive, both teams are still getting a feel for each other.",
-  "file": "n_db1f7dc7c2f4.wav",
-  "v": "col"
- },
- {
-  "id": "w2_3",
-  "text": "They break the huddle and walk up to the line.",
-  "file": "n_a8fb8a52127c.wav",
+  "text": "And they break the huddle.",
+  "file": "n_736c9c150b55.wav",
   "v": "pbp"
  },
  {
-  "id": "w2_4",
-  "text": "Look at how they lined up. No receivers are spread out wide, and there's an extra blocker behind the quarterback. That usually means a run.",
-  "file": "n_ec20797728dc.wav",
+  "id": "w2_3",
+  "text": "Ooh, look at that. Nobody split out wide, extra blocker in the backfield. Mike, I'd bet my lucky socks this is a run.",
+  "file": "n_0a9431057e47.wav",
   "v": "col"
+ },
+ {
+  "id": "w2_4",
+  "text": "And the linebackers agree with you. They're creeping right up.",
+  "file": "n_766a967515dd.wav",
+  "v": "pbp"
  },
  {
   "id": "w2_5",
-  "text": "The Titans see it too. Watch their linebackers creep closer to the line, ready to stop a run.",
-  "file": "n_2d243205c3ce.wav",
-  "v": "col"
+  "text": "Snap, handoff to the running back...",
+  "file": "n_20391bf6b584.wav",
+  "v": "pbp"
  },
  {
   "id": "w2_6",
-  "text": "Parker takes the snap and hands it to Jones...",
-  "file": "n_1d0111a223ef.wav",
+  "text": "...and he's brought down at the 31. A pickup of four.",
+  "file": "n_52d0e4dd01b1.wav",
   "v": "pbp"
  },
  {
   "id": "w2_7",
-  "text": "...and he's brought down at the 31. A gain of four.",
-  "file": "n_e88b5e11f5a0.wav",
-  "v": "pbp"
+  "text": "Four yards a carry, and the coach is a happy camper. Second and six.",
+  "file": "n_25f3e0262029.wav",
+  "v": "col"
  },
  {
   "id": "w2_8",
-  "text": "That's a tackle. Once the runner is pulled to the ground, the play is over, and the next one starts from that spot.",
-  "file": "n_76a498fa3108.wav",
-  "v": "col"
- },
- {
-  "id": "w2_9",
-  "text": "Second down, and six to go.",
-  "file": "n_c930e8980fb3.wav",
+  "text": "Second and six, and here they come out of the huddle. Oh, now they're spreading out.",
+  "file": "n_5a5f24eefdfa.wav",
   "v": "pbp"
  },
  {
-  "id": "w2_10",
-  "text": "So it's their second try, and they need six more yards to reach that yellow line. Fun fact: the line isn't really on the field. It's drawn in just for TV.",
-  "file": "n_ab8cb81f0aca.wav",
+  "id": "w2_9",
+  "text": "Receivers wide on both sides. That smells like a pass to me.",
+  "file": "n_bdaf95bbb428.wav",
   "v": "col"
  },
  {
+  "id": "w2_10",
+  "text": "And the Titans back off a few steps to cover them.",
+  "file": "n_45378775201d.wav",
+  "v": "pbp"
+ },
+ {
   "id": "w2_11",
-  "text": "Here they come out of the huddle. This time, they spread out.",
-  "file": "n_b75d2f95604a.wav",
+  "text": "Quarterback drops back...",
+  "file": "n_e82b4249af99.wav",
   "v": "pbp"
  },
  {
   "id": "w2_12",
-  "text": "Now there are receivers out wide on both sides. That's a passing look.",
-  "file": "n_037f5d9fe33e.wav",
-  "v": "col"
+  "text": "...fires to the right side... caught!",
+  "file": "n_5f4a4432ff4d.wav",
+  "v": "pbp"
  },
  {
   "id": "w2_13",
-  "text": "And the Titans back off a few steps, so they can stay with those receivers.",
-  "file": "n_32af2b4c00ce.wav",
-  "v": "col"
+  "text": "...and he's dragged down at the 43. First down, Thunder!",
+  "file": "n_5b6f76a8119a.wav",
+  "v": "pbp"
  },
  {
   "id": "w2_14",
-  "text": "Parker drops back to pass...",
-  "file": "n_5b96533c0185.wav",
-  "v": "pbp"
+  "text": "Ooh, let's see that one again. Look at the hands! Ball comes in hot, and he just plucks it out of the air.",
+  "file": "n_67f1fbe32d70.wav",
+  "v": "col"
  },
  {
   "id": "w2_15",
-  "text": "...he throws to the right side... complete to Miller!",
-  "file": "n_2fdda45151d8.wav",
+  "text": "He could catch an egg out of a cannon. And he slips past the yellow line for a fresh set of downs.",
+  "file": "n_74b90a1600fe.wav",
   "v": "pbp"
- },
- {
-  "id": "w2_16",
-  "text": "...and he's brought down at the 43. That's a first down!",
-  "file": "n_4072130816ce.wav",
-  "v": "pbp"
- },
- {
-  "id": "w2_17",
-  "text": "He made it past the yellow line, so the Thunder get a fresh set of four downs. It's first and ten again, and the yellow line moves ten yards ahead.",
-  "file": "n_51793b52ad73.wav",
-  "v": "col"
  },
  {
   "id": "w3_0",
@@ -1528,99 +1474,93 @@
  },
  {
   "id": "w3_1",
-  "text": "A team's trip down the field is called a drive. Think of it like a road trip to the end zone, and every first down keeps the trip going.",
-  "file": "n_1277a94375bb.wav",
+  "text": "Nice, steady drive so far. Little by little, like a road trip with a lot of snack stops.",
+  "file": "n_dac7d7d06505.wav",
   "v": "col"
  },
  {
   "id": "w3_2",
-  "text": "The Thunder come out of the huddle, spread out wide.",
-  "file": "n_a800bd325f3a.wav",
+  "text": "Out of the huddle, spread out wide.",
+  "file": "n_082f84d45b17.wav",
   "v": "pbp"
  },
  {
   "id": "w3_3",
-  "text": "Parker drops back...",
-  "file": "n_83cef8238f39.wav",
+  "text": "Quarterback drops back...",
+  "file": "n_e82b4249af99.wav",
   "v": "pbp"
  },
  {
   "id": "w3_4",
-  "text": "...throws to the left side... and it's incomplete! The ball hit the ground.",
-  "file": "n_b865721f9d98.wav",
+  "text": "...throws to the left side... and it falls incomplete.",
+  "file": "n_9e5c1608d22a.wav",
   "v": "pbp"
  },
  {
   "id": "w3_5",
-  "text": "When a pass hits the ground, it's incomplete. The ball goes back to where the play started, and the game clock stops.",
-  "file": "n_c94b3f41db48.wav",
+  "text": "Clock stops on that one. Third and eight coming up.",
+  "file": "n_95b290ee9836.wav",
   "v": "col"
  },
  {
   "id": "w3_6",
-  "text": "That brings up third and eight.",
-  "file": "n_fbbc60b8b851.wav",
+  "text": "Big third down here. Let's see what they've got.",
+  "file": "n_35c4ba12a22b.wav",
   "v": "pbp"
  },
  {
   "id": "w3_7",
-  "text": "Third down is a big moment. If they don't get the first down on this play, they'll probably have to kick the ball away.",
-  "file": "n_5253f1e5969d.wav",
+  "text": "Everybody in the stadium knows it's a pass. The question is, can they get to that yellow line?",
+  "file": "n_c49107e5863b.wav",
   "v": "col"
  },
  {
   "id": "w3_8",
-  "text": "Here comes the offense out of the huddle.",
-  "file": "n_3f18f68d126b.wav",
+  "text": "Quarterback looks...",
+  "file": "n_ed237cc4d7f3.wav",
   "v": "pbp"
  },
  {
   "id": "w3_9",
-  "text": "With that many yards to go, everyone expects a pass. The defense is playing back to protect the yellow line.",
-  "file": "n_9bc95f73e7a5.wav",
-  "v": "col"
+  "text": "...over the middle, and it's caught...",
+  "file": "n_a9a1f9c7e2b4.wav",
+  "v": "pbp"
  },
  {
   "id": "w3_10",
-  "text": "Parker looks for a receiver...",
-  "file": "n_11dd91b3540d.wav",
+  "text": "...but the linebacker wraps him up at the 50. Short of the first down!",
+  "file": "n_b6d8c7a1b12b.wav",
   "v": "pbp"
  },
  {
   "id": "w3_11",
-  "text": "...he throws over the middle... caught by Lee!",
-  "file": "n_98f5441270b8.wav",
-  "v": "pbp"
- },
- {
-  "id": "w3_12",
-  "text": "...and Lee is tackled at the 50-yard line, short of the first down.",
-  "file": "n_d1b9019c7d19.wav",
-  "v": "pbp"
- },
- {
-  "id": "w3_13",
-  "text": "He didn't reach the yellow line. Now it's fourth down, and the Thunder have a big decision to make.",
-  "file": "n_8e7fcfbc0974.wav",
+  "text": "Let's look at that tackle. The linebacker reads it the whole way, hits him right at the waist, and wraps him up. Textbook.",
+  "file": "n_20c46f9b8731.wav",
   "v": "col"
  },
  {
+  "id": "w3_12",
+  "text": "That's the kind of tackle they put in the coaching videos. And that brings up fourth down.",
+  "file": "n_45645b1a7b01.wav",
+  "v": "pbp"
+ },
+ {
   "id": "w4_0",
-  "text": "On fourth down, a team has three choices. Go for it and risk giving the ball away right here, kick a field goal if they're close enough, or punt.",
-  "file": "n_10a766a340d3.wav",
+  "text": "Fourth and three at midfield. Too far for a field goal, and going for it is risky. I think they'll punt.",
+  "file": "n_72a8d6727f05.wav",
   "v": "col"
  },
  {
   "id": "w4_1",
-  "text": "At midfield, they're too far for a field goal. So they'll punt: kick the ball far down the field, so the other team has a long way to go.",
-  "file": "n_b64061743ea0.wav",
-  "v": "col"
+  "text": "Yep, here comes the punt team. The quarterback and a receiver head off, and on comes the punter.",
+  "file": "n_e1ba1ec12e4f.wav",
+  "v": "pbp"
  },
  {
   "id": "w4_2",
-  "text": "Here comes the punt team. The punter lines up way back, fifteen yards behind the line.",
-  "file": "n_95471fe6d010.wav",
-  "v": "pbp"
+  "text": "Punter is my dream job. You work about six seconds a game, and everybody cheers if you kick it far.",
+  "file": "n_e9589196c89e.wav",
+  "v": "col"
  },
  {
   "id": "w4_3",
@@ -1630,158 +1570,170 @@
  },
  {
   "id": "w4_4",
-  "text": "...he kicks it high and far...",
-  "file": "n_e1feaa3edc61.wav",
+  "text": "...and that is a booming kick...",
+  "file": "n_d830dc1abfcf.wav",
   "v": "pbp"
  },
  {
   "id": "w4_5",
-  "text": "...and Price waves his arm. He'll make a fair catch at the Titans' 15.",
-  "file": "n_68f5c00efd67.wav",
+  "text": "...and the returner waves for a fair catch at the 15.",
+  "file": "n_006b15305377.wav",
   "v": "pbp"
  },
  {
   "id": "w4_6",
-  "text": "Waving his hand like that means fair catch: he promises not to run, and in return, nobody is allowed to hit him.",
-  "file": "n_e9c3b81c4566.wav",
+  "text": "Fair catch, so no return, and nobody can touch him. The Titans take over, way back near their own end zone.",
+  "file": "n_e7ea8cd57118.wav",
   "v": "col"
  },
  {
   "id": "w4_7",
-  "text": "Now the Titans have the ball, way back near their own end zone. That's exactly why the Thunder punted.",
-  "file": "n_60457f49c0ff.wav",
-  "v": "col"
+  "text": "Exactly what you want from a punt. That's a long way to go.",
+  "file": "n_667e2db76fd1.wav",
+  "v": "pbp"
  },
  {
   "id": "w5_0",
-  "text": "The Titans' offense takes the field, led by quarterback Marcus Hayes.",
-  "file": "n_6c68c4061835.wav",
+  "text": "Here comes the Titans' offense for the first time today.",
+  "file": "n_dc90ce8a4f50.wav",
   "v": "pbp"
  },
  {
   "id": "w5_1",
-  "text": "The teams switch places now. The Titans are on offense, going left, and the Thunder's defense comes out to stop them.",
-  "file": "n_a3d0a1efbc98.wav",
+  "text": "Big crowd of Titans fans down by that end zone too. They've been waiting all quarter for this.",
+  "file": "n_3d068a0da68d.wav",
   "v": "col"
  },
  {
   "id": "w5_2",
-  "text": "Hayes brings them to the line.",
-  "file": "n_8aa1a7900cfa.wav",
+  "text": "Titans come to the line.",
+  "file": "n_2c1e88cbe23b.wav",
   "v": "pbp"
  },
  {
   "id": "w5_3",
-  "text": "Handoff to Walker...",
-  "file": "n_abf534b358dd.wav",
+  "text": "Handoff to the Titans running back...",
+  "file": "n_e8a496107aff.wav",
   "v": "pbp"
  },
  {
   "id": "w5_4",
-  "text": "...he picks up six before he's tackled.",
-  "file": "n_2a8caaa12a9e.wav",
+  "text": "...he picks up six before they bring him down.",
+  "file": "n_15406d0a540e.wav",
   "v": "pbp"
  },
  {
   "id": "w5_5",
-  "text": "A good start for the Titans. Second and four.",
-  "file": "n_ff4f9c6f9d6a.wav",
+  "text": "Not a bad way to start. Second and four.",
+  "file": "n_f11515e84d5f.wav",
   "v": "col"
  },
  {
   "id": "w5_6",
-  "text": "Hayes lines them up, spread out wide.",
-  "file": "n_abe7ff43afec.wav",
+  "text": "Second and four. They spread it out.",
+  "file": "n_008188d9edc3.wav",
   "v": "pbp"
  },
  {
   "id": "w5_7",
-  "text": "Hayes drops back...",
-  "file": "n_cf7af205bb6f.wav",
+  "text": "The quarterback drops back...",
+  "file": "n_a4fff66ed245.wav",
   "v": "pbp"
  },
  {
   "id": "w5_8",
-  "text": "...he throws deep down the sideline... and it's caught!",
-  "file": "n_07f3096c61eb.wav",
+  "text": "...throws deep down the sideline, and he's got it!",
+  "file": "n_9be3916a23e7.wav",
   "v": "pbp"
  },
  {
   "id": "w5_9",
-  "text": "Twenty-one yards! First down, Titans!",
-  "file": "n_e84c6510c251.wav",
+  "text": "Twenty-one yards! But wait, did he stay in bounds?",
+  "file": "n_2a98df815ba2.wav",
   "v": "pbp"
  },
  {
   "id": "w5_10",
-  "text": "That was a big play. When a team gains lots of yards at once, it's called a chunk play, and it really fires up the sideline.",
-  "file": "n_bb3cafc2fa11.wav",
+  "text": "Let's look. He catches it... there's one foot... there's the other... both feet in! By about an inch!",
+  "file": "n_3e8228f3109d.wav",
   "v": "col"
  },
  {
   "id": "w5_11",
-  "text": "The Titans keep moving down the field. A few plays later, they've reached the Thunder's 22-yard line.",
-  "file": "n_6b4c21923857.wav",
-  "v": "col"
+  "text": "Ballet lessons are paying off for that guy. First down, Titans.",
+  "file": "n_4f245f00291b.wav",
+  "v": "pbp"
  },
  {
   "id": "w5_12",
-  "text": "It's fourth down again, but this time they're close enough to kick a field goal. That's worth three points.",
-  "file": "n_0c9575255b31.wav",
+  "text": "The Titans keep chipping away, though. A few plays later, they're at the Thunder's 22.",
+  "file": "n_c5c20cb65da4.wav",
   "v": "col"
  },
  {
   "id": "w5_13",
+  "text": "Fourth and three, and here comes the field goal team. The kicker and the holder jog on.",
+  "file": "n_2edd1d4e390a.wav",
+  "v": "pbp"
+ },
+ {
+  "id": "w5_14",
+  "text": "The kicker's been out there practicing into that net on the sideline all quarter. He's ready.",
+  "file": "n_17567184b6cc.wav",
+  "v": "col"
+ },
+ {
+  "id": "w5_15",
   "text": "Here's the snap... the kick is up...",
   "file": "n_a2a87d773600.wav",
   "v": "pbp"
  },
  {
-  "id": "w5_14",
-  "text": "...and it's good! The Titans take the lead, three to nothing.",
-  "file": "n_d8a2bcb80646.wav",
+  "id": "w5_16",
+  "text": "...and it's good! Titans lead, three to nothing.",
+  "file": "n_34a64780fea9.wav",
   "v": "pbp"
  },
  {
-  "id": "w5_15",
-  "text": "The ball has to fly between the two posts and over the crossbar. After the kickoff, the clock runs out on the first quarter.",
-  "file": "n_6850cfc7bc6a.wav",
+  "id": "w5_17",
+  "text": "Right down the middle. And after the kickoff, that's the end of the first quarter.",
+  "file": "n_3ba188745ac9.wav",
   "v": "col"
  },
  {
   "id": "w6_0",
-  "text": "We're in the second quarter, and the Thunder have put together a great drive. They're at the Titans' 30-yard line.",
-  "file": "n_4eb9e353811a.wav",
+  "text": "Second quarter, and the Thunder are knocking on the door at the Titans' 30.",
+  "file": "n_061db4b02d58.wav",
   "v": "pbp"
  },
  {
   "id": "w6_1",
-  "text": "This close to the end zone, people call it scoring territory. Even if they stall, they could kick a field goal from here.",
-  "file": "n_f8513f43988a.wav",
+  "text": "Scoring territory. Even if this drive stalls, they can kick a field goal from here. But I want more than three, Mike.",
+  "file": "n_8cb6fbdaf0db.wav",
   "v": "col"
  },
  {
   "id": "w6_2",
-  "text": "The Thunder break the huddle.",
-  "file": "n_abe3c8e1afe5.wav",
+  "text": "They break the huddle.",
+  "file": "n_44d5773ff6c2.wav",
   "v": "pbp"
  },
  {
   "id": "w6_3",
-  "text": "Look at the deepest defenders, the safeties. One of them has walked up close to the line, so there's only one left deep. That leaves room down the field for a long pass.",
-  "file": "n_17f46bc58252.wav",
+  "text": "Look at the safeties. Only one of them is deep. That is a lot of open grass back there.",
+  "file": "n_9c9bde58fc13.wav",
   "v": "col"
  },
  {
   "id": "w6_4",
-  "text": "Parker drops back...",
-  "file": "n_83cef8238f39.wav",
+  "text": "Quarterback drops back...",
+  "file": "n_e82b4249af99.wav",
   "v": "pbp"
  },
  {
   "id": "w6_5",
-  "text": "...he throws deep for Davis...",
-  "file": "n_ff708fddd8c9.wav",
+  "text": "...he throws deep down the left side...",
+  "file": "n_0bc9e6c9f261.wav",
   "v": "pbp"
  },
  {
@@ -1798,81 +1750,87 @@
  },
  {
   "id": "w6_8",
-  "text": "A touchdown is worth six points. Davis got the ball into the end zone, so the Thunder go ahead, six to three.",
-  "file": "n_0cc3a69e9ed3.wav",
+  "text": "Oh, we have to see that again. Over the shoulder, in stride, and he never slows down.",
+  "file": "n_e3a3414010a3.wav",
   "v": "col"
  },
  {
   "id": "w6_9",
-  "text": "After a touchdown, the team gets a bonus try. Most teams kick the extra point, a short kick worth one more.",
-  "file": "n_06165b9cd695.wav",
-  "v": "col"
+  "text": "Dropped it right in the bread basket.",
+  "file": "n_3b6bb2d60045.wav",
+  "v": "pbp"
  },
  {
   "id": "w6_10",
+  "text": "You and the bread, Mike. Six points, Thunder!",
+  "file": "n_0a4493557dca.wav",
+  "v": "col"
+ },
+ {
+  "id": "w6_11",
   "text": "Here's the extra point...",
   "file": "n_d178829b0d9b.wav",
   "v": "pbp"
  },
  {
-  "id": "w6_11",
-  "text": "...and it's good! Thunder seven, Titans three.",
-  "file": "n_94cf4d4b48f1.wav",
+  "id": "w6_12",
+  "text": "...and it's good. Thunder seven, Titans three.",
+  "file": "n_4fd0a7864011.wav",
   "v": "pbp"
  },
  {
   "id": "w7_0",
-  "text": "After the kickoff, the Titans have the ball at their own 38, with two minutes and forty seconds left in the half.",
-  "file": "n_4929c97d7221.wav",
+  "text": "Titans ball at their own 38, two-forty left in the half.",
+  "file": "n_766baea8d7e1.wav",
   "v": "pbp"
  },
  {
   "id": "w7_1",
-  "text": "They're behind, and time is running short. So expect them to throw. Passes can gain more yards in a hurry.",
-  "file": "n_80e8820a788e.wav",
+  "text": "They're behind, and the clock's ticking, so they'll want to throw. And that's exactly when defenses get greedy.",
+  "file": "n_182cf56710e1.wav",
   "v": "col"
  },
  {
   "id": "w7_2",
-  "text": "Hayes and the Titans come to the line.",
-  "file": "n_8c42a3bc0c18.wav",
+  "text": "Titans come to the line.",
+  "file": "n_2c1e88cbe23b.wav",
   "v": "pbp"
  },
  {
   "id": "w7_3",
-  "text": "The Thunder defense is spread out too, with players dropping back to guard different parts of the field.",
-  "file": "n_442c3ebde109.wav",
-  "v": "col"
+  "text": "The quarterback drops back...",
+  "file": "n_a4fff66ed245.wav",
+  "v": "pbp"
  },
  {
   "id": "w7_4",
-  "text": "Hayes drops back...",
-  "file": "n_cf7af205bb6f.wav",
+  "text": "...throws over the middle...",
+  "file": "n_d109fd8a838f.wav",
   "v": "pbp"
  },
  {
   "id": "w7_5",
-  "text": "...he throws over the middle...",
-  "file": "n_c2f585cba5e2.wav",
+  "text": "...picked off! The Thunder safety jumps the route!",
+  "file": "n_31dfd8f2dbe3.wav",
   "v": "pbp"
  },
  {
   "id": "w7_6",
-  "text": "...intercepted! Owens picks it off!",
-  "file": "n_641e069457e2.wav",
+  "text": "He takes it back to the Titans' 42. What a play!",
+  "file": "n_087b99fef389.wav",
   "v": "pbp"
  },
  {
   "id": "w7_7",
-  "text": "He's tackled at the Titans' 42, but what a play by the Thunder!",
-  "file": "n_35b5e0a12479.wav",
-  "v": "pbp"
+  "text": "Watch the safety. He's reading the quarterback's eyes the whole way, and then boom, jumps right in front of it.",
+  "file": "n_e71a793b7c3e.wav",
+  "v": "col"
  },
  {
   "id": "w7_8",
-  "text": "That's an interception: a defender caught the pass. It's one kind of turnover, because the ball changes teams in the middle of a play.",
-  "file": "n_fd4c9a9b7ec2.wav",
-  "v": "col"
+  "text": "He knew where that ball was going before the receiver did. Turnover, Thunder ball!",
+  "file": "n_32d3ca938db7.wav",
+  "v": "pbp"
  },
  {
   "id": "w7_9",
@@ -1882,393 +1840,339 @@
  },
  {
   "id": "w7_10",
-  "text": "At halftime, the teams head to the locker room for about thirteen minutes. Then the second half starts with another kickoff.",
-  "file": "n_ae8d53ae0c5c.wav",
+  "text": "Halftime snacks! Mike, I'm getting nachos.",
+  "file": "n_f0301c341aa6.wav",
   "v": "col"
  },
  {
+  "id": "w7_11",
+  "text": "Save me some. See you in the second half!",
+  "file": "n_4f9caaa9cb35.wav",
+  "v": "pbp"
+ },
+ {
   "id": "w8_0",
-  "text": "Let's jump ahead to the fourth quarter. The Titans kicked a field goal in the third, so it's a close one: seven to six.",
-  "file": "n_2e337f0944d8.wav",
+  "text": "We're back, and it's the fourth quarter. The Titans kicked a field goal in the third, so it's seven to six.",
+  "file": "n_ba2c4843dfa2.wav",
   "v": "pbp"
  },
  {
   "id": "w8_1",
-  "text": "And the Titans are on the move. They're at the Thunder's 37-yard line, with just over two minutes left.",
-  "file": "n_3487e7c5215d.wav",
+  "text": "And the Titans are driving. They're at the Thunder's 37 with just over two minutes left. A field goal wins it for them.",
+  "file": "n_c617b07d9db3.wav",
   "v": "col"
  },
  {
   "id": "w8_2",
-  "text": "A field goal would put them ahead. So the Thunder defense really needs a big play here.",
-  "file": "n_a1f49b51f45c.wav",
-  "v": "col"
+  "text": "My palms are sweaty, and I'm not even playing. Titans come to the line.",
+  "file": "n_4d3d870db249.wav",
+  "v": "pbp"
  },
  {
   "id": "w8_3",
-  "text": "Hayes takes them to the line.",
-  "file": "n_54e257d01e2d.wav",
-  "v": "pbp"
- },
- {
-  "id": "w8_4",
-  "text": "Two tight receivers and an extra blocker in the backfield. That's a run look, and the Thunder linebackers are creeping up.",
-  "file": "n_9f0e77a87b79.wav",
+  "text": "Everybody packed in tight. They want to run it, play it safe, and keep the clock moving.",
+  "file": "n_394cb0a199b0.wav",
   "v": "col"
  },
  {
-  "id": "w8_5",
-  "text": "Handoff to Walker...",
-  "file": "n_abf534b358dd.wav",
+  "id": "w8_4",
+  "text": "Handoff to the running back...",
+  "file": "n_eafacad4f191.wav",
   "v": "pbp"
  },
  {
-  "id": "w8_6",
+  "id": "w8_5",
   "text": "...he's hit... fumble!",
   "file": "n_b8c799747846.wav",
   "v": "pbp"
  },
  {
-  "id": "w8_7",
-  "text": "And the Thunder recover it! Riley dives on the ball!",
-  "file": "n_0f49482c21d2.wav",
+  "id": "w8_6",
+  "text": "And the Thunder recover! The safety dives right on it!",
+  "file": "n_1fc18e6f8921.wav",
   "v": "pbp"
  },
  {
-  "id": "w8_8",
-  "text": "That's a fumble. The runner dropped the ball before he was tackled, so it was a loose ball, and anyone could grab it.",
-  "file": "n_c2e1fbb0b5c4.wav",
+  "id": "w8_7",
+  "text": "Look at this. The linebacker puts his helmet right on the ball, it pops loose, and the safety is right there to scoop it up.",
+  "file": "n_5d2878c49726.wav",
   "v": "col"
  },
  {
+  "id": "w8_8",
+  "text": "A huge play, at the biggest moment of the game. Turnover!",
+  "file": "n_86d24f45a8d3.wav",
+  "v": "pbp"
+ },
+ {
   "id": "w8_9",
-  "text": "The Thunder grabbed it, so that's another turnover. Now they have the ball, and the lead, with just over two minutes to play.",
-  "file": "n_8f5659c48a58.wav",
+  "text": "Thunder ball, with the lead, and just over two minutes to play.",
+  "file": "n_5e850cd59e7d.wav",
   "v": "col"
  },
  {
   "id": "w9_0",
-  "text": "The Thunder offense comes back out with two minutes and ten seconds left.",
-  "file": "n_5e831d439fcc.wav",
+  "text": "The Thunder offense comes out with two-ten to go.",
+  "file": "n_b61b7671baed.wav",
   "v": "pbp"
  },
  {
   "id": "w9_1",
-  "text": "Here's the plan when you're ahead late in a game: keep the clock running. Every second that ticks away is one less second for the other team.",
-  "file": "n_5561a2021d75.wav",
+  "text": "Easy plan now. Run the ball, stay in bounds, and keep that clock moving.",
+  "file": "n_1508c2adae8d.wav",
   "v": "col"
  },
  {
   "id": "w9_2",
-  "text": "So the Thunder will run the ball and try to stay in bounds. When a play ends inside the field, the clock keeps going.",
-  "file": "n_b8e9fdbcb0c3.wav",
-  "v": "col"
- },
- {
-  "id": "w9_3",
   "text": "They come to the line.",
   "file": "n_51b490269d39.wav",
   "v": "pbp"
  },
  {
+  "id": "w9_3",
+  "text": "Handoff to the running back...",
+  "file": "n_eafacad4f191.wav",
+  "v": "pbp"
+ },
+ {
   "id": "w9_4",
-  "text": "Handoff to Jones...",
-  "file": "n_797ed448b383.wav",
+  "text": "...five yards, and he goes down in bounds. The clock keeps rolling.",
+  "file": "n_7710296b025c.wav",
   "v": "pbp"
  },
  {
   "id": "w9_5",
-  "text": "...five yards, and he's tackled in bounds. The clock keeps ticking.",
-  "file": "n_a285e10f9e7a.wav",
-  "v": "pbp"
- },
- {
-  "id": "w9_6",
-  "text": "Watch the game clock. It's still running. An incomplete pass or a runner going out of bounds would have stopped it.",
-  "file": "n_c25e7f54645d.wav",
+  "text": "Every second that runs off is a second the Titans don't get. I can hear their fans getting nervous.",
+  "file": "n_745fe1b75cd8.wav",
   "v": "col"
  },
  {
-  "id": "w9_7",
+  "id": "w9_6",
   "text": "Second and five.",
   "file": "n_39ff22a52636.wav",
   "v": "pbp"
  },
  {
+  "id": "w9_7",
+  "text": "Handoff again, to the left side...",
+  "file": "n_54b28257ae00.wav",
+  "v": "pbp"
+ },
+ {
   "id": "w9_8",
-  "text": "Jones again, to the left side...",
-  "file": "n_b4aeb74aa2f3.wav",
+  "text": "...and he gets it! Six yards and a first down!",
+  "file": "n_3b4b4ca912df.wav",
   "v": "pbp"
  },
  {
   "id": "w9_9",
-  "text": "...and he gets it! Six yards and a first down, Thunder!",
-  "file": "n_9685b3ea3dea.wav",
-  "v": "pbp"
- },
- {
-  "id": "w9_10",
-  "text": "That first down seals it. Now the Thunder can do a kneel-down: the quarterback takes the snap and drops to one knee. The play ends right away, and the clock keeps running.",
-  "file": "n_23eddedab55f.wav",
+  "text": "And that should just about do it. Time for the kneel-down.",
+  "file": "n_323e3d338be7.wav",
   "v": "col"
  },
  {
-  "id": "w9_11",
+  "id": "w9_10",
   "text": "Here comes the victory formation.",
   "file": "n_756f1fd2dd7f.wav",
   "v": "pbp"
  },
  {
-  "id": "w9_12",
-  "text": "Parker kneels down, and the clock keeps running...",
-  "file": "n_27268e3916ab.wav",
+  "id": "w9_11",
+  "text": "The quarterback takes a knee, and the clock keeps running...",
+  "file": "n_bb3ca7b0728a.wav",
   "v": "pbp"
  },
  {
-  "id": "w9_13",
+  "id": "w9_12",
   "text": "Three... two... one...",
   "file": "n_903a464000b5.wav",
   "v": "pbp"
  },
  {
-  "id": "w9_14",
+  "id": "w9_13",
   "text": "That's the game! The Thunder win, seven to six!",
   "file": "n_c8b740bb76ee.wav",
   "v": "pbp"
  },
  {
-  "id": "w9_15",
-  "text": "What a game! Next time you watch a real one, look for the scoreboard, the down and distance, and the formation clues before each snap.",
-  "file": "n_266c2c98221b.wav",
+  "id": "w9_14",
+  "text": "What a game! A pick, a fumble, and a toe-tap catch. And my lucky socks are still undefeated.",
+  "file": "n_2bfcc7dc46b2.wav",
   "v": "col"
  },
  {
-  "id": "w9_16",
-  "text": "For Dana Brooks, I'm Mike Carter. Thanks for watching!",
-  "file": "n_316a98bf9465.wav",
+  "id": "w9_15",
+  "text": "Somebody frame those socks. For Dana, I'm Mike. Thanks for hanging out with us!",
+  "file": "n_8ceed73f080d.wav",
   "v": "pbp"
  },
  {
   "id": "wx0_0",
-  "text": "Good afternoon, everybody, and welcome to the big game! I'm Mike Carter, and today it's the Thunder against the Titans.",
-  "file": "n_580cf3a6a13a.wav",
+  "text": "Hey, everybody, welcome in! I'm Mike, and it is a beautiful day for football. It's the Thunder and the Titans!",
+  "file": "n_8de8ad4cdff8.wav",
   "v": "pbp"
  },
  {
   "id": "wx0_1",
-  "text": "And I'm Dana Brooks. If you're brand new to football, you're in the right place. Mike will tell you what happens, and I'll explain why it matters.",
-  "file": "n_1e09c0d7eaa7.wav",
+  "text": "And I'm Dana! Mike, I've been looking forward to this one all week. I even wore my lucky socks.",
+  "file": "n_e095dffd0c7f.wav",
   "v": "col"
  },
  {
   "id": "wx0_2",
-  "text": "Let's start with the scoreboard at the bottom of your screen.",
-  "file": "n_deb25933fa40.wav",
+  "text": "Bold move. Let's hope they're lucky for somebody. Zero to zero, first quarter, a full fifteen minutes on the clock.",
+  "file": "n_93e960f98673.wav",
   "v": "pbp"
  },
  {
   "id": "wx0_3",
-  "text": "On the left are the two teams and their scores. Right now, it's zero to zero.",
-  "file": "n_07c7f006ceac.wav",
+  "text": "Thunder in blue, going right. Titans in red, going left. Down and distance and the play clock are down there on the scoreboard, like always.",
+  "file": "n_f363d2b6084a.wav",
   "v": "col"
  },
  {
   "id": "wx0_4",
-  "text": "Next is the quarter and the game clock. A game has four quarters, and each one is fifteen minutes long.",
-  "file": "n_f9b844812aa2.wav",
+  "text": "And keep an eye out for yellow flags today. Somebody always gets a little too excited.",
+  "file": "n_fe43dbd069a9.wav",
   "v": "col"
  },
  {
   "id": "wx0_5",
-  "text": "The gold box shows the down and distance. It'll make sense in a minute, once a team has the ball.",
-  "file": "n_6f36bd6e3ba0.wav",
-  "v": "col"
- },
- {
-  "id": "wx0_6",
-  "text": "And on the end is the play clock. Between plays, the offense gets forty seconds to start the next one.",
-  "file": "n_e007b4997f39.wav",
-  "v": "col"
- },
- {
-  "id": "wx0_7",
-  "text": "The Thunder, in blue, are going to the right. The Titans, in red, are going to the left.",
-  "file": "n_bfc14e9c7b02.wav",
-  "v": "pbp"
- },
- {
-  "id": "wx0_8",
-  "text": "Each team is trying to get the ball into the end zone it's facing. That's a touchdown, and it's the best way to score.",
-  "file": "n_8f99357906af.wav",
-  "v": "col"
- },
- {
-  "id": "wx0_9",
-  "text": "Today we'll also keep an eye out for yellow flags and some sneaky coaching strategy.",
-  "file": "n_8b115fcc6deb.wav",
-  "v": "col"
- },
- {
-  "id": "wx0_10",
-  "text": "Alright, the teams are heading to their sidelines. It's almost time for kickoff!",
-  "file": "n_c185d3fbda42.wav",
+  "text": "Teams are heading to the sidelines. Kickoff is coming right up!",
+  "file": "n_93f766a13e82.wav",
   "v": "pbp"
  },
  {
   "id": "wx1_0",
-  "text": "The Titans line up to kick off. Here we go!",
-  "file": "n_6fb147c01eab.wav",
+  "text": "The Titans will kick it off. And look at this setup: the two teams are lined up just a few yards apart.",
+  "file": "n_03913a8773ce.wav",
   "v": "pbp"
  },
  {
   "id": "wx1_1",
-  "text": "A kickoff starts every game. One team kicks the ball deep, and the other team tries to catch it and run it back.",
-  "file": "n_1a1597a81f6a.wav",
+  "text": "That's the newer kickoff rule. Nobody's allowed to move until the ball lands or somebody catches it. It's basically the world's most intense game of freeze tag.",
+  "file": "n_c71d61bd7a7c.wav",
   "v": "col"
  },
  {
   "id": "wx1_2",
-  "text": "And there's the kick. It's high, and it's deep...",
-  "file": "n_30aa9fe1a35f.wav",
+  "text": "Here's the kick. High, and deep...",
+  "file": "n_ca673730f478.wav",
   "v": "pbp"
  },
  {
   "id": "wx1_3",
-  "text": "Thomas catches it at the 3 and heads up the field...",
-  "file": "n_cc00dcfd6f2b.wav",
+  "text": "Taken at the 3. And now everybody can go!",
+  "file": "n_172d62dbc2cf.wav",
   "v": "pbp"
  },
  {
   "id": "wx1_4",
-  "text": "...and he's brought down at the 27-yard line. A nice return!",
-  "file": "n_5a776c9fde67.wav",
+  "text": "He's brought down at the 27. Nice return!",
+  "file": "n_390478be06e8.wav",
   "v": "pbp"
  },
  {
   "id": "wx1_5",
-  "text": "Now the Thunder have the ball, so they're on offense. See the little football on the scoreboard? It shows which team has the ball.",
-  "file": "n_f4948cc1912e.wav",
-  "v": "col"
- },
- {
-  "id": "wx1_6",
-  "text": "And this is the down and distance: 1st and 10. The offense gets four tries, called downs, to move the ball ten yards.",
-  "file": "n_cc5cd07e5be7.wav",
-  "v": "col"
- },
- {
-  "id": "wx1_7",
-  "text": "If they make it, they earn four brand-new downs. That's called getting a first down.",
-  "file": "n_ecacc34d80a4.wav",
+  "text": "And now that the play's over, the kickoff teams jog off and the offense and defense come on. There's the little football on the scoreboard. Thunder ball, first and ten.",
+  "file": "n_23821be22f9d.wav",
   "v": "col"
  },
  {
   "id": "wx2_0",
-  "text": "The Thunder offense jogs onto the field for its first drive.",
-  "file": "n_770ba0eafd44.wav",
+  "text": "Here comes the Thunder offense, jogging out for the first drive.",
+  "file": "n_b35c95041d59.wav",
   "v": "pbp"
  },
  {
   "id": "wx2_1",
-  "text": "Before every play, the offense gathers in a circle called a huddle. The quarterback, Cole Parker, tells everyone which play they're running.",
-  "file": "n_55dcf6a12f02.wav",
+  "text": "The quarterback's calling the play in the huddle. The defense doesn't huddle up like that, though. They're just watching their coach on the sideline for the call.",
+  "file": "n_0cabc1036c41.wav",
   "v": "col"
  },
  {
   "id": "wx2_2",
-  "text": "The defense huddles too. On the first drive, both teams are still getting a feel for each other.",
-  "file": "n_db1f7dc7c2f4.wav",
-  "v": "col"
- },
- {
-  "id": "wx2_3",
-  "text": "They break the huddle and walk up to the line.",
-  "file": "n_a8fb8a52127c.wav",
+  "text": "And they break the huddle.",
+  "file": "n_736c9c150b55.wav",
   "v": "pbp"
  },
  {
-  "id": "wx2_4",
-  "text": "Look at how they lined up. No receivers are spread out wide, and there's an extra blocker behind the quarterback. That usually means a run.",
-  "file": "n_ec20797728dc.wav",
+  "id": "wx2_3",
+  "text": "Ooh, look at that. Nobody split out wide, extra blocker in the backfield. Mike, I'd bet my lucky socks this is a run.",
+  "file": "n_0a9431057e47.wav",
   "v": "col"
+ },
+ {
+  "id": "wx2_4",
+  "text": "And the linebackers agree with you. They're creeping right up.",
+  "file": "n_766a967515dd.wav",
+  "v": "pbp"
  },
  {
   "id": "wx2_5",
-  "text": "The Titans see it too. Watch their linebackers creep closer to the line, ready to stop a run.",
-  "file": "n_2d243205c3ce.wav",
-  "v": "col"
+  "text": "Snap, handoff to the running back...",
+  "file": "n_20391bf6b584.wav",
+  "v": "pbp"
  },
  {
   "id": "wx2_6",
-  "text": "Parker takes the snap and hands it to Jones...",
-  "file": "n_1d0111a223ef.wav",
+  "text": "...and he's brought down at the 31. A pickup of four.",
+  "file": "n_52d0e4dd01b1.wav",
   "v": "pbp"
  },
  {
   "id": "wx2_7",
-  "text": "...and he's brought down at the 31. A gain of four.",
-  "file": "n_e88b5e11f5a0.wav",
-  "v": "pbp"
- },
- {
-  "id": "wx2_8",
-  "text": "That's a tackle. Once the runner is pulled to the ground, the play is over, and the next one starts from that spot.",
-  "file": "n_76a498fa3108.wav",
+  "text": "Four yards a carry, and the coach is a happy camper. Second and six.",
+  "file": "n_25f3e0262029.wav",
   "v": "col"
  },
  {
-  "id": "wx2_9",
-  "text": "Second down, and six to go.",
-  "file": "n_c930e8980fb3.wav",
+  "id": "wx2_8",
+  "text": "Second and six, and here they come out of the huddle. Oh, now they're spreading out.",
+  "file": "n_5a5f24eefdfa.wav",
   "v": "pbp"
  },
  {
+  "id": "wx2_9",
+  "text": "Receivers wide on both sides. That smells like a pass to me.",
+  "file": "n_bdaf95bbb428.wav",
+  "v": "col"
+ },
+ {
   "id": "wx2_10",
-  "text": "So it's their second try, and they need six more yards to reach that yellow line. Fun fact: the line isn't really on the field. It's drawn in just for TV.",
-  "file": "n_ab8cb81f0aca.wav",
+  "text": "And watch this motion. The receiver goes across, and one Titan follows him the whole way. That's man coverage. He's got a shadow.",
+  "file": "n_add350bb826f.wav",
   "v": "col"
  },
  {
   "id": "wx2_11",
-  "text": "Here they come out of the huddle. This time, they spread out.",
-  "file": "n_b75d2f95604a.wav",
+  "text": "Quarterback drops back...",
+  "file": "n_e82b4249af99.wav",
   "v": "pbp"
  },
  {
   "id": "wx2_12",
-  "text": "Now there are receivers out wide on both sides. That's a passing look.",
-  "file": "n_037f5d9fe33e.wav",
-  "v": "col"
+  "text": "...fires to the right side... caught!",
+  "file": "n_5f4a4432ff4d.wav",
+  "v": "pbp"
  },
  {
   "id": "wx2_13",
-  "text": "Watch number 17 go in motion across the formation. One Titan follows him the whole way. That tells us it's man coverage: each defender is shadowing one player.",
-  "file": "n_481bfe1d47f3.wav",
-  "v": "col"
+  "text": "...and he's dragged down at the 43. First down, Thunder!",
+  "file": "n_5b6f76a8119a.wav",
+  "v": "pbp"
  },
  {
   "id": "wx2_14",
-  "text": "Parker drops back to pass...",
-  "file": "n_5b96533c0185.wav",
-  "v": "pbp"
+  "text": "Ooh, let's see that one again. Look at the hands! Ball comes in hot, and he just plucks it out of the air.",
+  "file": "n_67f1fbe32d70.wav",
+  "v": "col"
  },
  {
   "id": "wx2_15",
-  "text": "...he throws to the right side... complete to Miller!",
-  "file": "n_2fdda45151d8.wav",
+  "text": "He could catch an egg out of a cannon. And he slips past the yellow line for a fresh set of downs.",
+  "file": "n_74b90a1600fe.wav",
   "v": "pbp"
- },
- {
-  "id": "wx2_16",
-  "text": "...and he's brought down at the 43. That's a first down!",
-  "file": "n_4072130816ce.wav",
-  "v": "pbp"
- },
- {
-  "id": "wx2_17",
-  "text": "He made it past the yellow line, so the Thunder get a fresh set of four downs. It's first and ten again, and the yellow line moves ten yards ahead.",
-  "file": "n_51793b52ad73.wav",
-  "v": "col"
  },
  {
   "id": "wx3_0",
@@ -2278,123 +2182,123 @@
  },
  {
   "id": "wx3_1",
-  "text": "A team's trip down the field is called a drive. Think of it like a road trip to the end zone, and every first down keeps the trip going.",
-  "file": "n_1277a94375bb.wav",
+  "text": "Nice, steady drive so far. Little by little, like a road trip with a lot of snack stops.",
+  "file": "n_dac7d7d06505.wav",
   "v": "col"
  },
  {
   "id": "wx3_2",
-  "text": "The Thunder come to the line...",
-  "file": "n_8bf1bc79ffbd.wav",
+  "text": "They come to the line...",
+  "file": "n_1bc5c9f637eb.wav",
   "v": "pbp"
  },
  {
   "id": "wx3_3",
-  "text": "Wait, there's a yellow flag! A Thunder lineman jumped before the snap. That's a false start, and it moves the offense back five yards.",
-  "file": "n_6c2ddaa54728.wav",
-  "v": "col"
+  "text": "Oh, and there's a flag!",
+  "file": "n_a7cc98ce15de.wav",
+  "v": "pbp"
  },
  {
   "id": "wx3_4",
-  "text": "Penalties like that are mistakes. They usually happen when players are nervous or the crowd is loud.",
-  "file": "n_b87a991ac0cd.wav",
+  "text": "False start. The lineman flinched early, so it's five yards back. Happens to the best of us. Mike, you did it at dinner last night, reaching for the bread.",
+  "file": "n_2238151056d2.wav",
   "v": "col"
  },
  {
   "id": "wx3_5",
-  "text": "They line up again, spread out wide.",
-  "file": "n_23fa40b33b67.wav",
+  "text": "In my defense, it was a really good basket of bread.",
+  "file": "n_5de27d542551.wav",
   "v": "pbp"
  },
  {
   "id": "wx3_6",
-  "text": "Parker drops back...",
-  "file": "n_83cef8238f39.wav",
+  "text": "Second and thirteen. They line up again, spread out wide.",
+  "file": "n_b03479d9d36e.wav",
   "v": "pbp"
  },
  {
   "id": "wx3_7",
-  "text": "...throws to the left side... and it's incomplete! The ball hit the ground.",
-  "file": "n_b865721f9d98.wav",
+  "text": "Quarterback drops back...",
+  "file": "n_e82b4249af99.wav",
   "v": "pbp"
  },
  {
   "id": "wx3_8",
-  "text": "When a pass hits the ground, it's incomplete. The ball goes back to where the play started, and the game clock stops.",
-  "file": "n_c94b3f41db48.wav",
-  "v": "col"
+  "text": "...throws to the left side... and it falls incomplete.",
+  "file": "n_9e5c1608d22a.wav",
+  "v": "pbp"
  },
  {
   "id": "wx3_9",
-  "text": "That brings up third and thirteen.",
-  "file": "n_8b44a7370b7c.wav",
-  "v": "pbp"
- },
- {
-  "id": "wx3_10",
-  "text": "Third down is a big moment. If they don't get the first down on this play, they'll probably have to kick the ball away.",
-  "file": "n_5253f1e5969d.wav",
+  "text": "Clock stops on that one. Third and thirteen. Yikes.",
+  "file": "n_ca3f39d57064.wav",
   "v": "col"
  },
  {
-  "id": "wx3_11",
-  "text": "Here comes the offense out of the huddle.",
-  "file": "n_3f18f68d126b.wav",
+  "id": "wx3_10",
+  "text": "Big third down here. Let's see what they've got.",
+  "file": "n_35c4ba12a22b.wav",
   "v": "pbp"
  },
  {
+  "id": "wx3_11",
+  "text": "And the Titans sneak in an extra defensive back. Nickel defense. They know a pass is coming.",
+  "file": "n_f53a60ac9899.wav",
+  "v": "col"
+ },
+ {
   "id": "wx3_12",
-  "text": "The Titans bring in an extra defensive back for this play. With five of them, it's called a nickel defense, because a nickel is worth five cents.",
-  "file": "n_2cb083e94f48.wav",
+  "text": "Everybody in the stadium knows it's a pass. The question is, can they get to that yellow line?",
+  "file": "n_c49107e5863b.wav",
   "v": "col"
  },
  {
   "id": "wx3_13",
-  "text": "With that many yards to go, everyone expects a pass. The defense is playing back to protect the yellow line.",
-  "file": "n_9bc95f73e7a5.wav",
-  "v": "col"
+  "text": "Quarterback looks...",
+  "file": "n_ed237cc4d7f3.wav",
+  "v": "pbp"
  },
  {
   "id": "wx3_14",
-  "text": "Parker looks for a receiver...",
-  "file": "n_11dd91b3540d.wav",
+  "text": "...over the middle, and it's caught...",
+  "file": "n_a9a1f9c7e2b4.wav",
   "v": "pbp"
  },
  {
   "id": "wx3_15",
-  "text": "...he throws over the middle... caught by Lee!",
-  "file": "n_98f5441270b8.wav",
+  "text": "...but the linebacker wraps him up at the 50. Short of the first down!",
+  "file": "n_b6d8c7a1b12b.wav",
   "v": "pbp"
  },
  {
   "id": "wx3_16",
-  "text": "...and Lee is tackled at the 50-yard line, short of the first down.",
-  "file": "n_d1b9019c7d19.wav",
-  "v": "pbp"
- },
- {
-  "id": "wx3_17",
-  "text": "He didn't reach the yellow line. Now it's fourth down, and the Thunder have a big decision to make.",
-  "file": "n_8e7fcfbc0974.wav",
+  "text": "Let's look at that tackle. The linebacker reads it the whole way, hits him right at the waist, and wraps him up. Textbook.",
+  "file": "n_20c46f9b8731.wav",
   "v": "col"
  },
  {
+  "id": "wx3_17",
+  "text": "That's the kind of tackle they put in the coaching videos. And that brings up fourth down.",
+  "file": "n_45645b1a7b01.wav",
+  "v": "pbp"
+ },
+ {
   "id": "wx4_0",
-  "text": "On fourth down, a team has three choices. Go for it and risk giving the ball away right here, kick a field goal if they're close enough, or punt.",
-  "file": "n_10a766a340d3.wav",
+  "text": "Fourth and three at midfield. Too far for a field goal, and going for it is risky. I think they'll punt.",
+  "file": "n_72a8d6727f05.wav",
   "v": "col"
  },
  {
   "id": "wx4_1",
-  "text": "At midfield, they're too far for a field goal. So they'll punt: kick the ball far down the field, so the other team has a long way to go.",
-  "file": "n_b64061743ea0.wav",
-  "v": "col"
+  "text": "Yep, here comes the punt team. The quarterback and a receiver head off, and on comes the punter.",
+  "file": "n_e1ba1ec12e4f.wav",
+  "v": "pbp"
  },
  {
   "id": "wx4_2",
-  "text": "Here comes the punt team. The punter lines up way back, fifteen yards behind the line.",
-  "file": "n_95471fe6d010.wav",
-  "v": "pbp"
+  "text": "Punter is my dream job. You work about six seconds a game, and everybody cheers if you kick it far.",
+  "file": "n_e9589196c89e.wav",
+  "v": "col"
  },
  {
   "id": "wx4_3",
@@ -2404,194 +2308,206 @@
  },
  {
   "id": "wx4_4",
-  "text": "...he kicks it high and far...",
-  "file": "n_e1feaa3edc61.wav",
+  "text": "...and that is a booming kick...",
+  "file": "n_d830dc1abfcf.wav",
   "v": "pbp"
  },
  {
   "id": "wx4_5",
-  "text": "...and Price waves his arm. He'll make a fair catch at the Titans' 15.",
-  "file": "n_68f5c00efd67.wav",
+  "text": "...and the returner waves for a fair catch at the 15.",
+  "file": "n_006b15305377.wav",
   "v": "pbp"
  },
  {
   "id": "wx4_6",
-  "text": "Waving his hand like that means fair catch: he promises not to run, and in return, nobody is allowed to hit him.",
-  "file": "n_e9c3b81c4566.wav",
+  "text": "Fair catch, so no return, and nobody can touch him. The Titans take over, way back near their own end zone.",
+  "file": "n_e7ea8cd57118.wav",
   "v": "col"
  },
  {
   "id": "wx4_7",
-  "text": "Now the Titans have the ball, way back near their own end zone. That's exactly why the Thunder punted.",
-  "file": "n_60457f49c0ff.wav",
-  "v": "col"
+  "text": "Exactly what you want from a punt. That's a long way to go.",
+  "file": "n_667e2db76fd1.wav",
+  "v": "pbp"
  },
  {
   "id": "wx5_0",
-  "text": "The Titans' offense takes the field, led by quarterback Marcus Hayes.",
-  "file": "n_6c68c4061835.wav",
+  "text": "Here comes the Titans' offense for the first time today.",
+  "file": "n_dc90ce8a4f50.wav",
   "v": "pbp"
  },
  {
   "id": "wx5_1",
-  "text": "The teams switch places now. The Titans are on offense, going left, and the Thunder's defense comes out to stop them.",
-  "file": "n_a3d0a1efbc98.wav",
+  "text": "Big crowd of Titans fans down by that end zone too. They've been waiting all quarter for this.",
+  "file": "n_3d068a0da68d.wav",
   "v": "col"
  },
  {
   "id": "wx5_2",
-  "text": "Hayes brings them to the line.",
-  "file": "n_8aa1a7900cfa.wav",
+  "text": "Titans come to the line.",
+  "file": "n_2c1e88cbe23b.wav",
   "v": "pbp"
  },
  {
   "id": "wx5_3",
-  "text": "Handoff to Walker...",
-  "file": "n_abf534b358dd.wav",
+  "text": "Handoff to the Titans running back...",
+  "file": "n_e8a496107aff.wav",
   "v": "pbp"
  },
  {
   "id": "wx5_4",
-  "text": "...he picks up six before he's tackled.",
-  "file": "n_2a8caaa12a9e.wav",
+  "text": "...he picks up six before they bring him down.",
+  "file": "n_15406d0a540e.wav",
   "v": "pbp"
  },
  {
   "id": "wx5_5",
-  "text": "A good start for the Titans. Second and four.",
-  "file": "n_ff4f9c6f9d6a.wav",
+  "text": "Not a bad way to start. Second and four.",
+  "file": "n_f11515e84d5f.wav",
   "v": "col"
  },
  {
   "id": "wx5_6",
-  "text": "Hayes lines them up, spread out wide.",
-  "file": "n_abe7ff43afec.wav",
+  "text": "Second and four. They spread it out.",
+  "file": "n_008188d9edc3.wav",
   "v": "pbp"
  },
  {
   "id": "wx5_7",
-  "text": "Hayes drops back...",
-  "file": "n_cf7af205bb6f.wav",
+  "text": "The quarterback drops back...",
+  "file": "n_a4fff66ed245.wav",
   "v": "pbp"
  },
  {
   "id": "wx5_8",
-  "text": "...he throws deep down the sideline... and it's caught!",
-  "file": "n_07f3096c61eb.wav",
+  "text": "...throws deep down the sideline, and he's got it!",
+  "file": "n_9be3916a23e7.wav",
   "v": "pbp"
  },
  {
   "id": "wx5_9",
-  "text": "Twenty-one yards! First down, Titans!",
-  "file": "n_e84c6510c251.wav",
+  "text": "Twenty-one yards! But wait, did he stay in bounds?",
+  "file": "n_2a98df815ba2.wav",
   "v": "pbp"
  },
  {
   "id": "wx5_10",
-  "text": "That was a big play. When a team gains lots of yards at once, it's called a chunk play, and it really fires up the sideline.",
-  "file": "n_bb3cafc2fa11.wav",
+  "text": "Let's look. He catches it... there's one foot... there's the other... both feet in! By about an inch!",
+  "file": "n_3e8228f3109d.wav",
   "v": "col"
  },
  {
   "id": "wx5_11",
+  "text": "Ballet lessons are paying off for that guy. First down, Titans.",
+  "file": "n_4f245f00291b.wav",
+  "v": "pbp"
+ },
+ {
+  "id": "wx5_12",
   "text": "First and ten from their own 42.",
   "file": "n_97369ab06271.wav",
   "v": "pbp"
  },
  {
-  "id": "wx5_12",
-  "text": "Handoff to Walker...",
-  "file": "n_abf534b358dd.wav",
+  "id": "wx5_13",
+  "text": "Handoff...",
+  "file": "n_1f27ceadd9a8.wav",
   "v": "pbp"
  },
  {
-  "id": "wx5_13",
+  "id": "wx5_14",
   "text": "...and he breaks free for fifteen more!",
   "file": "n_a9631783f2f1.wav",
   "v": "pbp"
  },
  {
-  "id": "wx5_14",
-  "text": "But look, there's a flag. A Titans blocker grabbed a defender's jersey. That's holding. The run doesn't count, and they lose ten yards.",
-  "file": "n_ba4f226df0b3.wav",
-  "v": "col"
- },
- {
   "id": "wx5_15",
-  "text": "Holding is one of the most common penalties. Blockers can push, but they can't grab and hang on.",
-  "file": "n_03b18414b58e.wav",
+  "text": "Ooh, but there's a flag. Holding on the Titans. A blocker grabbed a jersey, so that run comes back, and they lose ten.",
+  "file": "n_8acc07f1fa25.wav",
   "v": "col"
  },
  {
   "id": "wx5_16",
-  "text": "The Titans keep moving down the field. A few plays later, they've reached the Thunder's 22-yard line.",
-  "file": "n_6b4c21923857.wav",
-  "v": "col"
+  "text": "Ouch. That's like finding a twenty-dollar bill on the ground, and then realizing it's a coupon.",
+  "file": "n_dbb935faa0e7.wav",
+  "v": "pbp"
  },
  {
   "id": "wx5_17",
-  "text": "It's fourth down again, but this time they're close enough to kick a field goal. That's worth three points.",
-  "file": "n_0c9575255b31.wav",
+  "text": "The Titans keep chipping away, though. A few plays later, they're at the Thunder's 22.",
+  "file": "n_c5c20cb65da4.wav",
   "v": "col"
  },
  {
   "id": "wx5_18",
+  "text": "Fourth and three, and here comes the field goal team. The kicker and the holder jog on.",
+  "file": "n_2edd1d4e390a.wav",
+  "v": "pbp"
+ },
+ {
+  "id": "wx5_19",
+  "text": "The kicker's been out there practicing into that net on the sideline all quarter. He's ready.",
+  "file": "n_17567184b6cc.wav",
+  "v": "col"
+ },
+ {
+  "id": "wx5_20",
   "text": "Here's the snap... the kick is up...",
   "file": "n_a2a87d773600.wav",
   "v": "pbp"
  },
  {
-  "id": "wx5_19",
-  "text": "...and it's good! The Titans take the lead, three to nothing.",
-  "file": "n_d8a2bcb80646.wav",
+  "id": "wx5_21",
+  "text": "...and it's good! Titans lead, three to nothing.",
+  "file": "n_34a64780fea9.wav",
   "v": "pbp"
  },
  {
-  "id": "wx5_20",
-  "text": "The ball has to fly between the two posts and over the crossbar. After the kickoff, the clock runs out on the first quarter.",
-  "file": "n_6850cfc7bc6a.wav",
+  "id": "wx5_22",
+  "text": "Right down the middle. And after the kickoff, that's the end of the first quarter.",
+  "file": "n_3ba188745ac9.wav",
   "v": "col"
  },
  {
   "id": "wx6_0",
-  "text": "We're in the second quarter, and the Thunder have put together a great drive. They're at the Titans' 30-yard line.",
-  "file": "n_4eb9e353811a.wav",
+  "text": "Second quarter, and the Thunder are knocking on the door at the Titans' 30.",
+  "file": "n_061db4b02d58.wav",
   "v": "pbp"
  },
  {
   "id": "wx6_1",
-  "text": "This close to the end zone, people call it scoring territory. Even if they stall, they could kick a field goal from here.",
-  "file": "n_f8513f43988a.wav",
+  "text": "Scoring territory. Even if this drive stalls, they can kick a field goal from here. But I want more than three, Mike.",
+  "file": "n_8cb6fbdaf0db.wav",
   "v": "col"
  },
  {
   "id": "wx6_2",
-  "text": "The Thunder break the huddle.",
-  "file": "n_abe3c8e1afe5.wav",
+  "text": "They break the huddle.",
+  "file": "n_44d5773ff6c2.wav",
   "v": "pbp"
  },
  {
   "id": "wx6_3",
-  "text": "Look at the deepest defenders, the safeties. One of them has walked up close to the line, so there's only one left deep. That leaves room down the field for a long pass.",
-  "file": "n_17f46bc58252.wav",
+  "text": "Look at the safeties. Only one of them is deep. That is a lot of open grass back there.",
+  "file": "n_9c9bde58fc13.wav",
   "v": "col"
  },
  {
   "id": "wx6_4",
-  "text": "And the Thunder have a trick ready: play action. Parker will fake a handoff, so the linebackers think it's a run.",
-  "file": "n_bf54e3dcb564.wav",
+  "text": "And I bet they fake the handoff to pull those linebackers up. Play action.",
+  "file": "n_71598323755b.wav",
   "v": "col"
  },
  {
   "id": "wx6_5",
-  "text": "Parker fakes the handoff... the linebackers bite...",
-  "file": "n_95bed0877a27.wav",
+  "text": "Fake handoff... the linebackers bite...",
+  "file": "n_4e48c8f344bb.wav",
   "v": "pbp"
  },
  {
   "id": "wx6_6",
-  "text": "...he throws deep for Davis...",
-  "file": "n_ff708fddd8c9.wav",
+  "text": "...he throws deep down the left side...",
+  "file": "n_0bc9e6c9f261.wav",
   "v": "pbp"
  },
  {
@@ -2608,260 +2524,272 @@
  },
  {
   "id": "wx6_9",
-  "text": "A touchdown is worth six points. Davis got the ball into the end zone, so the Thunder go ahead, six to three.",
-  "file": "n_0cc3a69e9ed3.wav",
+  "text": "Oh, we have to see that again. Over the shoulder, in stride, and he never slows down.",
+  "file": "n_e3a3414010a3.wav",
   "v": "col"
  },
  {
   "id": "wx6_10",
-  "text": "After a touchdown, the team gets a bonus try. Most teams kick the extra point, a short kick worth one more.",
-  "file": "n_06165b9cd695.wav",
-  "v": "col"
+  "text": "Dropped it right in the bread basket.",
+  "file": "n_3b6bb2d60045.wav",
+  "v": "pbp"
  },
  {
   "id": "wx6_11",
+  "text": "You and the bread, Mike. Six points, Thunder!",
+  "file": "n_0a4493557dca.wav",
+  "v": "col"
+ },
+ {
+  "id": "wx6_12",
   "text": "Here's the extra point...",
   "file": "n_d178829b0d9b.wav",
   "v": "pbp"
  },
  {
-  "id": "wx6_12",
-  "text": "...and it's good! Thunder seven, Titans three.",
-  "file": "n_94cf4d4b48f1.wav",
+  "id": "wx6_13",
+  "text": "...and it's good. Thunder seven, Titans three.",
+  "file": "n_4fd0a7864011.wav",
   "v": "pbp"
  },
  {
   "id": "wx7_0",
-  "text": "After the kickoff, the Titans have the ball at their own 38, with two minutes and forty seconds left in the half.",
-  "file": "n_4929c97d7221.wav",
+  "text": "Titans ball at their own 38, two-forty left in the half.",
+  "file": "n_766baea8d7e1.wav",
   "v": "pbp"
  },
  {
   "id": "wx7_1",
-  "text": "They're behind, and time is running short. So expect them to throw. Passes can gain more yards in a hurry.",
-  "file": "n_80e8820a788e.wav",
+  "text": "They're behind, and the clock's ticking, so they'll want to throw. And that's exactly when defenses get greedy.",
+  "file": "n_182cf56710e1.wav",
   "v": "col"
  },
  {
   "id": "wx7_2",
-  "text": "Hayes and the Titans come to the line.",
-  "file": "n_8c42a3bc0c18.wav",
+  "text": "Titans come to the line.",
+  "file": "n_2c1e88cbe23b.wav",
   "v": "pbp"
  },
  {
   "id": "wx7_3",
-  "text": "Watch the receiver go in motion, and this time nobody follows him. The Thunder defenders just stay in their areas. That's a clue they're playing zone coverage.",
-  "file": "n_67c4c4c1fa64.wav",
+  "text": "Motion... and nobody follows him. The Thunder are sitting in zone. Everybody's guarding an area, not a person.",
+  "file": "n_ef68bac5bbed.wav",
   "v": "col"
  },
  {
   "id": "wx7_4",
-  "text": "Hayes drops back...",
-  "file": "n_cf7af205bb6f.wav",
+  "text": "The quarterback drops back...",
+  "file": "n_a4fff66ed245.wav",
   "v": "pbp"
  },
  {
   "id": "wx7_5",
-  "text": "...he throws over the middle...",
-  "file": "n_c2f585cba5e2.wav",
+  "text": "...throws over the middle...",
+  "file": "n_d109fd8a838f.wav",
   "v": "pbp"
  },
  {
   "id": "wx7_6",
-  "text": "...intercepted! Owens picks it off!",
-  "file": "n_641e069457e2.wav",
+  "text": "...picked off! The Thunder safety jumps the route!",
+  "file": "n_31dfd8f2dbe3.wav",
   "v": "pbp"
  },
  {
   "id": "wx7_7",
-  "text": "He's tackled at the Titans' 42, but what a play by the Thunder!",
-  "file": "n_35b5e0a12479.wav",
+  "text": "He takes it back to the Titans' 42. What a play!",
+  "file": "n_087b99fef389.wav",
   "v": "pbp"
  },
  {
   "id": "wx7_8",
-  "text": "That's an interception: a defender caught the pass. It's one kind of turnover, because the ball changes teams in the middle of a play.",
-  "file": "n_fd4c9a9b7ec2.wav",
+  "text": "Watch the safety. He's reading the quarterback's eyes the whole way, and then boom, jumps right in front of it.",
+  "file": "n_e71a793b7c3e.wav",
   "v": "col"
  },
  {
   "id": "wx7_9",
+  "text": "He knew where that ball was going before the receiver did. Turnover, Thunder ball!",
+  "file": "n_32d3ca938db7.wav",
+  "v": "pbp"
+ },
+ {
+  "id": "wx7_10",
   "text": "Neither team scores again before the break, and that's halftime. Thunder seven, Titans three.",
   "file": "n_e2e34fb94625.wav",
   "v": "pbp"
  },
  {
-  "id": "wx7_10",
-  "text": "At halftime, the teams head to the locker room for about thirteen minutes. Then the second half starts with another kickoff.",
-  "file": "n_ae8d53ae0c5c.wav",
+  "id": "wx7_11",
+  "text": "Halftime snacks! Mike, I'm getting nachos.",
+  "file": "n_f0301c341aa6.wav",
   "v": "col"
  },
  {
+  "id": "wx7_12",
+  "text": "Save me some. See you in the second half!",
+  "file": "n_4f9caaa9cb35.wav",
+  "v": "pbp"
+ },
+ {
   "id": "wx8_0",
-  "text": "Let's jump ahead to the fourth quarter. The Titans kicked a field goal in the third, so it's a close one: seven to six.",
-  "file": "n_2e337f0944d8.wav",
+  "text": "We're back, and it's the fourth quarter. The Titans kicked a field goal in the third, so it's seven to six.",
+  "file": "n_ba2c4843dfa2.wav",
   "v": "pbp"
  },
  {
   "id": "wx8_1",
-  "text": "And the Titans are on the move. They're at the Thunder's 37-yard line, with a minute and forty seconds left.",
-  "file": "n_ba61ddb8138a.wav",
+  "text": "And the Titans are driving. They're at the Thunder's 37 with a minute-forty left. A field goal wins it for them.",
+  "file": "n_d13b8c9909ac.wav",
   "v": "col"
  },
  {
   "id": "wx8_2",
-  "text": "A field goal would put them ahead. So the Thunder defense really needs a big play here.",
-  "file": "n_a1f49b51f45c.wav",
-  "v": "col"
+  "text": "My palms are sweaty, and I'm not even playing. Titans come to the line.",
+  "file": "n_4d3d870db249.wav",
+  "v": "pbp"
  },
  {
   "id": "wx8_3",
-  "text": "Hayes takes them to the line.",
-  "file": "n_54e257d01e2d.wav",
-  "v": "pbp"
- },
- {
-  "id": "wx8_4",
-  "text": "Two tight receivers and an extra blocker in the backfield. That's a run look, and the Thunder linebackers are creeping up.",
-  "file": "n_9f0e77a87b79.wav",
+  "text": "Everybody packed in tight. They want to run it, play it safe, and keep the clock moving.",
+  "file": "n_394cb0a199b0.wav",
   "v": "col"
  },
  {
-  "id": "wx8_5",
-  "text": "Handoff to Walker...",
-  "file": "n_abf534b358dd.wav",
+  "id": "wx8_4",
+  "text": "Handoff to the running back...",
+  "file": "n_eafacad4f191.wav",
   "v": "pbp"
  },
  {
-  "id": "wx8_6",
+  "id": "wx8_5",
   "text": "...he's hit... fumble!",
   "file": "n_b8c799747846.wav",
   "v": "pbp"
  },
  {
-  "id": "wx8_7",
-  "text": "And the Thunder recover it! Riley dives on the ball!",
-  "file": "n_0f49482c21d2.wav",
+  "id": "wx8_6",
+  "text": "And the Thunder recover! The safety dives right on it!",
+  "file": "n_1fc18e6f8921.wav",
   "v": "pbp"
  },
  {
-  "id": "wx8_8",
-  "text": "That's a fumble. The runner dropped the ball before he was tackled, so it was a loose ball, and anyone could grab it.",
-  "file": "n_c2e1fbb0b5c4.wav",
+  "id": "wx8_7",
+  "text": "Look at this. The linebacker puts his helmet right on the ball, it pops loose, and the safety is right there to scoop it up.",
+  "file": "n_5d2878c49726.wav",
   "v": "col"
  },
  {
+  "id": "wx8_8",
+  "text": "A huge play, at the biggest moment of the game. Turnover!",
+  "file": "n_86d24f45a8d3.wav",
+  "v": "pbp"
+ },
+ {
   "id": "wx8_9",
-  "text": "The Thunder grabbed it, so that's another turnover. Now they have the ball, and the lead, with about a minute and a half to play.",
-  "file": "n_9a29f3c3a18b.wav",
+  "text": "Thunder ball, with the lead, and about a minute and a half to play.",
+  "file": "n_ccd1d69df98a.wav",
   "v": "col"
  },
  {
   "id": "wx9_0",
-  "text": "The Thunder offense comes back out with a minute and thirty-five seconds left.",
-  "file": "n_0b1b550faf36.wav",
+  "text": "The Thunder offense comes out with a minute thirty-five to go.",
+  "file": "n_f6574ef35867.wav",
   "v": "pbp"
  },
  {
   "id": "wx9_1",
-  "text": "Here's the plan when you're ahead late in a game: keep the clock running. Every second that ticks away is one less second for the other team.",
-  "file": "n_5561a2021d75.wav",
+  "text": "Easy plan now. Run the ball, stay in bounds, and keep that clock moving.",
+  "file": "n_1508c2adae8d.wav",
   "v": "col"
  },
  {
   "id": "wx9_2",
-  "text": "So the Thunder will run the ball and try to stay in bounds. When a play ends inside the field, the clock keeps going.",
-  "file": "n_b8e9fdbcb0c3.wav",
-  "v": "col"
- },
- {
-  "id": "wx9_3",
   "text": "They come to the line.",
   "file": "n_51b490269d39.wav",
   "v": "pbp"
  },
  {
+  "id": "wx9_3",
+  "text": "Handoff to the running back...",
+  "file": "n_eafacad4f191.wav",
+  "v": "pbp"
+ },
+ {
   "id": "wx9_4",
-  "text": "Handoff to Jones...",
-  "file": "n_797ed448b383.wav",
+  "text": "...five yards, and he goes down in bounds. The clock keeps rolling.",
+  "file": "n_7710296b025c.wav",
   "v": "pbp"
  },
  {
   "id": "wx9_5",
-  "text": "...five yards, and he's tackled in bounds. The clock keeps ticking.",
-  "file": "n_a285e10f9e7a.wav",
-  "v": "pbp"
+  "text": "Every second that runs off is a second the Titans don't get. I can hear their fans getting nervous.",
+  "file": "n_745fe1b75cd8.wav",
+  "v": "col"
  },
  {
   "id": "wx9_6",
-  "text": "Watch the game clock. It's still running. An incomplete pass or a runner going out of bounds would have stopped it.",
-  "file": "n_c25e7f54645d.wav",
+  "text": "And there's the Titans' last timeout. That stops the clock, but now they're out.",
+  "file": "n_6890f2efc84d.wav",
   "v": "col"
  },
  {
   "id": "wx9_7",
-  "text": "The Titans call a timeout to stop the clock. Each team gets three timeouts per half, and that was their last one.",
-  "file": "n_6a4d5737653e.wav",
-  "v": "col"
- },
- {
-  "id": "wx9_8",
   "text": "Second and five.",
   "file": "n_39ff22a52636.wav",
   "v": "pbp"
  },
  {
+  "id": "wx9_8",
+  "text": "Handoff again, to the left side...",
+  "file": "n_54b28257ae00.wav",
+  "v": "pbp"
+ },
+ {
   "id": "wx9_9",
-  "text": "Jones again, to the left side...",
-  "file": "n_b4aeb74aa2f3.wav",
+  "text": "...and he gets it! Six yards and a first down!",
+  "file": "n_3b4b4ca912df.wav",
   "v": "pbp"
  },
  {
   "id": "wx9_10",
-  "text": "...and he gets it! Six yards and a first down, Thunder!",
-  "file": "n_9685b3ea3dea.wav",
-  "v": "pbp"
- },
- {
-  "id": "wx9_11",
-  "text": "That first down seals it. Now the Thunder can do a kneel-down: the quarterback takes the snap and drops to one knee. The play ends right away, and the clock keeps running.",
-  "file": "n_23eddedab55f.wav",
+  "text": "And that should just about do it. Time for the kneel-down.",
+  "file": "n_323e3d338be7.wav",
   "v": "col"
  },
  {
-  "id": "wx9_12",
+  "id": "wx9_11",
   "text": "Here comes the victory formation.",
   "file": "n_756f1fd2dd7f.wav",
   "v": "pbp"
  },
  {
-  "id": "wx9_13",
-  "text": "Parker kneels down, and the clock keeps running...",
-  "file": "n_27268e3916ab.wav",
+  "id": "wx9_12",
+  "text": "The quarterback takes a knee, and the clock keeps running...",
+  "file": "n_bb3ca7b0728a.wav",
   "v": "pbp"
  },
  {
-  "id": "wx9_14",
+  "id": "wx9_13",
   "text": "Three... two... one...",
   "file": "n_903a464000b5.wav",
   "v": "pbp"
  },
  {
-  "id": "wx9_15",
+  "id": "wx9_14",
   "text": "That's the game! The Thunder win, seven to six!",
   "file": "n_c8b740bb76ee.wav",
   "v": "pbp"
  },
  {
-  "id": "wx9_16",
-  "text": "What a game! You followed the scoreboard, the downs, the formations, the penalties and the strategy. You're ready to watch the NFL.",
-  "file": "n_af3647595977.wav",
+  "id": "wx9_15",
+  "text": "What a game! Flags, coverages, a pick, a fumble. You saw it all. And my lucky socks are still undefeated.",
+  "file": "n_02f0fd04ad7d.wav",
   "v": "col"
  },
  {
-  "id": "wx9_17",
-  "text": "For Dana Brooks, I'm Mike Carter. Thanks for watching!",
-  "file": "n_316a98bf9465.wav",
+  "id": "wx9_16",
+  "text": "Somebody frame those socks. For Dana, I'm Mike. Thanks for hanging out with us!",
+  "file": "n_8ceed73f080d.wav",
   "v": "pbp"
  },
  {
