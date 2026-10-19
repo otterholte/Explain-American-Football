@@ -224,9 +224,9 @@ const KB=[
  "Football is a full-contact sport, so players wear **helmets** and shoulder **pads** to protect themselves. The rules also ban dangerous hits, like hitting with the top of the helmet.",['facemask','roughness']],
 // ---------- this site ----------
 ['site',"how do i use this site|what can i do here|help","help site app menu use lessons",
- "Use the **☰ Menu** to pick a lesson: the Crash Course, Rules & Penalties, Football Smarts, Flashcards, the Bonus Quiz, or **Watch a Game**. You can ask me a question any time!",['game']],
-['game',"how do i play the game|watch a game|what is watch a game|game day|the game","watch game announcers broadcast thunder titans",
- "**Watch a Game** is a full Thunder vs. Titans broadcast with two announcers, **Mike** and **Dana**, chatting through every play like a real TV crew. You see each huddle, the walk to the line, the play clock and the snap, plus 3D slow-motion replays of the big moments. Pick **The basics** (about 11 min), or add Rules & Penalties and Football Smarts (about 13 min).",['site']],
+ "Use the **☰ Menu** to pick a lesson: the Crash Course, Rules & Penalties, Football Smarts, or Flashcards. The Bonus Quiz is at the end of the Crash Course. You can ask me a question any time!",['game']],
+['game',"how do i play the game|is there a game|watch a game|bonus quiz","bonus quiz game",
+ "There's no game mode, but you can test yourself! Finish the **Crash Course** for its final quiz and the 10-question **Bonus Quiz**, or open **Flashcards** from the ☰ Menu.",['site']],
 ];
 const SYN={td:'touchdown',tds:'touchdown',qb:'quarterback',qbs:'quarterback',fg:'field goal',fgs:'field goal',pat:'extra point',rb:'running back',wr:'wide receiver',te:'tight end',cb:'cornerback',lb:'linebacker',
  db:'defensive back',ol:'offensive line',dl:'defensive line',pi:'pass interference',dpi:'pass interference',int:'interception',pick:'interception',ot:'overtime',refs:'referee',ref:'referee',zebras:'referee',
