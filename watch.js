@@ -387,22 +387,17 @@ const prog=k=>{try{return +localStorage.getItem('f101_prog_'+k)||0;}catch(e){ret
 const watched=k=>{const C_=COURSES[k];if(!C_)return false;const n=C_.list.filter(d=>!d.quiz).length;return prog(k)>=n;};
 window.openWatch=function(){const o=document.createElement('div');o.className='wchoose';const cc=watched('basics'),rr=watched('rules'),ss=watched('smarts');
  o.innerHTML=`<div class="wbox"><h2>📺 Watch a Game</h2><p class="wlead">Sit back and watch the <b style="color:#2f6fed">Thunder</b> play the <b style="color:#e2483f">Titans</b>. The announcers explain everything as it happens, using what you learned.</p>
- <div class="wdone"><span class="${cc?'y':''}">${cc?'✅':'⬜'} Crash Course</span><span class="${rr?'y':''}">${rr?'✅':'⬜'} Rules & Penalties</span><span class="${ss?'y':''}">${ss?'✅':'⬜'} Football Smarts</span></div>
- ${cc?'':'<p class="wtip">💡 Tip: watch the <b>Crash Course</b> first. This game uses what it teaches. <button class="lnk" id="wCC">Start the Crash Course</button></p>'}
  <div class="wopts"><button class="wopt ${rr&&ss?'':'on'}" data-x="0"><b>🏈 The basics</b><small>Score, clock, downs, formations · about 13 min</small></button>
  <button class="wopt ${rr&&ss?'on':''}" data-x="1"><b>🧠 Basics + Rules & Smarts</b><small>Adds penalties and coaching strategy · about 15 min</small></button></div>
  <div class="wrow"><button class="btn" id="wCancel">Cancel</button><button class="btn primary" id="wGo">▶ Watch the game</button></div></div>`;
  document.body.appendChild(o);const close=()=>o.remove();
  o.querySelectorAll('.wopt').forEach(b=>b.onclick=()=>{o.querySelectorAll('.wopt').forEach(x=>x.classList.remove('on'));b.classList.add('on');SFX.play('pop');});
  o.querySelector('#wCancel').onclick=close;o.onclick=e=>{if(e.target===o)close();};
- const cb=o.querySelector('#wCC');if(cb)cb.onclick=()=>{close();begin();setCourse('basics');};
  o.querySelector('#wGo').onclick=()=>{const x=o.querySelector('.wopt.on').dataset.x==='1';close();begin();setCourse(x?'watchx':'watch');};};
 const st=document.createElement('style');st.textContent=`
 .wchoose{position:fixed;inset:0;z-index:90;background:rgba(8,14,32,.6);display:flex;align-items:center;justify-content:center;padding:14px}
 .wbox{background:#fff;border:5px solid var(--navy);border-radius:24px;box-shadow:8px 8px 0 var(--gold);padding:22px 26px;width:min(620px,100%);max-height:96vh;overflow:auto;text-align:center;font-family:Nunito,sans-serif;color:var(--navy)}
 .wbox h2{font-family:'Lilita One';font-weight:400;font-size:34px;margin:0 0 6px}.wlead{font-weight:800;font-size:17px;margin:0 0 12px;line-height:1.4}
-.wdone{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}.wdone span{font-weight:900;font-size:14px;border:3px solid #d5dbe8;border-radius:999px;padding:3px 10px;background:#f4f7fc}.wdone span.y{border-color:#1f9d55;background:#e8f8ee}
-.wtip{background:#fff4d6;border-radius:12px;padding:8px 12px;font-weight:800;font-size:15px}.wtip .lnk{background:none;border:0;color:#2f6fed;font-weight:900;text-decoration:underline;cursor:pointer;font-size:15px}
 .wopts{display:flex;gap:10px;margin:12px 0}.wopt{flex:1;font-family:Nunito;border:4px solid #d5dbe8;border-radius:16px;background:#f4f7fc;color:var(--navy);padding:12px 10px;cursor:pointer;display:flex;flex-direction:column;gap:4px}
 .wopt b{font-family:'Lilita One';font-weight:400;font-size:20px}.wopt small{font-weight:800;font-size:13px;opacity:.75}.wopt.on{border-color:var(--navy);background:#fff4d6;box-shadow:4px 4px 0 var(--gold)}
 .wrow{display:flex;gap:10px;justify-content:center}.wrow .btn.primary{font-size:20px}
