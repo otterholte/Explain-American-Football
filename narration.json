@@ -1400,6 +1400,66 @@
   "file": "n_679f11f8fd33.wav"
  },
  {
+  "id": "q4_3",
+  "text": "Who is the highlighted player, lined up right at the end of the line?",
+  "file": "n_6fc59183bf51.wav"
+ },
+ {
+  "id": "q4_3_ok",
+  "text": "That's right! He's the tight end: lined up tight to the line, ready to block or catch.",
+  "file": "n_48d056895099.wav"
+ },
+ {
+  "id": "q4_3_no",
+  "text": "Not quite. He's the tight end: lined up tight to the line, ready to block or catch.",
+  "file": "n_e3b4ffb98ac0.wav"
+ },
+ {
+  "id": "q4_4",
+  "text": "Who is the highlighted player, standing next to the quarterback?",
+  "file": "n_d33aea86d46f.wav"
+ },
+ {
+  "id": "q4_4_ok",
+  "text": "That's right! He's the running back, waiting by the quarterback for the handoff.",
+  "file": "n_fe98daef9ef4.wav"
+ },
+ {
+  "id": "q4_4_no",
+  "text": "Not quite. He's the running back, waiting by the quarterback for the handoff.",
+  "file": "n_6499f3c39002.wav"
+ },
+ {
+  "id": "q4_5",
+  "text": "The highlighted player is part of the wall in front of the quarterback. Which group is he in?",
+  "file": "n_006a8cc964f7.wav"
+ },
+ {
+  "id": "q4_5_ok",
+  "text": "That's right! He's on the offensive line: five big blockers who protect the quarterback.",
+  "file": "n_2a11a475d768.wav"
+ },
+ {
+  "id": "q4_5_no",
+  "text": "Not quite. He's on the offensive line: five big blockers who protect the quarterback.",
+  "file": "n_5ea2777394cc.wav"
+ },
+ {
+  "id": "q4_6",
+  "text": "Who is the highlighted player, lined up way out wide?",
+  "file": "n_5d328edb23b8.wav"
+ },
+ {
+  "id": "q4_6_ok",
+  "text": "That's right! He's a wide receiver. They line up the widest and catch passes.",
+  "file": "n_4458481cfbcb.wav"
+ },
+ {
+  "id": "q4_6_no",
+  "text": "Not quite. He's a wide receiver. They line up the widest and catch passes.",
+  "file": "n_b6389d3eb078.wav"
+ },
+ {
   "id": "q5_0",
   "text": "Tackling the quarterback before he can throw the ball is called a...",
   "file": "n_0b74b805b4b5.wav"
@@ -1443,6 +1503,66 @@
   "id": "q5_2_no",
   "text": "Not quite. The safeties are the safety measure, the last chance to stop a play.",
   "file": "n_90e43a127348.wav"
+ },
+ {
+  "id": "q5_3",
+  "text": "The highlighted player lines up face to face with the offensive line. Which group is he in?",
+  "file": "n_12398aff92f0.wav"
+ },
+ {
+  "id": "q5_3_ok",
+  "text": "That's right! He's on the defensive line, the first line of defense.",
+  "file": "n_98ba8ea45d05.wav"
+ },
+ {
+  "id": "q5_3_no",
+  "text": "Not quite. He's on the defensive line, the first line of defense.",
+  "file": "n_fc0313200444.wav"
+ },
+ {
+  "id": "q5_4",
+  "text": "Who is the highlighted player, standing just behind the defensive line?",
+  "file": "n_3bb5e8479370.wav"
+ },
+ {
+  "id": "q5_4_ok",
+  "text": "That's right! He's a linebacker. He backs up the line, ready to chase runners and cover short passes.",
+  "file": "n_c7842cc31f75.wav"
+ },
+ {
+  "id": "q5_4_no",
+  "text": "Not quite. He's a linebacker. He backs up the line, ready to chase runners and cover short passes.",
+  "file": "n_69611edc6e47.wav"
+ },
+ {
+  "id": "q5_5",
+  "text": "Who is the highlighted player, lined up way out wide?",
+  "file": "n_5d328edb23b8.wav"
+ },
+ {
+  "id": "q5_5_ok",
+  "text": "That's right! He's a cornerback, out on the corner to guard a wide receiver.",
+  "file": "n_529f608a00c9.wav"
+ },
+ {
+  "id": "q5_5_no",
+  "text": "Not quite. He's a cornerback, out on the corner to guard a wide receiver.",
+  "file": "n_83b940d37e05.wav"
+ },
+ {
+  "id": "q5_6",
+  "text": "Who is the highlighted player, lined up the deepest of all?",
+  "file": "n_fc05ecff74dc.wav"
+ },
+ {
+  "id": "q5_6_ok",
+  "text": "That's right! He's a safety, the last line of defense.",
+  "file": "n_51ca886c57e1.wav"
+ },
+ {
+  "id": "q5_6_no",
+  "text": "Not quite. He's a safety, the last line of defense.",
+  "file": "n_3cb88a6d0bf1.wav"
  },
  {
   "id": "q6_0",
