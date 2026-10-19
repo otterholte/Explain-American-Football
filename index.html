@@ -773,6 +773,7 @@ scene({title:'Defense Positions',build(S){
   znR.forEach((z,i)=>{S.attr(z,t0+.6+i*.25,t0+1+i*.25,'opacity',0,.3);S.attr(z,t0+7.4,t0+7.9,'opacity',.3,0);});S.highlight(t0+.4,[...O.all,...D.all],[...D.LB,...D.CB,...D.S]);});
  S.beat('Those are the two most common ways defenses play. You can learn more about them in the <b>Football Smarts</b> video.',6.5,t0=>{S.clearHi(t0,[...O.all,...D.all]);for(const a of O.all)S.tw(a,t0+.3,t0+.8,{op:.22});});
  S.beat('Plus <b>special teams</b>: kickers, punters and returners who come in for kicking plays.',6,t0=>{S.clearHi(t0,D.all);S.set(t0,()=>rc.set('ST','Special Teams','kicking plays only','Kickers, punters and returners come in for kickoffs, punts and field goals.',TEAL));S.sfx(t0,'ding');
+  const stc=G(S.L.actors.parentNode,0,0);S.L.actors.parentNode.insertBefore(stc,S.L.actors);E('rect',{x:540,y:532,width:300,height:182,rx:22,fill:'#e7f7f5',stroke:NAVY,'stroke-width':4},stc);pill(stc,690,556,'+ SPECIAL TEAMS (sometimes)',{size:17,bg:TEAL,sw:3});stc.setAttribute('opacity',0);S.attr(stc,t0+.2,t0+.6,'opacity',0,1);
   const k=S.player({team:'red',num:3,pos:'K',x:600,y:690,screen:true,scale:1.1,showLabel:1}),p=S.player({team:'red',num:8,pos:'P',x:690,y:690,screen:true,scale:1.1,showLabel:1}),kr=S.player({team:'red',num:84,pos:'KR',x:780,y:690,screen:true,scale:1.1,showLabel:1});
   [k,p,kr].forEach((a,i)=>{a.pop=0;setPlan(a,'pop',0);S.tw(a,t0+.4+i*.25,t0+.9+i*.25,{pop:1},Ease.back);S.hopA(a,t0+1.5+i*.2,t0+2.5+i*.2,2,14);});});
  S.ask({q:'Tackling the quarterback before he can throw the ball is called a…',opts:['💥 Sack','🦶 Punt','🤲 Fumble'],ans:0,why:'A <b>sack</b>, like stuffing the quarterback in a sack before he can throw.'});
@@ -834,6 +835,28 @@ scene({title:'Running Plays',build(S){
   S.fall(O.RB,tt,.35);S.fall(D.LB3,tt,.35);S.sfx(tt,'thud');S.sfx(tt+.3,'whistle');});
  S.beat('…who runs through a gap in the line, called <b>the hole</b>. His blockers push defenders out of the way to open it, so fewer defenders can reach him.',8.5,t0=>{const hole=pill(S.wfx2,L+.4,C+lane+5.5,'THE HOLE',{size:1.3,bg:GOLD,fg:NAVY,sw:.22});S.pop(hole,t0);S.hide(hole,t0+3.5);});
  S.beat('He\'s tackled after gaining <b>7 yards</b>.',3.5,t0=>{const br=S.bracketObj({y:C-7.5,text:'+7 YARDS',color:GOLD});br.x1=L;br.x2=L;setPlan(br,'x2',L);S.tw(br,t0,t0+.1,{op:1});S.tw(br,t0,t0+1,{x2:L+7});S.sfx(t0+1,'ding');});
+ const HOLE3D={dur:13,title:'THE HOLE',
+ actors:[
+  {team:'blue',num:28,key:[[0,30.4,24.3],[2.3,30.6,25.6],[3,30.9,26.2],[6,33,29.4],[9.6,35.6,31.4],[10.6,37.2,31.6],[12,40.4,31.3],[13,42.4,31]],pose:[[0,'stand'],[1.6,'run',.4]]},
+  {team:'blue',num:12,key:[[0,30.6,26.67],[2.5,30.6,26.6],[5,29.6,25.4],[13,29,25]],pose:[[0,'stand'],[1.8,'reach',.3],[3.2,'run',.4],[5.2,'stand',.4]]},
+  {team:'blue',num:74,face:Math.PI/2,key:[[0,34.2,30.47],[1.5,34.6,30.4],[3.5,35.4,29.7],[6.5,35.7,28.9],[13,35.8,28.7]],pose:[[0,'stand'],[1,'block',.3]]},
+  {team:'blue',num:67,face:Math.PI/2,key:[[0,34.2,28.57],[1.5,34.7,28.4],[6.5,35.3,27.6],[13,35.4,27.4]],pose:[[0,'stand'],[1,'block',.3]]},
+  {team:'blue',num:55,face:Math.PI/2,key:[[0,34.2,26.67],[1.5,34.7,26.5],[6.5,35.2,25.9],[13,35.3,25.7]],pose:[[0,'stand'],[1,'block',.3]]},
+  {team:'blue',num:66,face:Math.PI/2,key:[[0,34.2,24.77],[1.5,34.6,24.6],[13,35,24]],pose:[[0,'stand'],[1,'block',.3]]},
+  {team:'blue',num:88,face:Math.PI/2,key:[[0,34,32.57],[2,35.6,32.6],[5,38.2,32.4],[6.2,38.7,32.6],[9,39.3,33.9],[13,39.6,34.4]],pose:[[0,'stand'],[.9,'run',.3],[5.4,'block',.3]]},
+  {team:'red',num:99,face:-Math.PI/2,key:[[0,36.1,29.67],[1.5,35.6,29.6],[3.5,36.2,28.9],[6.5,36.6,28.1],[13,36.7,27.9]],pose:[[0,'stand'],[1,'block',.3]]},
+  {team:'red',num:97,face:-Math.PI/2,key:[[0,36.1,27.67],[1.5,35.6,27.5],[6.5,36.2,26.7],[13,36.3,26.5]],pose:[[0,'stand'],[1,'block',.3]]},
+  {team:'red',num:93,face:-Math.PI/2,key:[[0,36.1,25.67],[1.5,35.6,25.5],[13,36,24.9]],pose:[[0,'stand'],[1,'block',.3]]},
+  {team:'red',num:56,face:-Math.PI/2,key:[[0,40,31.17],[3,39.6,31.6],[6.2,39.5,32.4],[9,40.1,33.7],[13,40.4,34.2]],pose:[[0,'stand'],[1.5,'run',.3],[5.8,'block',.3]]},
+  {team:'red',num:54,key:[[0,40,26.67],[4,39,28],[9,39.2,30.2],[11.4,40.6,31],[13,42,31.2]],pose:[[0,'stand'],[1.5,'run',.4]]}],
+ ball:[[0,34.3,.45,26.67],[.4,30.9,1.2,26.67]],hold:[[.42,1],[2.6,0]],marks:[[5.4,36.6,31.5,3.2]],notes:[[5.6,9.4,'⬇ THE HOLE OPENS']],
+ cam:[[0,[26.5,2.6,36.5],[35,1,30.5]],[3,[28.5,2.1,36.3],[35.4,.9,31]],[6.5,[30.5,1.8,36.2],[36.2,.8,31.4]],[10.4,[33.5,1.7,36],[38.2,1,31.4]],[13,[37.5,2.6,36.6],[42,1,31]]]};const r0=S.T+.2;S.set(0,()=>window.R3&&R3.hide());window.R3&&R3.load();
+ S.track(r0,r0+HOLE3D.dur,(p,r,tt)=>{if(!window.R3)return;if(r<1)R3.render(HOLE3D,tt-r0);else R3.hide();},Ease.lin);S.wait(.2);
+ S.beat('Let\'s zoom in and watch that again, up close.',3.2);
+ S.beat('Each blocker picks a defender and pushes him to the side, <b>on purpose</b>. Together, they open a gap: <b>the hole</b>.',6);
+ if(S.T<r0+9.3)S.wait(r0+9.3-S.T);
+ S.beat('And the running back bursts right through it!',3.6);
+ if(S.T<r0+HOLE3D.dur+.2)S.wait(r0+HOLE3D.dur+.2-S.T);
  S.beat('Teams often run the ball because it\'s the <b>safer</b> choice. We\'ll see why in just a moment!',5);
  S.ask({q:'On a running play, who usually carries the ball?',opts:['🏃 The running back','🧱 The center','🦶 The kicker'],ans:0,why:'The quarterback hands off to the <b>running back</b>, who runs with it.'});
 }});
@@ -1448,8 +1471,9 @@ $('menuBtn').onclick=()=>{begin();if(window.gameStop)gameStop();showMenu();};
 function toggleFS(){const fsEl=document.fullscreenElement||document.webkitFullscreenElement;
  if(fsEl||document.body.classList.contains('pfs')){if(fsEl)(document.exitFullscreen||document.webkitExitFullscreen).call(document);document.body.classList.remove('pfs','fs');return;}
  const el=document.documentElement,rq=el.requestFullscreen||el.webkitRequestFullscreen;
- if(rq){document.body.classList.add('fs');try{const pr=rq.call(el);if(pr&&pr.catch)pr.catch(()=>document.body.classList.add('pfs'));}catch(e){document.body.classList.add('pfs');}}else document.body.classList.add('pfs','fs');}
+ if(rq){document.body.classList.add('fs');try{const pr=rq.call(el,{navigationUI:'hide'});if(pr&&pr.catch)pr.catch(()=>{document.body.classList.add('pfs');fsTip();});}catch(e){document.body.classList.add('pfs');fsTip();}}else document.body.classList.add('pfs','fs');}
 window.toggleFS=toggleFS;
+function fsTip(){if(matchMedia('(pointer:coarse)').matches)return;let t=document.getElementById('fsTip');if(!t){t=document.createElement('div');t.id='fsTip';t.style.cssText='position:fixed;left:50%;top:14px;transform:translateX(-50%);z-index:90;background:#1d2b53;color:#fff;font:800 15px Nunito,sans-serif;padding:8px 16px;border-radius:999px;box-shadow:3px 3px 0 rgba(0,0,0,.3)';document.body.appendChild(t);}t.textContent='Tip: press F11 for true full screen';t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',3500);}
 document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement)document.body.classList.remove('fs');else document.body.classList.add('fs');});
 $('fsBtn').onclick=toggleFS;$('stage').addEventListener('dblclick',()=>{if(mode==='steps')toggleFS();});
 document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA'].includes(e.target.tagName))return;if((e.key==='f'||e.key==='F')&&mode==='steps')toggleFS();});
@@ -1537,6 +1561,7 @@ goStep(0);showMenu();lastSpot=null;$('mResume').hidden=true;requestAnimationFram
 </script>
 <script src="courses.js"></script>
 <script src="extras.js"></script>
+<script src="replay3d.js"></script>
 <script src="coachlite.js"></script>
 </body>
 </html>
